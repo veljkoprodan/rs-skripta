@@ -61,22 +61,17 @@
 
 \begin{document}
 
-\titleformat{\section}[block]{\normalfont\Large\bfseries\color{black}}{\llap{\ifnum\value{section}=8\colorbox{yellow}{\makebox[1.5em][r]{\thesection}}\else\makebox[1.5em][r]{\thesection}\fi}\hspace{1em}}{0.5em}{}
+\title{Razvoj softvera - odgovori na pitanja}
 
-
-\title{[RS] Skripta: Pitanja i odgovori}
-
-\author{Momir Adžemović}
-
-\date{1.~april 2020.}
+\date{~januar 2024.}
 
 \maketitle
 
 \abstract
 
 Ažurirana verzija odgovora na pitanja za pismeni ispit, 
-napisana od strane Anje Bukurov i Vojislav Stanković. 
-U izradi skripte je pomogao kolega Đorđe Tanasković. 
+napisana od strane Anje Bukurov, Vojislava Stankovića,
+Momira Adžemovića, i Đorđa Tanaskovića
 
 \tableofcontents
 
@@ -157,8 +152,8 @@ U izradi skripte je pomogao kolega Đorđe Tanasković.
       A* q = &b;
     }\end{lstlisting}
 
-    Dva puta tj. za pri deinicijalizaciji promenljivih $a$, i $b$. Promenljive $c$ i $q$ su reference 
-    na objekte.
+    Dva puta, tj. pri deinicijalizaciji promenljivih $a$, i $b$. Promenljive $c$ i $q$ su reference 
+    na objekte. Za promenljivu $p$ mora da se eksplicitno pozove destruktor.
 
 \section{Šta su šabloni funkcija?}
     Šabloni funkcija predstavljaju specijalne funkcije koje rade sa generičkim tipovima. 
@@ -783,18 +778,50 @@ U izradi skripte je pomogao kolega Đorđe Tanasković.
 
 \section{Kako se predstavljaju odnosi između klasa na dijagramu klasa? Koji odnosi postoje?}
   Pogledati prethodno pitanje.
+  \begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=100mm,height=60mm]{Slike/odnosi.png}
+    \end{center}
+  \end{figure} 
+
+\newpage
 
 \section{Objasniti kardinalnosti odnosa na dijagramu klasa – šta predstavljaju i kako se označavaju?}
   Pogledati prethodno pitanje.
+  \begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=50mm,height=45mm]{Slike/kardinalnost.png}
+    \end{center}
+  \end{figure} 
 
 \section {Koje su vrste dijagrama klasa i po čemu se razlikuju?}
   \begin{itemize}
     \item \textbf{Dijagram klasa domena:} Prvenstveno se bavi strukturom objekta, informacijama koje su karakteristične za sadržaj objekata i njihove odnose, dok se njihovo ponašanje zapostavlja tako što uopšte ne sadrži metode. Njegova namena je da predstavi koje su sve informacije ili podstrukture sadržane u posmatranom domenu i kakav je statički odnos između tih informacija.
+
+  \begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=100mm,height=60mm]{Slike/dijagram-klasa-domena.png}
+    \end{center}
+  \end{figure} 
+
+
     \item \textbf{Dijagram interfejsa klasa:} Sadrži samo javne metode. Ako sadrži neki izabran skup metoda onda se imenuje tako da bude jasno šta sadrži.
+
+  \begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=70mm,height=35mm]{Slike/dijagram-interfejsa.png}
+    \end{center}
+  \end{figure} 
+
     \item \textbf{Dijagram implementacije:} Sadrži sve metode, bez atributa. Isti naziv se koristi i za kompletne dijagrame sa svim metodima i atributima.
+
+  \begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=70mm,height=60mm]{Slike/dijagram-implementacije.png}
+    \end{center}
+  \end{figure} 
+
    \end{itemize}
-
-
 
 \section{Koja je uloga i šta su osnovni elementi dijagrama komponenti?}
   Dijagram komponenti razbija sistem koji se razvija na neke celine po njihovim funkcionalnostima.
@@ -932,6 +959,8 @@ U izradi skripte je pomogao kolega Đorđe Tanasković.
         \includegraphics[width=100mm,height=60mm]{Slike/uml_slucaj_upotrebe.png}
     \end{center}
   \end{figure}
+
+\newpage
 
 \section{Objasniti odnose između slučajeva upotrebe na dijagramima slučajeva upotrebe.}
 Svaki odnos je označen stereotipom koji opisuje prirodu odnosa.\\
@@ -1795,11 +1824,12 @@ Primer: prozor - dekorateri.\\
           \end{itemize}
     \item \textbf{Namena:} Kratak iskaz koji odgovara na sledeča pitanja:
           \begin{itemize}
-            \item Šta je uzrok a projektovanje radi?
             \item Kakvo mu je obrazloženje i namena?
             \item Na koje konkretno pitanje ili problem projektovanja se obrazac odnosi?
           \end{itemize}
     \item \textbf{Poznat takođe kao:} Ostala poznata imena obrasca (ako postoje).
+
+\newpage
     \item \textbf{Motivacija:}
           \begin{itemize}
             \item Scenario koji ilustruje problem projektovanja i način na koji strukture klasa 
@@ -2217,65 +2247,149 @@ Primer: prozor - dekorateri.\\
   \end{itemize}
 
 \section{Objasniti princip jedinstvene odgovornosti.}
-Klasa bi trebalo da ima samo jedan razlog da se menja. Alternativni oblici uključuju:
-\begin{itemize}
-  \item Jedan modul bi trebalo da ima jednu namenu.
-  \item Jedan modul bi trebalo da ima samo jedan razlog za menjanje.
-\end{itemize}
-Ukazuje na značaj jasnog razloga za dekompoziciju, gde jedna komponenta ima jednu funkciju ili tačku promenljivosti. 
+Klasa bi trebalo da ima samo jedan razlog da se menja.\\
 
-Primer primene uključuje obrazac Posetilac, gde hijerarhija klasa ima odgovornost samo za strukturu, dok se odgovornosti raspoređuju na različite posetioce.
+Alternativni oblici:
+\begin{itemize}
+   \item jedan modul bi trebalo da ima jednu namenu
+   \item jedan modul bi trebalo da ima samo jedan razlog za menjanje\\
+\end{itemize}
+   
+Ukazuje na značaj jasnog razloga za dekompoziciju:
+\begin{itemize}
+   \item jedna komponenta – jedna funkcija
+   \item jedna komponenta – jedna tačka promenljivosti\\
+\end{itemize}
+
+Ako se naruši povećava se nestabilnost dela zato što ima više razloga da se menja\\
+
+Primer primene je obrazac Posetilac:
+\begin{itemize}
+   \item hijerarhija klasa je odgovorna samo za strukturiranje celine
+   \item odgovornosti za različite dodatne poslove se raspoređuju na različite posetioce
+\end{itemize}
 
 \section{Objasniti princip otvorenosti i zatvorenosti.}
-Elementi softvera bi trebalo da budu otvoreni za proširivanje i zatvoreni za menjanje. Strukturni elementi softvera bi trebalo da se mogu proširivati bez menjanja interfejsa, ali ne bi trebalo da se menjaju ako se menjaju okolnosti. 
+Elementi softvera bi trebalo da budu otvoreni za proširivanje i zatvoreni za menjanje.
 
-Primer primene uključuje upotrebu hijerarhija klasa gde se otvorenost za proširivanje postiže dodavanjem novih klasa, a zatvorenost za promene očuvava stabilnim interfejsom bazne klase.
+Strukturni elementi softvera bi trebalo:
+\begin{itemize}
+   \item da mogu da se proširuju, ako se za tim ukaže potreba, tako da se pri tome uglavnom ne menja njihov interfejs
+   \item da se ne menjaju ako se menjaju okolnosti, i nikako ne bi trebalo da se menja interfejs\\
+\end{itemize}
+   
+Uobičajena primena je upotreba hijerarhija klasa:
+\begin{itemize}
+   \item bazna klasa određuje apstraktan interfejs
+   \item otvorenost za proširivanje se ostvaruje prostorom za dodavanje novih klasa u hijerarhiju
+   \item zatvorenost za promene se ostvaruje stabilnim interfejsom bazne klase\\
+\end{itemize}
+   
+Ako se naruši:
+\begin{itemize}
+   \item povećava se nestabilnost kako konkretnog elementa, tako i povezanih strukturnih elemenata
+   \item obično za rezultat ima tzv. lavinu promena\\
+\end{itemize}
+   
+Primer primene je obrazac Posetilac:
+\begin{itemize}
+   \item dopušteno je proširivanje hijerarhije, dodavanjem novih klasa, a bez menjanja bazne klase
+   \item dopušteno je dodavanje novog ponašanja, dodavanjem novih posetilaca
+   \item nije dozvoljeno menjanje interfejsa hijerarhije – bazne klase
+\end{itemize}
 
 \section{Objasniti princip zamenljivosti.}
-Podtipovi moraju moći da zamene bazne tipove, što predstavlja osnovu hijerarhijskog polimorfizma.
+Podtipovi moraju da mogu da zamene bazne tipove.
+
+U suštini predstavlja definiciju pojma podtipa, kao tipa koji ispunjava uslov zamenljivosti. Ovaj princip je u osnovi hijerarhijskog polimorfizma.
 
 \section{Objasniti princip razdvajanja interfejsa.}
-Klijenti ne bi trebalo da zavise od metoda interfejsa koje ne koriste. Osnovna ideja je da interfejsi budu zaokruženi i potpuni. To se odnosi na nepoželjne zavisnosti, sprečavajući zavisnost korisnika od nepotrebnih delova interfejsa. 
+Klijenti (korisnici) ne bi trebalo da budu primorani da zavise od metoda (interfejsa) koje ne koriste.\\
 
-Primer narušavanja ovog principa može uključivati pisanje klasa sa širokim interfejsima, što može dovesti do nepotrebnih zavisnosti.
+Osnovna ideja je da bi interfejsi trebalo da budu zaokruženi i potpuni. Ako neko koristi interfejs, onda bi trebalo da najčešće koristi praktično ceo interfejs, a ne samo njegov deo.
+
+Odnosi se prvenstveno na vidove nepoželjnih zavisnosti:
+\begin{itemize}
+   \item zavisnost korisnika interfejsa od preširokog interfejsa: ako se često koristi samo deo interfejsa, onda to sugeriše da komponenta ima više odgovornosti
+   \item dodavanje elemenata interfejsa čitavoj hijerarhiji iako je potreban samo nekim klasama
+   \item dodavanje klase hijerarhiji zato što joj je važan deo interfejsa\\
+\end{itemize}
+   
+Dodatne odgovornosti ne bi trebalo dodavati kao proširenje odgovornosti nego kao posebne klase.\\
+
+Primer narušavanja ovog principa je pisanje klasa sa veoma širokim interfejsom, npr. std::string. Ovo se često toleriše kada su u pitanju biblioteke zato što su relativno stabilne, ali ako dođe do promene onda je ona veoma skupa.
 
 \section{Objasniti princip inverzne zavisnosti.}
-Moduli visokog nivoa ne smeju zavisiti od modula niskog nivoa. Oba bi trebala zavisiti od apstrakcija. Ovo se postiže programiranjem prema interfejsu, a ne prema implementaciji. 
 
-Primeri primene uključuju upotrebu polimorfizma i obrazaca kao što su sastav, posmatrač i posetilac.
+Moduli visokog nivoa ne smeju da zavise od modula niskog nivoa. I jedni i drugi bi trebalo da zavise od apstrakcija.\\
+
+Alternativni oblici:
+\begin{itemize}
+    \item Apstrakcije ne smeju da zavise od pojedinosti. Pojedinosti bi trebalo da zavise od apstrakcije
+    \item Programiraj prema interfejsu a ne prema implementaciji\\
+\end{itemize}
+    
+Pri planiranju i projektovanju apstraktnog interfejsa imamo u vidu konkretne slučajeve koje on mora da podrži ali kada jednom napravimo opšti interfejs, on u programskom kodu ne zavisi od konkretnih slučajeva nego oni zavise od njega.
+
+Ovo je vrlo uopšten princip sa brojnim oblicima primene. Sama ideja polimorfizma počiva na njemu.
+
+Veliki broj obrazaca počiva na primeni ovog principa: sastav, posmatrač, posetilac...
 
 \section{Navesti principe dodeljivanja odgovornosti (dizajn softvera).}
 \begin{itemize}
-  \item Informacioni ekspert (Information Expert)
-  \item Stvaralac (Creator)
-  \item Visoka kohezija (High Cohesion)
-  \item Niska spregnutost (Low Coupling)
-  \item Kontroler (Controller)
-  \item Polimorfizam (Polymorphism)
-  \item Izmišljotina (Fabrication)
-  \item Indirekcija (Indirection)
-  \item Izolovane promenljivosti (Protected Variations)
+  \item Informacioni ekspert – (Information Expert)
+  \item Stvaralac – (Creator)
+  \item Visoka kohezija – (High Cohesion)
+  \item Niska spregnutost – (Low Coupling)
+  \item Kontroler – (Controller)
+  \item Polimorfizam – (Polymorphism)
+  \item Izmišljotina – (Fabrication)
+  \item Indirekcija – (Indirection)
+  \item Izolovane promenljivosti – (Protected Variations)
 \end{itemize}
 
 \section{Obasniti princip dizajna softvera Informacioni ekspert.}
-Odgovornost za obavljanje posla dodeljuje se klasi koja ima informacije neophodne za obavljanje tog posla. 
+Odgovornost za obavljanje posla dodeljivati klasi koja ima informacije neophodne za obavljanje tog posla.\\
 
-Osnovna ideja uključuje lociranje znanja na istom mestu, enkapsulaciju znanja i smanjenje razmene informacija. 
-
-Primeri narušavanja ovog principa mogu uključivati deljenje odgovornosti između klasa.
+Osnovna ideja:
+\begin{itemize}
+   \item lociranje znanja i odgovarajućeg ponašanja na istom mestu
+   \item enkapsuliranje znanja
+   \item smanjivanje količine razmene informacija
+   \item zadržavanje odgovarajuće ose promenljivosti unutar klase\\
+\end{itemize}
+   
+Posledice odstupanja:
+\begin{itemize}
+   \item Dobijaju se bar dva elementa, jedan koji sadrži informacije i drugi koji ima ponašanje, koji moraju da budu čvrsto povezani\\
+\end{itemize}
+   
+Neke arhitekture počivaju na upravo suprotnom konceptu, kada se iste informacije koriste u različitim poslovima. Npr. arhitektura Model-pogled-kontroler razdvaja model od kontrolera i pogleda zato što model moraju da koriste i kontroler i pogled.
 
 \section{Obasniti princip dizajna softvera Stvaralac.}
-Odgovornost za pravljenje objekta klase A dodeljuje se klasi B ako važi bar jedan od uslova koji uključuju kompoziciju, referisanje ili blisku upotrebu instanci klase A. 
-
-Osnovna ideja uključuje smanjenje broja zavisnosti i prepuštanje odgovornosti klasi koja već ima vezu sa instancama klase A.
+Odgovornost za pravljenje objekta klase A dodeliti klasi B ako važi bar jedan od uslova:
+\begin{itemize}
+   \item instanca klase B predstavlja kompoziciju instanci klase A;
+   \item instanca klase B referiše instance klase A;
+   \item instanca klase B blisko koristi instance klase A;
+   \item instanca klasa B ima informacije za inicijalizaciju instanci klase A i prenosi ih pri pravljenju
+\end{itemize}
+   
+Osnovna ideja je smanjivanje broja zavisnosti:
+\begin{itemize}
+   \item neko mora da pravi objekte klase A i to će biti osa promenljivosti
+   \item ako je klasa B već povezana sa klasom A, tako da već postoji jedna osa promenljivosti od A prema B, novu zavisnost je najbolje uvesti tako da stoji uz već postojeću
+\end{itemize}
+   
+Primer je obrazac apstraktna fabrika: ako se prave i koriste objekti različitih familija klasa, odgovornost za pravljenje objekata se prepušta apstraktnoj fabrici. Ona bira konkretnu klasu koju pravi, na osnovu argumenata, konteksta itd.
 
 \section{Objasniti princip dizajna softvera Visoka kohezija.}
 Dodeljivati odgovornosti tako da kohezija ostane visoka.
 
-\section{Obasniti princip dizajna softvera Niska spregnutost.}
-Dodeljivati odgovornosti tako da spregnutost ostane niska
+\section{Objasniti princip dizajna softvera Niska spregnutost.}
+Dodeljivati odgovornosti tako da spregnutost ostane niska.
 
-\section{Obasniti princip dizajna softvera Kontroler.}
+\section{Objasniti princip dizajna softvera Kontroler.}
 Odgovornosti za primanje ili obrađivanje poruka o sistemskim događajima dodeljivati klasi koja:
  \begin{itemize}
    \item predstavlja ceo sistem, uređaj ili podsistem (tzv. fasadni kontroler) 
@@ -2286,7 +2400,7 @@ Osnovna ideja: grupisati reagovanje na događaje na jednom mestu, i sa tog mesta
 
 Primeri:
  \begin{itemize}
-   \item Različiti modeli rešavanja problema korisničkog interfejsa
+   \item Različiti modeli rešavanja problema korisničkog interfejsa:
     \begin{itemize}
      \item arhitektura „Model-pogled-kontroler“
      \item arhitektura „Prezentacija-apstrakcija-kontroler“
@@ -2294,7 +2408,7 @@ Primeri:
    \item Signali i slotovi u okruženju Qt
  \end{itemize}
 
-\section{Obasniti princip dizajna softvera Polimorfizam.}
+\section{Objasniti princip dizajna softvera Polimorfizam.}
 Kada se neka vrsta ponašanja menja prema tipovima, onda je potrebno odgovornosti za odgovarajuće ponašanje rasporediti po tim tipovima, primenom polimorfizma
 
 Osnovna ideja: eliminisanje eksplicitnih provera tipova iz programskog koda. Umesto toga se koriste polimorfni metodi
@@ -2302,7 +2416,7 @@ Motivacija: eksplicitne provere tipova imaju tendenciju da se ponavljaju
 
 Veći broj obrazaca i refaktorisanja se oslanja na ovaj princip
 
-\section{Obasniti princip dizajna softvera Izmišljotina.}
+\section{Objasniti princip dizajna softvera Izmišljotina.}
 Tesno povezan i zaokružen skup odgovornosti dodeliti veštački uvedenoj klasi, koja ne predstavlja koncept iz domena problema – koja je izmišljena da bi omogućila visoku koheziju, nisku spregnutost i višestruku upotrebu
 
 Osnovna ideja: dosledno modeliranje strukture domena vrlo često nosi sa sobom veliki
@@ -2319,24 +2433,24 @@ Primeri:
    \end{itemize}
 \end{itemize}
 
-\section{Obasniti princip dizajna softvera Indirekcija.}
-Dodeliti odgovornosti objektu koji je posrednik između drugih komponenti ili servisa, tako da oni ne moraju da budu neposredno spregnuti
+\section{Objasniti princip dizajna softvera Indirekcija.}
+Dodeliti odgovornosti objektu koji je posrednik između drugih komponenti ili servisa, tako da oni ne moraju da budu neposredno spregnuti\\
 
-Osnovna ideja: zamenjivanje neposredne zavisnosti posrednom uz dodavanje stabilnog koncepta kao posrednika
+Osnovna ideja: zamenjivanje neposredne zavisnosti posrednom uz dodavanje stabilnog koncepta kao posrednika\\
 
-Obično se teži da se zavisnosti posrednika urede tako da
+Obično se teži da se zavisnosti posrednika urede tako da:
 \begin{itemize}
    \item druge klase zavise od interfejsa posrednika
-   \item da implementacija posrednika zavisi od interfejsa drugih komponenti
+   \item da implementacija posrednika zavisi od interfejsa drugih komponenti\\
 \end{itemize}
    
-Primeri:`
+Primeri:
 \begin{itemize}
    \item Apstraktna fabrika sakriva način pravljenja objekata
    \item Adapter, Most, Fasada sakrivaju od korisnika specifičnosti implementacije pa čak i interfejsa
 \end{itemize}
 
-\section{Obasniti princip dizajna softvera Izolovane promenljivosti.}
+\section{Objasniti princip dizajna softvera Izolovane promenljivosti.}
 
 Dodeliti odgovornosti tako da se oblikuje stabilan interfejs oko prepoznatih tačaka predvidive promenljivosti ili nestabilnosti\\
 
@@ -2369,7 +2483,7 @@ Može se povezati sa praktično svakim primerom dobrog dizajna, npr. obrazac Ada
 \end{itemize}
 
 \section{Objasniti princip ekvivalentnosti izdanja i upotrebe.}
-Granula ponovljive upotrebe je granula objavljivanja
+Granula ponovljive upotrebe je granula objavljivanja\\
 
 Osnovna ideja: tesna veza između ponovljive upotrebe i objavljivanja, u oba smera:
 \begin{enumerate}
@@ -2377,7 +2491,7 @@ Osnovna ideja: tesna veza između ponovljive upotrebe i objavljivanja, u oba sme
       \item ako nešto objavljujemo, onda moramo da računamo da će to neko i da koristi
 \end{enumerate}
 
-Ovaj princip predstavlja osnov za funkcinalnu dekompoziciju. Svaka objavljena celina mora da ima
+Ovaj princip predstavlja osnov za funkcinalnu dekompoziciju. Svaka objavljena celina mora da ima:
 \begin{itemize}
     \item stabilan interfejs, što implicira funkcionalnu povezanost komponenti
     \item dobru enkapsulaciju, što implicira čvrstu povezanost sastavnih delova jedne komponente
@@ -2385,25 +2499,25 @@ Ovaj princip predstavlja osnov za funkcinalnu dekompoziciju. Svaka objavljena ce
 
 
 \section{Objasniti princip zajedničke zatvorenosti.}
-Delovi celine bi trebalo da budu zajedno i podjednako zatvoreni u odnosu na iste vrste promena. Ako celina mora da se menja, onda se pretpostavlja da moraju da se menjaju i (svi) delovi te celine ali ne i druge celine.
+Delovi celine bi trebalo da budu zajedno i podjednako zatvoreni u odnosu na iste vrste promena. Ako celina mora da se menja, onda se pretpostavlja da moraju da se menjaju i (svi) delovi te celine ali ne i druge celine.\\
 
-Osnovna ideja
+Osnovna ideja:
 \begin{itemize}
    \item Ako među strukturnim elementima postoje jake međuzavisnosti, onda bi trebalo da pripadaju istoj celini
    \item Više osa zavisnosti se grupiše na jednom mestu
-   \item Odnosi se na različite vrste kohezije: funkcionalnu, sekvencijalnu, komunikacionu, proceduralnu
+   \item Odnosi se na različite vrste kohezije: funkcionalnu, sekvencijalnu, komunikacionu, proceduralnu\\
 \end{itemize}
 
 Primer:
    Ako imamo skup funkcija za formatiranje delova izveštaja, one mogu da budu relativno međusobno nezavisne, ali ako se promeni format izveštaja, menjaće se i većina tih funkcija. Tada je dobro da ih grupišemo u jednu klasu. Iako to nije funkcionalna kohezija, biće komunikaciona ili proceduralna. Takva klasa obično ima ulogu u indirekciji ili izmišljenom konceptu
 
 \section{Objasniti princip zajedničke upotrebe.}
-Klase u paketu se koriste zajedno. Ako se koristi jedna od klasa u paketu, onda se koriste sve.
+Klase u paketu se koriste zajedno. Ako se koristi jedna od klasa u paketu, onda se koriste sve.\\
 
 Osnovna ideja:
 \begin{itemize}
     \item Odnosi se prvenstveno na logičku i strukturnu dekompoziciju (paketi)
-    \item U isti paket je potrebno staviti klase koje se zajedno koriste. Ako već nemamo funkcionalnu koheziju, ostvarićemo sekvencijalnu, komunikacionu ili proceduralnu
+    \item U isti paket je potrebno staviti klase koje se zajedno koriste. Ako već nemamo funkcionalnu koheziju, ostvarićemo sekvencijalnu, komunikacionu ili proceduralnu\\
 \end{itemize}
     
 Primer su klase apstraktnog drveta sintakse: imaju različite funkcije – svaka modelira drugu vrstu čvora, ali se obično koriste zajedno.
@@ -2411,12 +2525,12 @@ Primer su klase apstraktnog drveta sintakse: imaju različite funkcije – svaka
 Ovaj princip nam pomaže i da odlučimo da neke klase ne stavljamo u isti paket ako nisu funkcionalno zavisne, pa se još i ne koriste zajedno
 
 \section{Objasniti princip stabilne zavisnosti.}
-Smer zavisnosti bi trebalo da se poklapa sa smerom porasta stabilnosti
+Smer zavisnosti bi trebalo da se poklapa sa smerom porasta stabilnosti\\
 
 Osnovna ideja:
 \begin{itemize}
    \item Nepoklapanje ova dva smera preti da dovede do ose promenljivosti koja ide u smeru porasta stabilnosti, što onda preti da proizvede lavinu promena
-   \item Ako je element stabilan, to znači da mnogi zavise od njega, pa onda ne bi smelo da se desi da i on ima osetljive zavisnosti
+   \item Ako je element stabilan, to znači da mnogi zavise od njega, pa onda ne bi smelo da se desi da i on ima osetljive zavisnosti\\
 \end{itemize}
 
 Potencijalno narušavanje nastaje kada god imamo element koji na neki način povezuje “dva sveta”. To nije retkost i nekada ne može da se izbegne, ali može da se vodi računa o vrstama i smerovima zavisnosti. Ovaj princip ne ukazuje na to kako problem može da se reši, već pre predstavlja neku vrstu detektora problema. Uočen problem se rešava inverzijom zavisnosti, izmišljanjem i sl.
@@ -2424,13 +2538,13 @@ Potencijalno narušavanje nastaje kada god imamo element koji na neki način pov
 
 \section{Objasniti princip stabilne apstrakcije.}
 
-Celina bi trebalo da bude apstraktna onoliko koliko je stabilna
+Celina bi trebalo da bude apstraktna onoliko koliko je stabilna\\
 
 Osnovna ideja:
 \begin{itemize}
    \item Povezivanje apstraktnosti i stabilnosti
    \item Sugeriše da bi smer zavisnosti trebalo da se poklapa sa smerom porasta apstraktnosti
-   \item Apstraktni elementi softvera bi trebalo da zavise od što manje drugih elemenata, a ako već moraju, onda bi trebalo da to budu još apstraktniji elementi
+   \item Apstraktni elementi softvera bi trebalo da zavise od što manje drugih elemenata, a ako već moraju, onda bi trebalo da to budu još apstraktniji elementi\\
 \end{itemize}
 
 Povezan je sa principima Stabilne zavisnosti, Izolovane promenljivosti, Inverzne zavisnosti i drugima
@@ -2438,11 +2552,12 @@ Povezan je sa principima Stabilne zavisnosti, Izolovane promenljivosti, Inverzne
 Primeri: fasada, apstraktna bazna klasa hijerarhije
 
 \section{Objasniti princip acikličnih zavisnosti.}
-Ne dopuštati ciklične zavisnosti paketa.
-- Osnovna ideja
+Ne dopuštati ciklične zavisnosti paketa.\\
+
+Osnovna ideja:
 \begin{itemize}
    \item Ciklične zavisnosti otežavaju lokalizovanje promena: ako su A, B i C ciklično zavisni elementi, pa moramo da promenimo A, onda ćemo možda morati da promenimo B, pa ćemo možda morati da promenimo i C, pa ćemo možda ponovo morati da promenimo A...
-   \item Razbijaju se primenom inverzne zavisnosti, izmišljanjem i sl.
+   \item Razbijaju se primenom inverzne zavisnosti, izmišljanjem i sl.\\
 \end{itemize}
    
 Primer:
@@ -3513,7 +3628,7 @@ Primer:
   \begin{itemize}
     \item Kod zauzima manje mesta.
   \end{itemize}  
-  \textbf{Napomena:} Neki uzorci za projektovanje prave posrednike namerno (Primer: Dekorator).
+  \textbf{Napomena:} Neki obrasci za projektovanje prave posrednike namerno (Primer: Dekorator).
 
 \section{Šta je nepoželjna bliskost? Zašto je problematična? (refaktorisanje)}
   (eng. Inappropriate intimacy)\\
@@ -3579,7 +3694,7 @@ Primer:
   Sistematizacija refaktorisanja podrazumeva ujednačeno opisivanje tehnika.\\
   \textbf{Svaka tehnika mora da ima:}
   \begin{itemize}
-    \item Ime, veoma bitan izbor (kao kod uzoraka).
+    \item Ime, veoma bitan izbor (kao kod obrazaca).
     \item Sažet opis slučaja u kome se primenjuje.
     \item Motivacija, šta se može očekivati nakon primenjene tehnike.
     \item Opis izvođenja tehnike.
@@ -3682,7 +3797,7 @@ Primer:
           \end{itemize}
   \end{itemize}
 
-\section{Šta su bagov?i}
+\section{Šta su bagovi?}
   Propusti u razvoju softvera se često nazivaju greškama ili bagovima. Generalno greška ima malo šire
   značenje tj. greška obuhvata sve propuste koji mogu da se dese u bilo kojoj fazi razvoja softvera.
   Bag je pojam koji se odnosi na grešku u okviru softvera, u smislu da stvara probleme u
@@ -4359,303 +4474,6 @@ void TRACE(const char* s){
   \textit{(gdb) layout asm} koja prebacuje izgled TUI (text user interface) izgled u formu (isto TUI)
   koja prikazuje instrukcije procesora (registri, izvor, \dots). \cite{gdb_commands}
 
-
-
-\section{Šta čini dizajn softvera? Navesti osnovne pojmove dizajna}
-  \noindent \textbf{Elementi:}
-  \begin{enumerate}
-    \item komponente,
-    \item implementacija,
-    \item struktura podataka,
-    \item infrastruktura,
-    \item pomoćni alati,
-    \item i sve drugo što je deo razvojnog procesa \dots
-  \end{enumerate}
-  \textbf{Osnovni pojmovi:}
-  \begin{enumerate}
-    \item \textbf{apstrahovanje}
-    \item \textbf{dekompovanje}
-  \end{enumerate}
-
-\section{Navesti i ukratko objasniti 4 osnovna pojma dizajna softvera.}
-  \begin{itemize}
-    \item \textbf{Modularnost:} Složene celine se dele na manje module. Na višem nivou apstrakcije
-          se posmatra celina, a na nižem dekompovani moduli koji čine celinu.
-    \item \textbf{Enkapsulacija:} Razdvajanje posmatranja ponašanja komponenti i njihove
-          implementacije. Na višem nivou apstrakcije se posmatra ponašanje, a na nižem
-          implementacija.
-    \item \textbf{Razdvajanje nadležnosti:} Jedan od osnovnih kriterijuma pri dekompoziciji. Svaka
-          komponenta mora da ima jasno prepoznatu i zaokruženu odgovornost.
-    \item \textbf{Interfejsi:} Predstavlja tačku vezivanja komponente. Može da se posmatra
-          kao deklaracija ponašanja komponente.
-  \end{itemize}
-
-\section{Navesti i ukratko objasniti bar 6 ključnih principa dizajna softvera.}
-  \begin{enumerate}
-    \item \textbf{Princip jedinstvene odgovornosti:} Jedan modul bi trebalo da ima
-          jednu namenu i samo jedan razlog za menjanje.
-    \item \textbf{Razdvajanje odgovornosti:} Različite komponente bi trebalo da imaju različite
-          odgovornosti. Nijedna odgovornost ne bi trebalo da bude podeljena na više odgovornosti.
-    \item \textbf{Princip minimalnog znanja:} Jedna komponenta ne mora da zna kako druga funkcioniše.
-          Dovoljno je da zna kako da je koristi.
-    \item \textbf{Princip inverzne zavisnosti:} Apstrakcija ne sme da zavisi od pojedinosti, a
-          pojedinosti moraju da zavise od apstrakcije, iako se u procesu projektovanja
-          apstrakcija oblikuje na osnovu pojedinosti.
-    \item \textbf{Princip acikličnih zavisnosti:} Izbegava se ciklična zavisnost komponenti.
-          Složene zavisnosti otežavaju razumljivost i održavanje.
-    \item \textbf{Princip stabilne zavisnosti:} Smer zavisnosti bi trebalo da se poklapa sa smerom
-          porasta stabilnosti. Nije dobro da drugi moduli zavise od manje stabilnih modula.
-    \item \textbf{Princip stabilne apstrakcije:} Modul bi trebalo da bude apstraktan koliko i stabilan.
-          Drugi moduli bi trebalo da zavise od apstraktnih i stabilnih modula. 
-    \item \textbf{Izbegavanje ponavljanja:} Nijedna funkcionalnost ne bi smela da se implementira
-          više puta. Ako ima ponavljanja, to znači da rešenje nije dovoljno apstraktno.
-    \item \textbf{Izbegavanje suvišnog posla:} Predvideti samo ono što je danas potrebno, a
-          ono što će možda biti potrebno nije potrebno.
-  \end{enumerate}
-
-\section{Objasniti odnos pisanja koda i dizajniranja.}
-  Pretpostavimo da je izvorni kod predstavlja dizajn softvera. Pisanje koda je u tom slučaju
-  ekvivaletno dizajniranju. Tada je izgradnja (prevođenje) koda
-  proces implementacije. Cena izgradnje je izuzetno niska (sve niža i niža sa bržim i jeftinijim
-  računarima). Cena dizajniranja je relativno niska u odnosu na druge vrste projekata i dobijenu
-  složenost. \\
-  \indent \textbf{Problem:} Dizajn softvera lako i brzo postaje veoma složen. Programiranje je mnogo više
-  od kodiranja. Programiranje obuhvata i projektovanje. \underline{Razvoj softvera je i zanatska
-  i inžinjerska disciplina.} \\
-  \textbf{Kako raditi?}
-  \begin{itemize}
-    \item \textbf{,,Projekat pre koda``:}
-          \begin{itemize}
-            \item Daje jasnu sliku projekta pre programiranja;
-            \item Omogućava programerima da imaju jasniju sliku šta prave;
-            \item Nudi jasnu i stabilnu sliku projekta;
-            \item Često se menja tokom razvoja, čak i potpuno;
-            \item Predstavlja ozbiljan, ali često neažuran vid dokumentacije.
-          \end{itemize}
-    \item \textbf{,,Projekat je kod``:}
-          \begin{itemize}
-            \item Iskusni programeri mogu da istovremeno prilagode i kod projektovanju i 
-                  projekat načinu kodiranja;
-            \item Štedi se vreme na projektovanju i može brže da se započne sa implementacijom
-                  pojedinačnih modula.
-            \item Može da dovodi do otežanog povezivanja komponenti;
-            \item Ne postoji jasna slika projekta u ranim fazama razvoja.
-          \end{itemize}
-  \end{itemize} 
-
-\section{Objasniti ulogu i mesto dizajniranja u razvoju softvera u savremenoj praksi.}
-  \begin{itemize}
-    \item \textbf{Što je dizajn nižeg nivoa, to se ređe pravi pre samog programskog koda:} Dizajn softvera se 
-          sve ređe pravi i dokumentuje pre kodiranja. Ako se on pravi, onda je samo umereno
-          detaljan. \\
-    \item \textbf{Što je dizajn višeg nivoa, to je neophodno njegovo pažljivo planiranje 
-          i dokumentovanje pre kodiranja:} Arhitektura softvera se najčešće pravi i dokumentuje pre kodiranja.
-          Preskakanje arhitekture obično ima skupe posledice. \\
-    \item \textbf{Granica između dizajna i arhitekture je obično nivo komponente:} Šta god to bilo u 
-    konkretnom slučaju \dots
-  \end{itemize}
-  \textbf{Planiraju se:}
-  \begin{itemize}
-    \item komponente,
-    \item njihovi interfejsi,
-    \item njihovi međusobni odnosi.
-  \end{itemize}
-  To obično spada u arhitekturu. Ne planira se detaljno implementacija komponenti 
-  (to obično spada u dizajn).\\
-  \indent ,,Projektovanje`` se praktično izjednačava sa ,,oblikovanjem arhitekture``. Na taj način
-  se izbegavaju problemi oba pristupa. Dobija se jasna velika slika dekompozicije sistema na 
-  komponente i jasno se definišu njihovi interfejsi. Ne gubi se suviše vremena na projektovanje
-  pojedinosti u ranim fazama razvoja, a koje će se kasnije često menjati. Što je sistem složeniji,
-  to se arhitektura pravi na više različitih nivoa apstrakcije, tj. ,,projektovanje`` mora da se
-  radi detaljnije.
-
-\section{Navesti i ukratko objasniti obaveze softverskog arhitekte.}
-  \begin{enumerate}
-    \item \textbf{Razumevanje svih aspekata razvoja:} Odnosi se na poznavanje, planiranje i
-          praćenje razvojnog procesa, i uzimanje u obzir sva praktična ograničenja.
-    \item \textbf{Razumevanje sopstvene uloge:} Odnosi se na preuzimanje odgovornosti za ključne odluke
-          bez zalaženja (iz ugla arhitekture) u nebitne detalje.
-    \item \textbf{Komuniciranje sa ulagačima:} Arhitektura mora da zadovoljava potrebe ulagača.
-    \item \textbf{Izvođenje rešenja iz poslovnih potreba:} Odnosi se na prepoznavanje i razumevanje
-          potreba. Arhitektura je ,,slika`` poslovnog okruženja.
-    \item \textbf{Uticanje na zahteve:} Odnosi se na prepoznavanje kompromisa i predočavanje
-          ulagačima. Pomaganje ulagačima da donesu ispravne odluke.
-    \item \textbf{Upravljanje rizicima i promenama:} Odnosi se na iterativno unapređenje i 
-          prilagođavanje arhitekture.
-    \item \textbf{Ponovljena upotreba:} Odnosi se na upotrebu postojećih dobara, čime se
-          se štedi i novac.
-    \item \textbf{Dobro odmeravanje učešća:} Arhitekta mora da donese odluke u svom domenu.
-          Ne sme da izađe van svog domena. 
-    \item \textbf{Preciziranje arhitekture prema tehnološkim ograničenjima:} Arhitektura se uvek
-          implementira u nekom tehnološkom kontekstu.
-    \item \textbf{Uvažavanje opštih okvira:} Svaka konkretna arhitektura je samo deo šireg
-          poslovnog konteksta. Ona mora da se slaže sa ostalim elementima okruženja.
-  \end{enumerate}
-
-\section{Navesti i ukratko objasniti osnovne aspekte arhitekture i ključne uticaje na arhitekturu.}
-  \noindent \textbf{Aspekti arhitekture:}
-  \begin{itemize}
-    \item \textbf{Šta?} Zahtevi koje softver mora da zadovolji.
-    \item \textbf{Zašto?} Ključne odluke na osnovu kojih se oblikuje arhitektura.
-    \item \textbf{Kako?} Komponente, interfejsi, odnosi. Na nižem nivou i dizajn i implementacija
-          rešenja.
-  \end{itemize}
-  \textbf{Ključni uticaji (međusobno suprostavljene sile):}
-  \begin{itemize}
-    \item \textbf{Želje:} Sve ono što ulagači žele;
-    \item \textbf{Izvodljivost:} Sve ono što tehnologija može da pruži;
-    \item \textbf{Održivost:} Sve ono što u datim uslovima može da se postigne 
-          (vreme, novac i drugi resursi);
-    \item \textbf{Estetika:} Svi oni neformalni (iracionalni?) aspekti rešenja koji ga čine
-          kvalitetnijim (nešto manje važna i jaka sila).
-  \end{itemize}
-
-\section{Prazno (radi usaglašavanja odgovora sa ispitnim pitanjima).}
-
-\section{Šta su arhitekture zasnovane na događajima?}
-  Klasičan pristup razvoju softvera podrazumeva implementiranje algoritama 
-  koji obavljaju određeni posao:
-  \begin{itemize}
-    \item Primenom metoda od vrha naniže određene celine problema se izdvajaju u potprograme,
-    \item i dalje aspekti problema ostaju celina.
-  \end{itemize}
-
-  \noindent Primer: Program koji u petlji proverava da li je korisnik pritisnuo neki taster, a zatim pristupa 
-  u skladu sa akcijom korisnika.\\
-  
-  \indent Kod arhitektura zasnovanih na događajima, eksplicitna komunikacija među 
-  objektima se zamenjuje mehanizmom emitovanja događaja i distribuiranja zainteresovanim objektima.
-  Primer:
-  \begin{itemize}
-    \item Program obaveštava OS da je zainteresovan da reaguje na pritisak tastera od strane korisnika;
-    \item OS prepoznaje dogadaj i salje programu poruku;
-    \item Program (odgovarajući objekat) reaguje na poruku.
-  \end{itemize}
-
-\section{Objasniti motivaciju za upotrebu arhitektura zasnovanih na događajima.}
-  Arhitekture zasnovane na događajima spuštaju nivo međusobne zavisnosti objekata i tako smanjuju 
-  ukupnu složenost sistema:
-  \begin{itemize}
-    \item Uobičajen je nivo spregnutosti putem parametara ili čak putem poruka;
-    \item Uobičajena je dinamička sprega:
-          \begin{itemize}
-            \item Konfigurisanje odnosa među objektima u fazi izvršavanja programa,
-            \item Konfigurisanje odnosa među objektima pri pravljenju objekata;
-          \end{itemize}
-    \item Smanjuje se ukupan intenzitet spregnutosti.
-  \end{itemize}
-  Cena smanjivanja ukupne složenosti primenom arhitektura zasnovanih na događajima može 
-  biti uvećavanje lokalne složenosti:
-  \begin{itemize}
-    \item Komponente koje sarađuju u sistemu zasnovanom na događajima su 
-          jednostavnije iz ugla složenosti koda;
-    \item Njihove operacije su definisane apstraktnije pa mogu biti teže za razumevanje, 
-          ako se posmatraju lokalno, bez razmatranja čitavog sistema.
-  \end{itemize}
-  
-\section{Objasniti osnovne pojmove i koncepte arhitekture zasnovane na događajima.}
-  \noindent \textbf{Događaj} je prepoznatljiv \underline{uslov} koji inicira obaveštenje.\\
-  \textbf{Obaveštenje} je događajem iniciran \underline{signal} koji se šalje primaocu.\\
-  \textbf{Posledice:} Ovakva arhitektura omogućava da se za mnoge složene probleme napravi 
-  rešenje koje obezbeđuje najniži mogući (poznati?) intenzitet sprege. 
-  Pored toga, postoje dodatni kvaliteti:
-  \begin{itemize}
-    \item Ako neki signali prestanu da budu značajni, može da prestane njihovo praćenje, 
-          a da komponenta koja ih emituje pri tome ne mora da se menja;
-    \item Ako je neke signale potrebno obraditi višestruko, 
-          dovoljno je dodati nove slotove koji će ih prihvatiti, a da se komponente koje 
-          emituju signale, kao i druge komponente koji već obrađuju te signale, ne moraju menjati.
-  \end{itemize}
-
-\section{Navesti i objasniti slojeve toka događaja kod arhitektura zasnovanih na događajima.}
-  \begin{itemize}
-    \item \textbf{Generator događaja:} Objekat koji prepoznaje da je nastupio uslov koji 
-          predstavlja neki definisan dogadaj;
-    \item \textbf{Mašina za obradu događaja:} Mesto na kome se prepoznaje nastali događaj 
-          i odabire i pokreće odgovarajuća akcija (ili niz akcija);
-    \item \textbf{Kanal događaja:} Mehanizam putem koga se događaj prosleđuje od generatora 
-          do mašine za obradu događaja;
-    \item \textbf{Niz događaja:} Upravljanih aktivnosti - mesto ispoljavanja događaja.
-  \end{itemize}
-
-\section{Objasniti osnovne koncepte primene arhitekture zasnovane na događajima u okviru biblioteke QT.}
-  Biblioteku QT koristimo za upravljanje događajima. Osnovni model objekta u QT biblioteci je 
-  \textbf{QObject}. Glavna karakteristika ovog modela je mogućnost komunikacije između objekata preko
-  \underline{signala i slotova}. Da bi se koristili signali i slotovi potrebno je uključiti makro
-  \textbf{Q\_OBJECT} u okviru QObject klase. Preporučuje se da se za sve klase koje nasleđuju QObject 
-  doda Q\_OBJECT makro, nezavisno od toga da li zapravo koriste signala ili ne (neke funkcije mogu
-  da imaju čudno ponašanje u suprotnom). 
-
-\section{Objasniti koncept signala u kontekstu primene arhitekture
-         zasnovane na dogadajima u okviru biblioteke QT.}
-  \textbf{Signali} su metodi koji proizvode događaje. Deklarišu se u okviru sekcije \underline{signals}
-  kao metodi tipa $void$ i ne implementiraju se. \\
-  \indent Signali se emituju u obliku: emit signal(...). Ključna reč emit je makro. Za standardni C++ ima praznu 
-  definiciju. Zato se može i izostavljati. Preporučuje se da se ne navodi radi kompatibilnosti koda, 
-  dokumentovanja i lakšeg pronalaženja emitovanja.
-
-\section{Objasniti koncept slotova u kontekstu primene arhitekture zasnovane na događajima u 
-         okviru biblioteke QT.}
-  \textbf{Slotovi} su metodi koji obrađuju događaje. Deklarišu se u okviru sekcije \textit{private slots}
-  ili \textit{public slots}. Moraju biti istog tipa kao signali za čiju su obradu namenjeni.
-
-\section{Objasniti povezivanje signala i slotova u slučaju primene arhitekture 
-         zasnovane na događajima u okviru biblioteke QT.}
-  Povezivanje se ostvaruje pomoću statičkog metoda QObject::connect. \\
-  \textbf{Argumenti:}
-  \begin{enumerate}
-    \item Pokazivač na objekat koji emituje signal;
-    \item Signal koji se emituje (navodi se pomoću makroa SIGNAL
-          ili kao pokazivač na funkciju koja predstavlja signal);
-    \item Pokazivač na objekat koji hvata signal;
-    \item Slot kojim se signal hvata (navodi se pomoću makroa SLOT
-          ili kao pokazivač na funkciju koja predstavlja slot).
-  \end{enumerate}
-  Slot i odgovarajući signal moraju biti istog tipa (nije važno ime).\\
-  Zavisno od konfiguracije, nakon emitovanja signala se može sačekati i da se završi njegova obrada 
-  ili odmah nastaviti sa radom. Podrazumevano ponašanje je da se sačeka sa obradom.\\
-  Primer:
-  \begin{lstlisting}
-  Counter a, b;
-  QObject::connect(&a, &Counter::valueChanged,
-                    &b, &Counter::setValue);
-
-  a.setValue(12);     // a.value() == 12, b.value() == 12
-  b.setValue(48);     // a.value() == 12, b.value() == 48\end{lstlisting}
-  Objašnjenje: Promena vrednosti objekta (brojača) $a$ predstavlja događaj koji emituje signal
-  \textit{Counter::valueChanged}. Objekat $b$ hvata signal u okviru slota \textit{Counter::setValue}
-  koji ažurira vrednost objekta $b$. Promena objekta $b$ ne utiče na objekat $a$, jer nije tako
-  definisano preko statičke $connect$ metode.\\
-
-  Koja je razlika između korišćenja makroa SIGNAL i SLOT i korišćenja pokazivača
-  na funkcije? Pre QT verzije 5 je postojao samo prvi način (makroa). Od QT verzije 5 moguće
-  je koristiti i drugu varijantu.
-  
-\section{Objasniti odnos arhitektura zasnovanih na događajima i problema kohezije i spregnutosti.}
-  \noindent Sprega preko signala i slotova je dinamička sprega:
-  \begin{itemize}
-    \item Objekti koji se povezuju nisu spregnuti u kodu kojim su definisani;
-    \item Sprega se uspostavlja u posebnom konfiguracionom delu programskog koda.
-  \end{itemize}
-  Ipak, uspostavljanje sprege (tj. povezivanje slotova i signala) je implementirano na statički način:
-  \begin{itemize}
-    \item Veze se uspostavljaju jednokratno;
-    \item Veze između signala i slotova se uspostavljaju bezuslovno.
-  \end{itemize}
-  Uspostavljanje sprege putem povezivanja signala i slotova može da bude implementirano 
-  i na dinamički način:
-  \begin{itemize}
-    \item Veze se mogu predstavljati u zavisnosti od konteksta;
-    \item Tokom izvršavanja programa se veze mogu raskidati i ponovo uspostavljati;
-    \item Metod QObject::disconnect.
-  \end{itemize}
-  
-  Naredni korak bi bilo dinamičko programsko pravljenje slotova i signala 
-  i zatim njihovo povezivanje. Biblioteka Qt nema neposrednu podršku za dinamičko 
-  pravljenje slotova i signala, ali postoji više primera dodatnih klasa koje to omogućavaju.\\
-  \indent Moguće primene su u implementaciji skript jezika, dinamičkih okruženja za pravljenje ili 
-  menjanje korisničkih intefejsa i slično.
-  
 \section{Šta je konkurento izvršavanje?}
   Dva posla T1 i T2 se izvršavaju konkurentno ako nije unapred poznata njihova međusobna 
   vremenska lociranost. Primeri:
@@ -5334,7 +5152,7 @@ void TRACE(const char* s){
 \section{Šta su potprogrami sa jedinstvenim povezivanjem?}
   Kažemo da je funkcija sa jedinstvenim povezivanjem ako ne sme biti istovremeno upotrebljivana u 
   različitim nitima.\\
-  \textbf{Mogući uzorci:}
+  \textbf{Mogući uzroci:}
     \begin{itemize}
       \item U telu funkcije se upotrebljavaju globalni podaci 
             ili drugi globalni resursi na način koji nije bezbedan;
@@ -5343,7 +5161,7 @@ void TRACE(const char* s){
 \section{Šta su potprogrami sa ponovljenim povezivanjem?}
   Kažemo da je funkcija sa ponavljanim pozivanjem ako sme biti istovremeno upotrebljivana u 
   različitim nitima samo uz pretpostavku da se ne upotrebljava nad istim podacima.\\
-  \textbf{Mogući uzorci:}
+  \textbf{Mogući uzroci:}
   \begin{itemize}
     \item upotreba podataka ili resursa na način koji nije bezbedan.
   \end{itemize}
@@ -5486,6 +5304,152 @@ void TRACE(const char* s){
   komunikacionih resursa tj. atomičnosti operacija na deljenim resursima. 
   Često je najbolje i za komunikaciju među nitima koristiti mehanizme namenjene za procese.
   
+
+\section{Šta su arhitekture zasnovane na događajima?}
+  Klasičan pristup razvoju softvera podrazumeva implementiranje algoritama 
+  koji obavljaju određeni posao:
+  \begin{itemize}
+    \item Primenom metoda od vrha naniže određene celine problema se izdvajaju u potprograme,
+    \item i dalje aspekti problema ostaju celina.
+  \end{itemize}
+
+  \noindent Primer: Program koji u petlji proverava da li je korisnik pritisnuo neki taster, a zatim pristupa 
+  u skladu sa akcijom korisnika.\\
+  
+  \indent Kod arhitektura zasnovanih na događajima, eksplicitna komunikacija među 
+  objektima se zamenjuje mehanizmom emitovanja događaja i distribuiranja zainteresovanim objektima.
+  Primer:
+  \begin{itemize}
+    \item Program obaveštava OS da je zainteresovan da reaguje na pritisak tastera od strane korisnika;
+    \item OS prepoznaje dogadaj i salje programu poruku;
+    \item Program (odgovarajući objekat) reaguje na poruku.
+  \end{itemize}
+
+\section{Objasniti motivaciju za upotrebu arhitektura zasnovanih na događajima.}
+  Arhitekture zasnovane na događajima spuštaju nivo međusobne zavisnosti objekata i tako smanjuju 
+  ukupnu složenost sistema:
+  \begin{itemize}
+    \item Uobičajen je nivo spregnutosti putem parametara ili čak putem poruka;
+    \item Uobičajena je dinamička sprega:
+          \begin{itemize}
+            \item Konfigurisanje odnosa među objektima u fazi izvršavanja programa,
+            \item Konfigurisanje odnosa među objektima pri pravljenju objekata;
+          \end{itemize}
+    \item Smanjuje se ukupan intenzitet spregnutosti.
+  \end{itemize}
+  Cena smanjivanja ukupne složenosti primenom arhitektura zasnovanih na događajima može 
+  biti uvećavanje lokalne složenosti:
+  \begin{itemize}
+    \item Komponente koje sarađuju u sistemu zasnovanom na događajima su 
+          jednostavnije iz ugla složenosti koda;
+    \item Njihove operacije su definisane apstraktnije pa mogu biti teže za razumevanje, 
+          ako se posmatraju lokalno, bez razmatranja čitavog sistema.
+  \end{itemize}
+  
+\section{Objasniti osnovne pojmove i koncepte arhitekture zasnovane na događajima.}
+  \noindent \textbf{Događaj} je prepoznatljiv \underline{uslov} koji inicira obaveštenje.\\
+  \textbf{Obaveštenje} je događajem iniciran \underline{signal} koji se šalje primaocu.\\
+  \textbf{Posledice:} Ovakva arhitektura omogućava da se za mnoge složene probleme napravi 
+  rešenje koje obezbeđuje najniži mogući (poznati?) intenzitet sprege. 
+  Pored toga, postoje dodatni kvaliteti:
+  \begin{itemize}
+    \item Ako neki signali prestanu da budu značajni, može da prestane njihovo praćenje, 
+          a da komponenta koja ih emituje pri tome ne mora da se menja;
+    \item Ako je neke signale potrebno obraditi višestruko, 
+          dovoljno je dodati nove slotove koji će ih prihvatiti, a da se komponente koje 
+          emituju signale, kao i druge komponente koji već obrađuju te signale, ne moraju menjati.
+  \end{itemize}
+
+\section{Navesti i objasniti slojeve toka događaja kod arhitektura zasnovanih na događajima.}
+  \begin{itemize}
+    \item \textbf{Generator događaja:} Objekat koji prepoznaje da je nastupio uslov koji 
+          predstavlja neki definisan dogadaj;
+    \item \textbf{Mašina za obradu događaja:} Mesto na kome se prepoznaje nastali događaj 
+          i odabire i pokreće odgovarajuća akcija (ili niz akcija);
+    \item \textbf{Kanal događaja:} Mehanizam putem koga se događaj prosleđuje od generatora 
+          do mašine za obradu događaja;
+    \item \textbf{Niz događaja:} Upravljanih aktivnosti - mesto ispoljavanja događaja.
+  \end{itemize}
+
+\section{Objasniti osnovne koncepte primene arhitekture zasnovane na događajima u okviru biblioteke QT.}
+  Biblioteku QT koristimo za upravljanje događajima. Osnovni model objekta u QT biblioteci je 
+  \textbf{QObject}. Glavna karakteristika ovog modela je mogućnost komunikacije između objekata preko
+  \underline{signala i slotova}. Da bi se koristili signali i slotovi potrebno je uključiti makro
+  \textbf{Q\_OBJECT} u okviru QObject klase. Preporučuje se da se za sve klase koje nasleđuju QObject 
+  doda Q\_OBJECT makro, nezavisno od toga da li zapravo koriste signala ili ne (neke funkcije mogu
+  da imaju čudno ponašanje u suprotnom). 
+
+\section{Objasniti koncept signala u kontekstu primene arhitekture
+         zasnovane na dogadajima u okviru biblioteke QT.}
+  \textbf{Signali} su metodi koji proizvode događaje. Deklarišu se u okviru sekcije \underline{signals}
+  kao metodi tipa $void$ i ne implementiraju se. \\
+  \indent Signali se emituju u obliku: emit signal(...). Ključna reč emit je makro. Za standardni C++ ima praznu 
+  definiciju. Zato se može i izostavljati. Preporučuje se da se ne navodi radi kompatibilnosti koda, 
+  dokumentovanja i lakšeg pronalaženja emitovanja.
+
+\section{Objasniti koncept slotova u kontekstu primene arhitekture zasnovane na događajima u 
+         okviru biblioteke QT.}
+  \textbf{Slotovi} su metodi koji obrađuju događaje. Deklarišu se u okviru sekcije \textit{private slots}
+  ili \textit{public slots}. Moraju biti istog tipa kao signali za čiju su obradu namenjeni.
+
+\section{Objasniti povezivanje signala i slotova u slučaju primene arhitekture 
+         zasnovane na događajima u okviru biblioteke QT.}
+  Povezivanje se ostvaruje pomoću statičkog metoda QObject::connect. \\
+  \textbf{Argumenti:}
+  \begin{enumerate}
+    \item Pokazivač na objekat koji emituje signal;
+    \item Signal koji se emituje (navodi se pomoću makroa SIGNAL
+          ili kao pokazivač na funkciju koja predstavlja signal);
+    \item Pokazivač na objekat koji hvata signal;
+    \item Slot kojim se signal hvata (navodi se pomoću makroa SLOT
+          ili kao pokazivač na funkciju koja predstavlja slot).
+  \end{enumerate}
+  Slot i odgovarajući signal moraju biti istog tipa (nije važno ime).\\
+  Zavisno od konfiguracije, nakon emitovanja signala se može sačekati i da se završi njegova obrada 
+  ili odmah nastaviti sa radom. Podrazumevano ponašanje je da se sačeka sa obradom.\\
+  Primer:
+  \begin{lstlisting}
+  Counter a, b;
+  QObject::connect(&a, &Counter::valueChanged,
+                    &b, &Counter::setValue);
+
+  a.setValue(12);     // a.value() == 12, b.value() == 12
+  b.setValue(48);     // a.value() == 12, b.value() == 48\end{lstlisting}
+  Objašnjenje: Promena vrednosti objekta (brojača) $a$ predstavlja događaj koji emituje signal
+  \textit{Counter::valueChanged}. Objekat $b$ hvata signal u okviru slota \textit{Counter::setValue}
+  koji ažurira vrednost objekta $b$. Promena objekta $b$ ne utiče na objekat $a$, jer nije tako
+  definisano preko statičke $connect$ metode.\\
+
+  Koja je razlika između korišćenja makroa SIGNAL i SLOT i korišćenja pokazivača
+  na funkcije? Pre QT verzije 5 je postojao samo prvi način (makroa). Od QT verzije 5 moguće
+  je koristiti i drugu varijantu.
+  
+\section{Objasniti odnos arhitektura zasnovanih na događajima i problema kohezije i spregnutosti.}
+  \noindent Sprega preko signala i slotova je dinamička sprega:
+  \begin{itemize}
+    \item Objekti koji se povezuju nisu spregnuti u kodu kojim su definisani;
+    \item Sprega se uspostavlja u posebnom konfiguracionom delu programskog koda.
+  \end{itemize}
+  Ipak, uspostavljanje sprege (tj. povezivanje slotova i signala) je implementirano na statički način:
+  \begin{itemize}
+    \item Veze se uspostavljaju jednokratno;
+    \item Veze između signala i slotova se uspostavljaju bezuslovno.
+  \end{itemize}
+  Uspostavljanje sprege putem povezivanja signala i slotova može da bude implementirano 
+  i na dinamički način:
+  \begin{itemize}
+    \item Veze se mogu predstavljati u zavisnosti od konteksta;
+    \item Tokom izvršavanja programa se veze mogu raskidati i ponovo uspostavljati;
+    \item Metod QObject::disconnect.
+  \end{itemize}
+  
+  Naredni korak bi bilo dinamičko programsko pravljenje slotova i signala 
+  i zatim njihovo povezivanje. Biblioteka Qt nema neposrednu podršku za dinamičko 
+  pravljenje slotova i signala, ali postoji više primera dodatnih klasa koje to omogućavaju.\\
+  \indent Moguće primene su u implementaciji skript jezika, dinamičkih okruženja za pravljenje ili 
+  menjanje korisničkih intefejsa i slično.
+
+
 \section{Šta je softverska metrika?}
   \textbf{Metrika} je nauka o merama i merenju.\\
 
@@ -5495,7 +5459,7 @@ void TRACE(const char* s){
     \item Numeričkim opisivanjem različitih aspekata razvojnog 
           projekta se stiču uporediva znanja o projektu.
   \end{itemize}
-  
+
 \section{Navesti najvažnije tipove softverskih metrika.}
   \noindent \textbf{Neposredne (apsolutne) mere:} Primer: broj jedinica koda ili broj linija koda.\\
   \textbf{Indirektne/izvedene mere:} Primer: količnik drugih mera.\\
@@ -6537,55 +6501,6 @@ Pogledati prethodno pitanje.
     \item GNU gprof
     \item Valgrind
   \end{itemize}
-
-\section{Prazno (radi usaglašavanja odgovora sa ispitnim pitanjima).}
-
-\section{Šta je korisnički interfejs? Šta je grafički korisnički interfejs?}
-  \textbf{Korisnički interfejs (UI)} predstavlja način na koji osoba interaguje sa 
-  softverom ili hardverom. Poželjno je da korisnički interfejs bude intuitivan za
-  korisnika. \\
-  \indent \textbf{Grafički korisnički interfejs (GUI)} predstavlja korisnički interfejs
-  sa grafičkim kontrolama, gde korisnik može da interaguje sa softverom koristeći
-  miš ili tastaturu. Primer: Način koji interagujemo sa operativnim sistemom na \textit{Windows}-u.
-
-\section{Koji su osnovni kvaliteti i slabosti grafičkih korisničkih interfejsa?}
-  \noindent \textbf{Prednosti:}
-  \begin{itemize}
-    \item Ne zahteva memorisanje imena komandi;
-    \item Ne zahteva memorisanje parametara komandi;
-    \item Uglavnom se lakše nauči korišćenje softvera na taj način;
-    \item \textit{Drag-and-drop} svojstvo;
-  \end{itemize}
-  \textbf{Mane:}
-  \begin{itemize}
-    \item Dodatna cena za razvoj;
-    \item Dodatno vreme za razvoj; 
-    \item Uglavnom sporiji rad nego preko komandi;
-    \item Zahteva više memorije;
-  \end{itemize}
-
-\section{Od čega zavisi upotrebljivost korisničkog interfejsa?}
-  Korisnički interfejs treba da bude:
-  \begin{itemize}
-    \item \textbf{Čist:} Bitne informacije su očigledne. Olakšava učenje i smanjuje pravljenje
-          grešaka.
-          od strane klijenta. 
-    \item \textbf{Konzistentan:} Klijent bi trebalo da može da iskoristi prethodno naučeno
-          za rešavanje novih zadataka.
-    \item \textbf{Jednostavan:} Lako se uči.
-    \item \textbf{Kontrolisan od strane klijenta:} Klijent kontroliše interfejs, ne računar.
-    \item \textbf{Direktan:} Uslovno posledične veze su jasno vidljive.
-    \item \textbf{Praštajuć:} Klijent sme da pravi greške.
-    \item \textbf{Daje povratne informacije:} Informiše korisnika o stanju zadatka. 
-    \item \textbf{Estetičan:} Vizuelno privlačan i jasan način prezentovanih informacija.\cite{uw_ui}
-  \end{itemize}
-
-\section{Koji su osnovni ciljevi pri oblikovanju korisničkog interfejsa?}
-  Pogledati prethodno pitanje.
-
-\section{Kako se testira korisnički interfejs?}
-  Korisnički interfejs se se testira preko testova prihvatljivosti, gde podrazumevamo da je pre
-  toga odrađeno jedinično testiranje, integraciono testiranje i sistemsko testiranje.
   
 \section{Primeri ispitnih pitanja za usmeni}
 \begin{enumerate}
