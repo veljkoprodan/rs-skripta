@@ -2269,8 +2269,190 @@ Odgovornost za pravljenje objekta klase A dodeljuje se klasi B ako važi bar jed
 
 Osnovna ideja uključuje smanjenje broja zavisnosti i prepuštanje odgovornosti klasi koja već ima vezu sa instancama klase A.
 
-\section{Obasniti princip dizajna softvera Visoka kohezija.}
+\section{Objasniti princip dizajna softvera Visoka kohezija.}
 Dodeljivati odgovornosti tako da kohezija ostane visoka.
+
+\section{Obasniti princip dizajna softvera Niska spregnutost.}
+Dodeljivati odgovornosti tako da spregnutost ostane niska
+
+\section{Obasniti princip dizajna softvera Kontroler.}
+Odgovornosti za primanje ili obrađivanje poruka o sistemskim događajima dodeljivati klasi koja:
+ \begin{itemize}
+   \item predstavlja ceo sistem, uređaj ili podsistem (tzv. fasadni kontroler) 
+   \item ili predstavlja scenario slučaja upotrebe u kome se pojavljuju sistemski događaji\\
+ \end{itemize}
+ 
+Osnovna ideja: grupisati reagovanje na događaje na jednom mestu, i sa tog mesta upravljati aktivnostima na osnovu događaja\\
+
+Primeri:
+ \begin{itemize}
+   \item Različiti modeli rešavanja problema korisničkog interfejsa
+    \begin{itemize}
+     \item arhitektura „Model-pogled-kontroler“
+     \item arhitektura „Prezentacija-apstrakcija-kontroler“
+    \end{itemize}
+   \item Signali i slotovi u okruženju Qt
+ \end{itemize}
+
+\section{Obasniti princip dizajna softvera Polimorfizam.}
+Kada se neka vrsta ponašanja menja prema tipovima, onda je potrebno odgovornosti za odgovarajuće ponašanje rasporediti po tim tipovima, primenom polimorfizma
+
+Osnovna ideja: eliminisanje eksplicitnih provera tipova iz programskog koda. Umesto toga se koriste polimorfni metodi
+Motivacija: eksplicitne provere tipova imaju tendenciju da se ponavljaju
+
+Veći broj obrazaca i refaktorisanja se oslanja na ovaj princip
+
+\section{Obasniti princip dizajna softvera Izmišljotina.}
+Tesno povezan i zaokružen skup odgovornosti dodeliti veštački uvedenoj klasi, koja ne predstavlja koncept iz domena problema – koja je izmišljena da bi omogućila visoku koheziju, nisku spregnutost i višestruku upotrebu
+
+Osnovna ideja: dosledno modeliranje strukture domena vrlo često nosi sa sobom veliki
+broj složenih zavisnosti, tako da ne postoji prirodna dekompozicija koja ih razrešava. Tada moramo da izmišljamo potpuno nove funkconalno ekvivalentne koncepte.\\
+
+Primeri:
+\begin{itemize}
+   \item ubacivanje jednostavnih koncepata:
+   \begin{itemize}
+     \item obrazac Fasada
+     \item obrazac Adapter
+     \item obrazac Posetilac
+     \item obrazac Dekorater
+   \end{itemize}
+\end{itemize}
+
+\section{Obasniti princip dizajna softvera Indirekcija.}
+Dodeliti odgovornosti objektu koji je posrednik između drugih komponenti ili servisa, tako da oni ne moraju da budu neposredno spregnuti
+
+Osnovna ideja: zamenjivanje neposredne zavisnosti posrednom uz dodavanje stabilnog koncepta kao posrednika
+
+Obično se teži da se zavisnosti posrednika urede tako da
+\begin{itemize}
+   \item druge klase zavise od interfejsa posrednika
+   \item da implementacija posrednika zavisi od interfejsa drugih komponenti
+\end{itemize}
+   
+Primeri:`
+\begin{itemize}
+   \item Apstraktna fabrika sakriva način pravljenja objekata
+   \item Adapter, Most, Fasada sakrivaju od korisnika specifičnosti implementacije pa čak i interfejsa
+\end{itemize}
+
+\section{Obasniti princip dizajna softvera Izolovane promenljivosti.}
+
+Dodeliti odgovornosti tako da se oblikuje stabilan interfejs oko prepoznatih tačaka predvidive promenljivosti ili nestabilnosti\\
+
+Osnovna ideja:
+\begin{itemize}
+   \item odnosi se na dekomponovanje prema promenljivosti
+   \item enkapsuliranje tačaka promenljivosti
+   \item postavljanje stabilnog interfejsa između tačaka promenljivosti i elemenata koji zavise od njih
+\end{itemize}
+   
+Spada u osnovne i najopštije principe projektovanja kao i principi Visoka kohezija i Niska spregnutost
+
+Povezan je sa mnogim drugim principima: Indirekcija, Inverzna zavisnost, Zamenljivost itd.
+
+Može se povezati sa praktično svakim primerom dobrog dizajna, npr. obrazac Adapter
+
+\section{Navesti principe oblikovanja celina (dizajn softvera).}
+ \textbf{Principi grupisanja}:
+\begin{itemize}
+    \item Princip ekvivalentnosti izdanja i ponovljive upotrebe
+    \item Princip zajedničke zatvorenosti
+    \item Princip zajedničke upotrebe\\
+\end{itemize}
+    
+   \textbf{Principi razdvajanja}:
+\begin{itemize}
+    \item Princip stabilne zavisnosti
+    \item Princip stabilne apstrakcije
+    \item Princip acikličnih zavisnosti
+\end{itemize}
+
+\section{Objasniti princip ekvivalentnosti izdanja i upotrebe.}
+Granula ponovljive upotrebe je granula objavljivanja
+
+Osnovna ideja: tesna veza između ponovljive upotrebe i objavljivanja, u oba smera:
+\begin{enumerate}
+      \item ako bi jedna celina trebalo da se koristi na više mesta, onda bi njena specifikacija trebalo da se objavi kao jedna celina
+      \item ako nešto objavljujemo, onda moramo da računamo da će to neko i da koristi
+\end{enumerate}
+
+Ovaj princip predstavlja osnov za funkcinalnu dekompoziciju. Svaka objavljena celina mora da ima
+\begin{itemize}
+    \item stabilan interfejs, što implicira funkcionalnu povezanost komponenti
+    \item dobru enkapsulaciju, što implicira čvrstu povezanost sastavnih delova jedne komponente
+\end{itemize}
+
+
+\section{Objasniti princip zajedničke zatvorenosti.}
+Delovi celine bi trebalo da budu zajedno i podjednako zatvoreni u odnosu na iste vrste promena. Ako celina mora da se menja, onda se pretpostavlja da moraju da se menjaju i (svi) delovi te celine ali ne i druge celine.
+
+Osnovna ideja
+\begin{itemize}
+   \item Ako među strukturnim elementima postoje jake međuzavisnosti, onda bi trebalo da pripadaju istoj celini
+   \item Više osa zavisnosti se grupiše na jednom mestu
+   \item Odnosi se na različite vrste kohezije: funkcionalnu, sekvencijalnu, komunikacionu, proceduralnu
+\end{itemize}
+
+Primer:
+   Ako imamo skup funkcija za formatiranje delova izveštaja, one mogu da budu relativno međusobno nezavisne, ali ako se promeni format izveštaja, menjaće se i većina tih funkcija. Tada je dobro da ih grupišemo u jednu klasu. Iako to nije funkcionalna kohezija, biće komunikaciona ili proceduralna. Takva klasa obično ima ulogu u indirekciji ili izmišljenom konceptu
+
+\section{Objasniti princip zajedničke upotrebe.}
+Klase u paketu se koriste zajedno. Ako se koristi jedna od klasa u paketu, onda se koriste sve.
+
+Osnovna ideja:
+\begin{itemize}
+    \item Odnosi se prvenstveno na logičku i strukturnu dekompoziciju (paketi)
+    \item U isti paket je potrebno staviti klase koje se zajedno koriste. Ako već nemamo funkcionalnu koheziju, ostvarićemo sekvencijalnu, komunikacionu ili proceduralnu
+\end{itemize}
+    
+Primer su klase apstraktnog drveta sintakse: imaju različite funkcije – svaka modelira drugu vrstu čvora, ali se obično koriste zajedno.
+
+Ovaj princip nam pomaže i da odlučimo da neke klase ne stavljamo u isti paket ako nisu funkcionalno zavisne, pa se još i ne koriste zajedno
+
+\section{Objasniti princip stabilne zavisnosti.}
+Smer zavisnosti bi trebalo da se poklapa sa smerom porasta stabilnosti
+
+Osnovna ideja:
+\begin{itemize}
+   \item Nepoklapanje ova dva smera preti da dovede do ose promenljivosti koja ide u smeru porasta stabilnosti, što onda preti da proizvede lavinu promena
+   \item Ako je element stabilan, to znači da mnogi zavise od njega, pa onda ne bi smelo da se desi da i on ima osetljive zavisnosti
+\end{itemize}
+
+Potencijalno narušavanje nastaje kada god imamo element koji na neki način povezuje “dva sveta”. To nije retkost i nekada ne može da se izbegne, ali može da se vodi računa o vrstama i smerovima zavisnosti. Ovaj princip ne ukazuje na to kako problem može da se reši, već pre predstavlja neku vrstu detektora problema. Uočen problem se rešava inverzijom zavisnosti, izmišljanjem i sl.
+
+
+\section{Objasniti princip stabilne apstrakcije.}
+
+Celina bi trebalo da bude apstraktna onoliko koliko je stabilna
+
+Osnovna ideja:
+\begin{itemize}
+   \item Povezivanje apstraktnosti i stabilnosti
+   \item Sugeriše da bi smer zavisnosti trebalo da se poklapa sa smerom porasta apstraktnosti
+   \item Apstraktni elementi softvera bi trebalo da zavise od što manje drugih elemenata, a ako već moraju, onda bi trebalo da to budu još apstraktniji elementi
+\end{itemize}
+
+Povezan je sa principima Stabilne zavisnosti, Izolovane promenljivosti, Inverzne zavisnosti i drugima
+
+Primeri: fasada, apstraktna bazna klasa hijerarhije
+
+\section{Objasniti princip acikličnih zavisnosti.}
+Ne dopuštati ciklične zavisnosti paketa.
+- Osnovna ideja
+\begin{itemize}
+   \item Ciklične zavisnosti otežavaju lokalizovanje promena: ako su A, B i C ciklično zavisni elementi, pa moramo da promenimo A, onda ćemo možda morati da promenimo B, pa ćemo možda morati da promenimo i C, pa ćemo možda ponovo morati da promenimo A...
+   \item Razbijaju se primenom inverzne zavisnosti, izmišljanjem i sl.
+\end{itemize}
+   
+Primer:
+ \begin{itemize}
+ \item Arhitektura Model-pogled-kontroler počiva na cikličnim zavisnostima: kontroler javlja modelu da se ažurira, model javlja pogledu da se ažurira, a pogled javlja kontroleru da su potrebne nove promene. Cikličnost u MPK se prevazilazi:
+ \begin{itemize}
+    \item uvođenjem obrasca Posmatrač u odnos pogleda i modela
+    \item preusmeravanjem upravljanja događajima sa pogleda na kontroler, što je vid uopštenja obrasca Posmatrač
+ \end{itemize}
+\end{itemize}
 
 
 \section{Šta je Agilni razvoj softvera?}

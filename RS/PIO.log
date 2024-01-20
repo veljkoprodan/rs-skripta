@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.20)  20 JAN 2024 06:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.20)  20 JAN 2024 07:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -466,21 +466,51 @@ u-to-sti kom-
  []
 
 [6]
-Overfull \hbox (0.41075pt too wide) in paragraph at lines 142--142
- [][] [][][]\T1/cmr/bx/n/9 Skicirati di-ja-gram kla-sa uzo-ra-ka za pro-jek-to-
-va-nje Pro- 
+Overfull \hbox (5.2908pt too wide) in paragraph at lines 142--142
+ [][] [][][]\T1/cmr/bx/n/9 Skicirati di-ja-gram kla-sa obra-za-ca za pro-jek-to
+-va-nje Pro- 
  []
 
 [7]
-Overfull \hbox (3.04828pt too wide) in paragraph at lines 144--144
- [][] [][][]\T1/cmr/bx/n/9 Skicirati di-ja-gram kla-sa uzo-ra-ka za pro-jek-to-
-va-nje Stra- 
+Overfull \hbox (7.92833pt too wide) in paragraph at lines 144--144
+ [][] [][][]\T1/cmr/bx/n/9 Skicirati di-ja-gram kla-sa obra-za-ca za pro-jek-to
+-va-nje Stra- 
  []
 
 
-Overfull \hbox (0.47325pt too wide) in paragraph at lines 150--150
- [][] [][][]\T1/cmr/bx/n/9 Skicirati di-ja-gram kla-sa uzo-ra-ka za pro-jek-to-
-va-nje Uni- 
+Overfull \hbox (1.34804pt too wide) in paragraph at lines 146--146
+ [][] [][][]\T1/cmr/bx/n/9 Skicirati di-ja-gram kla-sa obra-za-ca za pro-jek-to
+-va-nje De- 
+ []
+
+
+Overfull \hbox (2.50122pt too wide) in paragraph at lines 148--148
+ [][] [][][]\T1/cmr/bx/n/9 Skicirati di-ja-gram kla-sa obra-za-ca za pro-jek-to
+-va-nje Slo- 
+ []
+
+
+Overfull \hbox (5.3533pt too wide) in paragraph at lines 150--150
+ [][] [][][]\T1/cmr/bx/n/9 Skicirati di-ja-gram kla-sa obra-za-ca za pro-jek-to
+-va-nje Uni- 
+ []
+
+
+Overfull \hbox (0.60306pt too wide) in paragraph at lines 152--152
+ [][] [][][]\T1/cmr/bx/n/9 Skicirati di-ja-gram kla-sa obra-za-ca za pro-jek-to
+-va-nje Po- 
+ []
+
+
+Overfull \hbox (0.60306pt too wide) in paragraph at lines 154--154
+ [][] [][][]\T1/cmr/bx/n/9 Skicirati di-ja-gram kla-sa obra-za-ca za pro-jek-to
+-va-nje Po- 
+ []
+
+
+Overfull \hbox (2.25404pt too wide) in paragraph at lines 156--156
+ [][] [][][]\T1/cmr/bx/n/9 Skicirati di-ja-gram kla-sa obra-za-ca za pro-jek-to
+-va-nje Ap- 
  []
 
 
@@ -489,14 +519,14 @@ Overfull \hbox (2.60213pt too wide) in paragraph at lines 164--164
  (di-zajn sof- 
  []
 
-[8]
-Overfull \hbox (1.24837pt too wide) in paragraph at lines 179--179
+[8] [9]
+Overfull \hbox (1.24837pt too wide) in paragraph at lines 191--191
  [][] [][][]\T1/cmr/bx/n/9 Objasniti me-tod ek-stre-mnog pro-gra-mi-ra-nja ,,Ko
 -ri-sni£- 
  []
 
-[9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
-Overfull \hbox (0.89261pt too wide) in paragraph at lines 369--369
+[10] [11] [12] [13] [14] [15] [16] [17] [18]
+Overfull \hbox (0.89261pt too wide) in paragraph at lines 381--381
  [][] [][][]\T1/cmr/bx/n/9 ’ta je Do-xygen? ’ta omo-gu-¢a-va? Na-ve-sti pri-me-
 re ano- 
  []
@@ -546,21 +576,21 @@ Overfull \hbox (19.19331pt too wide) in paragraph at lines 349--349
 \T1/cmr/bx/n/14.4 zvi-ja-o-ca pri ra-zvo-ju sof-tve-ra? Ob-ja-sni-ti ukrat-
  []
 
-
+[27]
 Overfull \hbox (50.00006pt too wide) in paragraph at lines 382--388
 [] 
  []
 
-[27]
+[28]
 Overfull \hbox (1.84283pt too wide) in paragraph at lines 417--417
 |[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti prin-cip in-kre-men-tal-nog ra-zvo-
  []
 
 
-LaTeX Warning: Citation `guru99_incremental_model' on page 28 undefined on inpu
+LaTeX Warning: Citation `guru99_incremental_model' on page 29 undefined on inpu
 t line 421.
 
-[28]
+
 Overfull \hbox (10.02977pt too wide) in paragraph at lines 438--438
 |[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti prin-cip odre-ži-va-nja ko-ra-ka pre-
  []
@@ -570,7 +600,7 @@ Overfull \hbox (17.05836pt too wide) in paragraph at lines 478--478
 |[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti prin-cip da-va-nja pred-no-sti objek-
  []
 
-[30]
+[30] [31]
 Underfull \hbox (badness 10000) in paragraph at lines 547--548
 
  []
@@ -580,34 +610,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 547--548
 
  []
 
-[31]
-<Slike/encapsulation.png, id=2497, 437.38406pt x 222.07968pt>
+[32]
+<Slike/encapsulation.png, id=2585, 437.38406pt x 222.07968pt>
 File: Slike/encapsulation.png Graphic file (type png)
 <use Slike/encapsulation.png>
 Package pdftex.def Info: Slike/encapsulation.png  used on input line 614.
 (pdftex.def)             Requested size: 227.6212pt x 142.26266pt.
- [32]
+ [33 <./Slike/encapsulation.png>]
 
-LaTeX Warning: Citation `catonmat_polymorphism' on page 33 undefined on input l
+LaTeX Warning: Citation `catonmat_polymorphism' on page 34 undefined on input l
 ine 636.
 
-[33 <./Slike/encapsulation.png>] [34]
+[34]
 
 LaTeX Warning: Citation `vp_uml' on page 35 undefined on input line 696.
 
-<Slike/uml.png, id=2535, 602.25pt x 335.2525pt>
+<Slike/uml.png, id=2596, 602.25pt x 335.2525pt>
 File: Slike/uml.png Graphic file (type png)
 <use Slike/uml.png>
 Package pdftex.def Info: Slike/uml.png  used on input line 699.
 (pdftex.def)             Requested size: 284.53705pt x 199.16821pt.
 [35 <./Slike/uml.png>]
-<Slike/uml_klase.png, id=2541, 903.375pt x 436.63126pt>
+<Slike/uml_klase.png, id=2602, 903.375pt x 436.63126pt>
 File: Slike/uml_klase.png Graphic file (type png)
 <use Slike/uml_klase.png>
 Package pdftex.def Info: Slike/uml_klase.png  used on input line 750.
 (pdftex.def)             Requested size: 341.43896pt x 213.39154pt.
  [36]
-<Slike/klasa_lista.png, id=2553, 603.25375pt x 526.96875pt>
+<Slike/klasa_lista.png, id=2614, 603.25375pt x 526.96875pt>
 File: Slike/klasa_lista.png Graphic file (type png)
 <use Slike/klasa_lista.png>
 Package pdftex.def Info: Slike/klasa_lista.png  used on input line 780.
@@ -618,31 +648,31 @@ Overfull \hbox (6.98546pt too wide) in paragraph at lines 784--784
  []
 
 [38 <./Slike/klasa_lista.png>]
-<Slike/uml_objekat.png, id=2566, 663.22781pt x 183.68625pt>
+<Slike/uml_objekat.png, id=2627, 663.22781pt x 183.68625pt>
 File: Slike/uml_objekat.png Graphic file (type png)
 <use Slike/uml_objekat.png>
 Package pdftex.def Info: Slike/uml_objekat.png  used on input line 812.
 (pdftex.def)             Requested size: 341.42952pt x 142.27406pt.
  [39 <./Slike/uml_objekat.png>]
-<Slike/uml_aktivnost.png, id=2572, 430.60875pt x 493.845pt>
+<Slike/uml_aktivnost.png, id=2633, 430.60875pt x 493.845pt>
 File: Slike/uml_aktivnost.png Graphic file (type png)
 <use Slike/uml_aktivnost.png>
 Package pdftex.def Info: Slike/uml_aktivnost.png  used on input line 870.
 (pdftex.def)             Requested size: 227.62361pt x 227.61604pt.
  [40]
-<Slike/uml_stanja.png, id=2580, 542.025pt x 189.70876pt>
+<Slike/uml_stanja.png, id=2642, 542.025pt x 189.70876pt>
 File: Slike/uml_stanja.png Graphic file (type png)
 <use Slike/uml_stanja.png>
 Package pdftex.def Info: Slike/uml_stanja.png  used on input line 888.
 (pdftex.def)             Requested size: 227.62413pt x 113.81165pt.
  [41 <./Slike/uml_aktivnost.png> <./Slike/uml_stanja.png>]
-<Slike/slucaj_upotrebe_primer1.png, id=2587, 367.3725pt x 397.485pt>
+<Slike/slucaj_upotrebe_primer1.png, id=2649, 367.3725pt x 397.485pt>
 File: Slike/slucaj_upotrebe_primer1.png Graphic file (type png)
 <use Slike/slucaj_upotrebe_primer1.png>
 Package pdftex.def Info: Slike/slucaj_upotrebe_primer1.png  used on input line 
 920.
 (pdftex.def)             Requested size: 170.71992pt x 142.26357pt.
-<Slike/uml_slucaj_upotrebe.png, id=2588, 700.6175pt x 402.50375pt>
+<Slike/uml_slucaj_upotrebe.png, id=2650, 700.6175pt x 402.50375pt>
 File: Slike/uml_slucaj_upotrebe.png Graphic file (type png)
 <use Slike/uml_slucaj_upotrebe.png>
 Package pdftex.def Info: Slike/uml_slucaj_upotrebe.png  used on input line 932.
@@ -663,21 +693,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 957--958
 
  []
 
-<Slike/dijagram_komunikacije.png, id=2600, 524.96124pt x 277.035pt>
+<Slike/dijagram_komunikacije.png, id=2662, 524.96124pt x 277.035pt>
 File: Slike/dijagram_komunikacije.png Graphic file (type png)
 <use Slike/dijagram_komunikacije.png>
 Package pdftex.def Info: Slike/dijagram_komunikacije.png  used on input line 98
 6.
 (pdftex.def)             Requested size: 284.5322pt x 170.71579pt.
 [44]
-<Slike/dijagram_interakcije.png, id=2609, 855.195pt x 419.5675pt>
+<Slike/dijagram_interakcije.png, id=2671, 855.195pt x 419.5675pt>
 File: Slike/dijagram_interakcije.png Graphic file (type png)
 <use Slike/dijagram_interakcije.png>
 Package pdftex.def Info: Slike/dijagram_interakcije.png  used on input line 100
 3.
 (pdftex.def)             Requested size: 341.43254pt x 170.71776pt.
  [45 <./Slike/dijagram_komunikacije.png> <./Slike/dijagram_interakcije.png>]
-<Slike/uml_sekvenci.png, id=2616, 777.90625pt x 288.07625pt>
+<Slike/uml_sekvenci.png, id=2678, 777.90625pt x 288.07625pt>
 File: Slike/uml_sekvenci.png Graphic file (type png)
 <use Slike/uml_sekvenci.png>
 Package pdftex.def Info: Slike/uml_sekvenci.png  used on input line 1022.
@@ -882,7 +912,7 @@ Overfull \hbox (0.19188pt too wide) in paragraph at lines 2019--2019
 \T1/cmr/bx/n/14.4 jek-to-va-nje Pro-i-zvod-ni me-tod (Fac-to-ry Met-
  []
 
-<Slike/dp_factory_method.png, id=2852, 358.33875pt x 206.7725pt>
+<Slike/dp_factory_method.png, id=2913, 358.33875pt x 206.7725pt>
 File: Slike/dp_factory_method.png Graphic file (type png)
 <use Slike/dp_factory_method.png>
 Package pdftex.def Info: Slike/dp_factory_method.png  used on input line 2022.
@@ -897,7 +927,7 @@ Overfull \hbox (4.85208pt too wide) in paragraph at lines 2043--2043
 |[]  \T1/cmr/bx/n/14.4 Ski-ci-ra-ti di-ja-gram kla-sa obra-za-ca za pro-
  []
 
-<Slike/dp_strategy.png, id=2860, 378.41376pt x 204.765pt>
+<Slike/dp_strategy.png, id=2922, 378.41376pt x 204.765pt>
 File: Slike/dp_strategy.png Graphic file (type png)
 <use Slike/dp_strategy.png>
 Package pdftex.def Info: Slike/dp_strategy.png  used on input line 2046.
@@ -912,7 +942,7 @@ Overfull \hbox (4.85208pt too wide) in paragraph at lines 2063--2063
 |[]  \T1/cmr/bx/n/14.4 Ski-ci-ra-ti di-ja-gram kla-sa obra-za-ca za pro-
  []
 
-<Slike/dp_decorator.png, id=2866, 356.33125pt x 212.795pt>
+<Slike/dp_decorator.png, id=2928, 356.33125pt x 212.795pt>
 File: Slike/dp_decorator.png Graphic file (type png)
 <use Slike/dp_decorator.png>
 Package pdftex.def Info: Slike/dp_decorator.png  used on input line 2066.
@@ -927,7 +957,7 @@ Overfull \hbox (4.85208pt too wide) in paragraph at lines 2084--2084
 |[]  \T1/cmr/bx/n/14.4 Ski-ci-ra-ti di-ja-gram kla-sa obra-za-ca za pro-
  []
 
-<Slike/dp_composite.png, id=2872, 414.54875pt x 213.79875pt>
+<Slike/dp_composite.png, id=2934, 414.54875pt x 213.79875pt>
 File: Slike/dp_composite.png Graphic file (type png)
 <use Slike/dp_composite.png>
 Package pdftex.def Info: Slike/dp_composite.png  used on input line 2087.
@@ -942,7 +972,7 @@ Overfull \hbox (4.85208pt too wide) in paragraph at lines 2128--2128
 |[]  \T1/cmr/bx/n/14.4 Ski-ci-ra-ti di-ja-gram kla-sa obra-za-ca za pro-
  []
 
-<Slike/dp_singleton.png, id=2917, 131.49126pt x 103.38625pt>
+<Slike/dp_singleton.png, id=2978, 131.49126pt x 103.38625pt>
 File: Slike/dp_singleton.png Graphic file (type png)
 <use Slike/dp_singleton.png>
 Package pdftex.def Info: Slike/dp_singleton.png  used on input line 2131.
@@ -957,7 +987,7 @@ Overfull \hbox (4.85208pt too wide) in paragraph at lines 2151--2151
 |[]  \T1/cmr/bx/n/14.4 Ski-ci-ra-ti di-ja-gram kla-sa obra-za-ca za pro-
  []
 
-<Slike/dp_visitor.png, id=2918, 422.57875pt x 217.81375pt>
+<Slike/dp_visitor.png, id=2979, 422.57875pt x 217.81375pt>
 File: Slike/dp_visitor.png Graphic file (type png)
 <use Slike/dp_visitor.png>
 Package pdftex.def Info: Slike/dp_visitor.png  used on input line 2154.
@@ -972,7 +1002,7 @@ Overfull \hbox (4.85208pt too wide) in paragraph at lines 2170--2170
 |[]  \T1/cmr/bx/n/14.4 Ski-ci-ra-ti di-ja-gram kla-sa obra-za-ca za pro-
  []
 
-<Slike/dp_observer.png, id=2924, 329.23pt x 214.8025pt>
+<Slike/dp_observer.png, id=2985, 329.23pt x 214.8025pt>
 File: Slike/dp_observer.png Graphic file (type png)
 <use Slike/dp_observer.png>
 Package pdftex.def Info: Slike/dp_observer.png  used on input line 2173.
@@ -996,630 +1026,654 @@ Overfull \hbox (11.58301pt too wide) in paragraph at lines 2194--2194
 \T1/cmr/bx/n/14.4 jek-to-va-nje Ap-strakt-na fa-bri-ka (Ab-stract Fac-
  []
 
-<Slike/dp_abstract_factory.png, id=2930, 357.335pt x 216.81pt>
+<Slike/dp_abstract_factory.png, id=2991, 357.335pt x 216.81pt>
 File: Slike/dp_abstract_factory.png Graphic file (type png)
 <use Slike/dp_abstract_factory.png>
 Package pdftex.def Info: Slike/dp_abstract_factory.png  used on input line 2197
 .
 (pdftex.def)             Requested size: 284.54343pt x 128.0425pt.
 [77 <./Slike/dp_observer.png>] [78 <./Slike/dp_abstract_factory.png>] [79]
-
-LaTeX Warning: Citation `agilemanifesto' on page 80 undefined on input line 228
-3.
-
-
-LaTeX Warning: Citation `ss_agile_manifesto' on page 80 undefined on input line
- 2283.
-
-[80] [81] [82]
-
-LaTeX Warning: Citation `ss_agile_manifesto' on page 83 undefined on input line
- 2364.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2377--2380
+Underfull \hbox (badness 10000) in paragraph at lines 2282--2283
 
  []
 
 
-LaTeX Warning: Citation `wikic2_xp' on page 83 undefined on input line 2384.
+Underfull \hbox (badness 10000) in paragraph at lines 2285--2286
+
+ []
+
+[80]
+Underfull \hbox (badness 10000) in paragraph at lines 2308--2310
+
+ []
+
+[81]
+Underfull \hbox (badness 10000) in paragraph at lines 2341--2342
+
+ []
 
 
-Overfull \hbox (0.52667pt too wide) in paragraph at lines 2381--2385
+Underfull \hbox (badness 10000) in paragraph at lines 2361--2362
+
+ []
+
+[82] [83] [84]
+
+LaTeX Warning: Citation `agilemanifesto' on page 85 undefined on input line 246
+5.
+
+
+LaTeX Warning: Citation `ss_agile_manifesto' on page 85 undefined on input line
+ 2465.
+
+[85] [86]
+
+LaTeX Warning: Citation `ss_agile_manifesto' on page 87 undefined on input line
+ 2546.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2559--2562
+
+ []
+
+
+LaTeX Warning: Citation `wikic2_xp' on page 87 undefined on input line 2566.
+
+
+Overfull \hbox (0.52667pt too wide) in paragraph at lines 2563--2567
 []\T1/cmr/m/n/9 - Pri-klad-ni-ja al-ter-na-ti-va: \T1/cmr/bx/n/9 ,,Bu-si-nes-sV
 a-lu-e-O-ri-en-ted-Pro-gram-ming``\T1/cmr/m/n/9 .
  []
 
+[87]
 
-LaTeX Warning: Citation `aa_xp' on page 83 undefined on input line 2402.
+LaTeX Warning: Citation `aa_xp' on page 88 undefined on input line 2584.
 
 
-LaTeX Warning: Citation `ab_xp' on page 83 undefined on input line 2402.
+LaTeX Warning: Citation `ab_xp' on page 88 undefined on input line 2584.
 
-[83]
-<Slike/korisnicka_prica.png, id=2992, 883.3pt x 705.63625pt>
+<Slike/korisnicka_prica.png, id=3060, 883.3pt x 705.63625pt>
 File: Slike/korisnicka_prica.png Graphic file (type png)
 <use Slike/korisnicka_prica.png>
-Package pdftex.def Info: Slike/korisnicka_prica.png  used on input line 2419.
+Package pdftex.def Info: Slike/korisnicka_prica.png  used on input line 2601.
 (pdftex.def)             Requested size: 284.52174pt x 227.61708pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2427--2429
+[88]
+Underfull \hbox (badness 10000) in paragraph at lines 2609--2611
 
  []
 
-[84 <./Slike/korisnicka_prica.png>]
 
-LaTeX Warning: Citation `xporg_acceptance_tests' on page 85 undefined on input 
-line 2450.
+LaTeX Warning: Citation `xporg_acceptance_tests' on page 89 undefined on input 
+line 2632.
 
-[85]
-Overfull \hbox (1.12402pt too wide) in paragraph at lines 2481--2487
+[89 <./Slike/korisnicka_prica.png>]
+Overfull \hbox (1.12402pt too wide) in paragraph at lines 2663--2669
 []\T1/cmr/m/n/9 Metoda ,,Ko-lek-tiv-no vla-²ni-stvo`` (eng. ,,Col-lec-ti-ve co-
 de owners-hip``) pod-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2503--2506
-
- []
-
-[86]
-Underfull \hbox (badness 10000) in paragraph at lines 2507--2508
-
- []
-
-[87]
-Underfull \hbox (badness 10000) in paragraph at lines 2586--2589
-
- []
-
-[88]
-Underfull \hbox (badness 10000) in paragraph at lines 2596--2600
+[90]
+Underfull \hbox (badness 10000) in paragraph at lines 2685--2688
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2601--2603
+Underfull \hbox (badness 10000) in paragraph at lines 2689--2690
+
+ []
+
+[91] [92]
+Underfull \hbox (badness 10000) in paragraph at lines 2768--2771
 
  []
 
 
-Overfull \hbox (4.87814pt too wide) in paragraph at lines 2617--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2778--2782
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2783--2785
+
+ []
+
+[93]
+Overfull \hbox (4.87814pt too wide) in paragraph at lines 2799--2799
 |[]  \T1/cmr/bx/n/14.4 Na-ve-sti i ob-ja-sni-ti ukrat-ko osnov-ne prin-
  []
 
-[89]
-Underfull \hbox (badness 10000) in paragraph at lines 2632--2636
+
+Underfull \hbox (badness 10000) in paragraph at lines 2814--2818
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2647--2651
+[94]
+Underfull \hbox (badness 10000) in paragraph at lines 2829--2833
 
  []
 
-[90]
-Overfull \hbox (2.0921pt too wide) in paragraph at lines 2684--2684
+[95]
+Overfull \hbox (2.0921pt too wide) in paragraph at lines 2866--2866
 |[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti ulo-gu te-sto-va u kon-tek-stu ugla
  []
 
-[91] [92] [93]
-Overfull \hbox (14.91138pt too wide) in paragraph at lines 2779--2781
+[96] [97]
+Overfull \hbox (14.91138pt too wide) in paragraph at lines 2961--2963
 []\T1/cmr/bx/n/9 CPPUNIT_ASSERT_DOUBLES_EQUAL_MESSAGE: \T1/cmr/m/n/9 Tvr-
  []
 
 
-LaTeX Warning: Citation `cppunit_asserts' on page 94 undefined on input line 27
-87.
+LaTeX Warning: Citation `cppunit_asserts' on page 98 undefined on input line 29
+69.
 
 
-Overfull \hbox (9.97404pt too wide) in paragraph at lines 2792--2796
+Overfull \hbox (9.97404pt too wide) in paragraph at lines 2974--2978
 \OML/cmm/m/it/9 Catch$\T1/cmr/m/n/9 -ov ma-in on-da de-fi-ni-²e-mo ma-kro \T1/c
 mr/bx/n/9 CATCH_CONFIG_MAIN
  []
 
-[94]
+[98]
 
-LaTeX Warning: Citation `c2_AAA' on page 95 undefined on input line 2825.
+LaTeX Warning: Citation `c2_AAA' on page 99 undefined on input line 3007.
 
-
-Overfull \hbox (1.14395pt too wide) in paragraph at lines 2858--2859
+[99]
+Overfull \hbox (1.14395pt too wide) in paragraph at lines 3040--3041
 []\T1/cmr/bx/n/9 CHECK_THROWS_AS/REQUIRE_THROWS_AS: \T1/cmr/m/n/9 Pro-
  []
 
-[95]
 
-LaTeX Warning: Citation `catch2_asserts' on page 96 undefined on input line 285
-9.
+LaTeX Warning: Citation `catch2_asserts' on page 100 undefined on input line 30
+41.
 
-[96]
-Underfull \hbox (badness 10000) in paragraph at lines 2912--2915
+[100] [101]
+Underfull \hbox (badness 10000) in paragraph at lines 3094--3097
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3098--3099
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2916--2917
+LaTeX Warning: Citation `rg_refactoring' on page 102 undefined on input line 31
+34.
 
- []
-
-[97]
-
-LaTeX Warning: Citation `rg_refactoring' on page 98 undefined on input line 295
-2.
-
-[98]
-Overfull \hbox (1.37872pt too wide) in paragraph at lines 2985--2985
+[102]
+Overfull \hbox (1.37872pt too wide) in paragraph at lines 3167--3167
 |[]  \T1/cmr/bx/n/14.4 Za-²to du-ga£-ki me-to-di mo-gu pred-sta-vlja-
  []
 
-[99]
-Overfull \hbox (15.1425pt too wide) in paragraph at lines 3033--3034
+[103]
+Overfull \hbox (15.1425pt too wide) in paragraph at lines 3215--3216
 []\T1/cmr/m/n/9 Izvla£enje in-ter-fej-sa (ra-zli-£i-ti ti-po-vi ko-ri-sni-ka ko
 -ri-ste is-tu klasu-interfejs). 
  []
 
-[100] [101]
-Overfull \hbox (15.42874pt too wide) in paragraph at lines 3151--3151
+[104] [105]
+Overfull \hbox (15.42874pt too wide) in paragraph at lines 3333--3333
 \T1/cmr/bx/n/14.4 mo-ºe da pred-sta-vlja pro-blem?(refaktorisanje)| 
  []
 
-[102] [103] [104] [105]
-Underfull \hbox (badness 10000) in paragraph at lines 3376--3379
+[106] [107] [108] [109]
+Underfull \hbox (badness 10000) in paragraph at lines 3558--3561
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3383--3386
+Underfull \hbox (badness 10000) in paragraph at lines 3565--3568
 
  []
 
-[106] [107] [108]
-Overfull \hbox (6.29538pt too wide) in paragraph at lines 3505--3505
+[110] [111] [112]
+Overfull \hbox (6.29538pt too wide) in paragraph at lines 3687--3687
 |[]  \T1/cmr/bx/n/14.4 Ko-je okol-no-sti sma-nju-ju ve-ro-vat-no-¢u na-
  []
 
-[109]
-Overfull \hbox (3.14088pt too wide) in paragraph at lines 3549--3549
+[113]
+Overfull \hbox (3.14088pt too wide) in paragraph at lines 3731--3731
 |[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti pra-vi-lo de-ba-go-va-nja ,,Ra-zu-me-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3550--3551
+Underfull \hbox (badness 10000) in paragraph at lines 3732--3733
 
  []
 
-[110]
-Underfull \hbox (badness 10000) in paragraph at lines 3598--3602
+[114]
+Underfull \hbox (badness 10000) in paragraph at lines 3780--3784
 
  []
 
-[111] [112] [113] [114]
-Overfull \hbox (2.62375pt too wide) in paragraph at lines 3764--3764
+[115] [116] [117] [118]
+Overfull \hbox (2.62375pt too wide) in paragraph at lines 3946--3946
 \T1/cmr/bx/n/14.4 smo po-pra-vi-li bag, on-da on ni-je po-pra-vljen``.| 
  []
 
-[115] [116]
-Underfull \hbox (badness 10000) in paragraph at lines 3839--3840
+[119] [120]
+Underfull \hbox (badness 10000) in paragraph at lines 4021--4022
 
  []
 
 
-Overfull \hbox (5.45882pt too wide) in paragraph at lines 3849--3849
+Overfull \hbox (5.45882pt too wide) in paragraph at lines 4031--4031
 |[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti teh-ni-ku osta-vlja-nja tra-go-va pri
  []
 
-<Slike/log_vs_trace.png, id=3239, 978.65625pt x 303.1325pt>
+<Slike/log_vs_trace.png, id=3307, 978.65625pt x 303.1325pt>
 File: Slike/log_vs_trace.png Graphic file (type png)
 <use Slike/log_vs_trace.png>
-Package pdftex.def Info: Slike/log_vs_trace.png  used on input line 3861.
+Package pdftex.def Info: Slike/log_vs_trace.png  used on input line 4043.
 (pdftex.def)             Requested size: 341.42978pt x 170.71976pt.
-[117 <./Slike/log_vs_trace.png>]
-Overfull \hbox (2.17282pt too wide) in paragraph at lines 3899--3899
+[121] [122 <./Slike/log_vs_trace.png>]
+Overfull \hbox (2.17282pt too wide) in paragraph at lines 4081--4081
 |[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti teh-ni-ku upo-tre-be de-ba-ge-ra Iz-
  []
 
 
-Overfull \hbox (7.59818pt too wide) in paragraph at lines 3904--3904
+Overfull \hbox (7.59818pt too wide) in paragraph at lines 4086--4086
 |[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti teh-ni-ku upo-tre-be de-ba-ge-ra Po-
  []
 
-[118]
-Overfull \hbox (14.46542pt too wide) in paragraph at lines 3909--3909
+
+Overfull \hbox (14.46542pt too wide) in paragraph at lines 4091--4091
 |[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti teh-ni-ku upo-tre-be de-ba-ge-ra Pra-
  []
 
 
-Overfull \hbox (14.46542pt too wide) in paragraph at lines 3913--3913
+Overfull \hbox (14.46542pt too wide) in paragraph at lines 4095--4095
 |[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti teh-ni-ku upo-tre-be de-ba-ge-ra Pra-
  []
 
 
-Overfull \hbox (14.46542pt too wide) in paragraph at lines 3917--3917
+Overfull \hbox (14.46542pt too wide) in paragraph at lines 4099--4099
 |[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti teh-ni-ku upo-tre-be de-ba-ge-ra Pra-
  []
 
 
-Overfull \hbox (14.46542pt too wide) in paragraph at lines 3922--3922
+Overfull \hbox (14.46542pt too wide) in paragraph at lines 4104--4104
 |[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti teh-ni-ku upo-tre-be de-ba-ge-ra Pra-
  []
 
 
-LaTeX Warning: Citation `gdb_commands' on page 119 undefined on input line 3925
+LaTeX Warning: Citation `gdb_commands' on page 123 undefined on input line 4107
 .
 
-[119] [120]
-Underfull \hbox (badness 10000) in paragraph at lines 4013--4016
+[123] [124]
+Underfull \hbox (badness 10000) in paragraph at lines 4195--4198
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 4017--4019
-
- []
-
-[121]
-Overfull \hbox (15.41696pt too wide) in paragraph at lines 4060--4060
-|[]  \T1/cmr/bx/n/14.4 Na-ve-sti i ukrat-ko ob-ja-sni-ti osnov-ne aspek-
- []
-
-[122]
-Underfull \hbox (badness 10000) in paragraph at lines 4088--4090
-
- []
-
-[123] [124] [125]
-Underfull \hbox (badness 10000) in paragraph at lines 4190--4194
+[125]
+Underfull \hbox (badness 10000) in paragraph at lines 4199--4201
 
  []
 
 [126]
-Underfull \hbox (badness 10000) in paragraph at lines 4235--4238
+Overfull \hbox (15.41696pt too wide) in paragraph at lines 4242--4242
+|[]  \T1/cmr/bx/n/14.4 Na-ve-sti i ukrat-ko ob-ja-sni-ti osnov-ne aspek-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4270--4272
 
  []
 
-<Slike/konkurencija_paralelizacija.jpg, id=3337, 417.05812pt x 203.25937pt>
+[127] [128] [129]
+Underfull \hbox (badness 10000) in paragraph at lines 4372--4376
+
+ []
+
+[130]
+Underfull \hbox (badness 10000) in paragraph at lines 4417--4420
+
+ []
+
+<Slike/konkurencija_paralelizacija.jpg, id=3414, 417.05812pt x 203.25937pt>
 File: Slike/konkurencija_paralelizacija.jpg Graphic file (type jpg)
 <use Slike/konkurencija_paralelizacija.jpg>
 Package pdftex.def Info: Slike/konkurencija_paralelizacija.jpg  used on input l
-ine 4241.
+ine 4423.
 (pdftex.def)             Requested size: 227.62627pt x 142.26817pt.
-[127 <./Slike/konkurencija_paralelizacija.jpg>] [128]
-<Slike/proces_niti.jpg, id=3355, 339.1872pt x 195.6108pt>
+[131 <./Slike/konkurencija_paralelizacija.jpg>] [132]
+<Slike/proces_niti.jpg, id=3432, 339.1872pt x 195.6108pt>
 File: Slike/proces_niti.jpg Graphic file (type jpg)
 <use Slike/proces_niti.jpg>
-Package pdftex.def Info: Slike/proces_niti.jpg  used on input line 4339.
+Package pdftex.def Info: Slike/proces_niti.jpg  used on input line 4521.
 (pdftex.def)             Requested size: 227.62688pt x 142.2634pt.
- [129 <./Slike/proces_niti.jpg>]
+ [133] [134 <./Slike/proces_niti.jpg>]
 
-LaTeX Warning: Citation `cppref_thread' on page 130 undefined on input line 438
-6.
+LaTeX Warning: Citation `cppref_thread' on page 135 undefined on input line 456
+8.
 
-[130]
-Underfull \hbox (badness 10000) in paragraph at lines 4448--4449
+[135]
+Underfull \hbox (badness 10000) in paragraph at lines 4630--4631
 
  []
 
-[131]
-Overfull \hbox (0.81244pt too wide) in paragraph at lines 4466--4466
+
+Overfull \hbox (0.81244pt too wide) in paragraph at lines 4648--4648
 |[]  \T1/cmr/bx/n/14.4 Na-ve-sti i ukrat-ko ob-ja-sni-ti osnov-ne ope-
  []
 
-[132]
-Underfull \hbox (badness 10000) in paragraph at lines 4515--4518
+[136]
+Underfull \hbox (badness 10000) in paragraph at lines 4697--4700
 
  []
 
-
-Overfull \hbox (6.01765pt too wide) in paragraph at lines 4525--4525
+[137]
+Overfull \hbox (6.01765pt too wide) in paragraph at lines 4707--4707
 \T1/cmr/bx/n/14.4 nja ni-ti. Ka-ko se im-ple-men-ti-ra po-mo-¢u stan-
  []
 
 
-LaTeX Warning: Citation `cppref_threaddestructor' on page 133 undefined on inpu
-t line 4529.
+LaTeX Warning: Citation `cppref_threaddestructor' on page 138 undefined on inpu
+t line 4711.
 
 
-LaTeX Warning: Citation `cppref_yield' on page 133 undefined on input line 4546
+LaTeX Warning: Citation `cppref_yield' on page 138 undefined on input line 4728
 .
 
-[133]
-Underfull \hbox (badness 10000) in paragraph at lines 4569--4570
+[138]
+Underfull \hbox (badness 10000) in paragraph at lines 4751--4752
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4571--4574
+Underfull \hbox (badness 10000) in paragraph at lines 4753--4756
 
  []
 
-[134] [135]
+[139]
 
-LaTeX Warning: Citation `cppref_mutex' on page 136 undefined on input line 4615
+LaTeX Warning: Citation `cppref_mutex' on page 140 undefined on input line 4797
 .
 
-
-Overfull \hbox (35.32976pt too wide) in paragraph at lines 4645--4645
+[140]
+Overfull \hbox (35.32976pt too wide) in paragraph at lines 4827--4827
 |[]  \T1/cmr/bx/n/14.4 ’ta je, £e-mu slu-ºi i ka-ko se ko-ri-sti lock_guard
  []
 
 
-LaTeX Warning: Citation `cppref_lockguard' on page 136 undefined on input line 
-4649.
+LaTeX Warning: Citation `cppref_lockguard' on page 141 undefined on input line 
+4831.
 
-[136]
-Overfull \hbox (12.20251pt too wide) in paragraph at lines 4688--4689
+[141]
+Overfull \hbox (12.20251pt too wide) in paragraph at lines 4870--4871
 []\T1/cmr/bx/n/9 Konstruktor QMu-te-xLoc-ker(QMutex *): \T1/cmr/m/n/9 ƒi-nom pr
 a-vlje-nja objek-
  []
 
 
-Overfull \hbox (0.72437pt too wide) in paragraph at lines 4693--4698
+Overfull \hbox (0.72437pt too wide) in paragraph at lines 4875--4880
 []\T1/cmr/bx/n/9 Kada Ko-ri-sti-mo QMu-te-xLoc-ker ume-sto QMu-tex? (ovo je ana
 -
  []
 
-[137]
 
-LaTeX Warning: Citation `cppref_mutex' on page 138 undefined on input line 4711
+LaTeX Warning: Citation `cppref_mutex' on page 142 undefined on input line 4893
 .
 
-[138]
-Underfull \hbox (badness 10000) in paragraph at lines 4756--4759
+[142]
+Underfull \hbox (badness 10000) in paragraph at lines 4938--4941
 
  []
 
 
-LaTeX Warning: Citation `cppref_semaphore' on page 139 undefined on input line 
-4770.
+LaTeX Warning: Citation `cppref_semaphore' on page 143 undefined on input line 
+4952.
 
-[139]
+[143]
 
-LaTeX Warning: Citation `cppref_async' on page 140 undefined on input line 4812
+LaTeX Warning: Citation `cppref_async' on page 144 undefined on input line 4994
 .
 
 
-LaTeX Warning: Citation `cppref_future' on page 140 undefined on input line 481
-2.
+LaTeX Warning: Citation `cppref_future' on page 144 undefined on input line 499
+4.
 
-[140]
+[144] [145]
 
-LaTeX Warning: Citation `cppref_promise' on page 141 undefined on input line 48
-42.
+LaTeX Warning: Citation `cppref_promise' on page 146 undefined on input line 50
+24.
 
-[141] [142] [143] [144]
-Underfull \hbox (badness 10000) in paragraph at lines 5055--5056
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5057--5058
+[146] [147] [148] [149]
+Underfull \hbox (badness 10000) in paragraph at lines 5237--5238
 
  []
 
 
-Overfull \hbox (7.29536pt too wide) in paragraph at lines 5064--5064
+Underfull \hbox (badness 10000) in paragraph at lines 5239--5240
+
+ []
+
+
+Overfull \hbox (7.29536pt too wide) in paragraph at lines 5246--5246
 |[]  \T1/cmr/bx/n/14.4 Na-ve-sti naj-va-ºni-je ti-po-ve sof-tver-skih me-
  []
 
-[145]
-<Slike/mera_napretka.png, id=3587, 1100.11pt x 544.0325pt>
+[150]
+<Slike/mera_napretka.png, id=3671, 1100.11pt x 544.0325pt>
 File: Slike/mera_napretka.png Graphic file (type png)
 <use Slike/mera_napretka.png>
-Package pdftex.def Info: Slike/mera_napretka.png  used on input line 5088.
+Package pdftex.def Info: Slike/mera_napretka.png  used on input line 5270.
 (pdftex.def)             Requested size: 341.43346pt x 227.62045pt.
-<Slike/mera_dovrsavanja.png, id=3588, 1470.49374pt x 665.48625pt>
+<Slike/mera_dovrsavanja.png, id=3672, 1470.49374pt x 665.48625pt>
 File: Slike/mera_dovrsavanja.png Graphic file (type png)
 <use Slike/mera_dovrsavanja.png>
-Package pdftex.def Info: Slike/mera_dovrsavanja.png  used on input line 5095.
+Package pdftex.def Info: Slike/mera_dovrsavanja.png  used on input line 5277.
 (pdftex.def)             Requested size: 341.4375pt x 227.61287pt.
- [146 <./Slike/mera_napretka.png>]
-<Slike/mera_napora.png, id=3594, 509.905pt x 361.35pt>
+ [151 <./Slike/mera_napretka.png>]
+<Slike/mera_napora.png, id=3679, 509.905pt x 361.35pt>
 File: Slike/mera_napora.png Graphic file (type png)
 <use Slike/mera_napora.png>
-Package pdftex.def Info: Slike/mera_napora.png  used on input line 5101.
+Package pdftex.def Info: Slike/mera_napora.png  used on input line 5283.
 (pdftex.def)             Requested size: 341.44783pt x 227.62413pt.
- [147 <./Slike/mera_dovrsavanja.png> <./Slike/mera_napora.png>]
-<Slike/trosak.png, id=3601, 490.83376pt x 263.98625pt>
+ [152 <./Slike/mera_dovrsavanja.png> <./Slike/mera_napora.png>]
+<Slike/trosak.png, id=3686, 490.83376pt x 263.98625pt>
 File: Slike/trosak.png Graphic file (type png)
 <use Slike/trosak.png>
-Package pdftex.def Info: Slike/trosak.png  used on input line 5115.
+Package pdftex.def Info: Slike/trosak.png  used on input line 5297.
 (pdftex.def)             Requested size: 284.53398pt x 170.71492pt.
-<Slike/problemi.png, id=3602, 890.32625pt x 417.56pt>
+<Slike/problemi.png, id=3687, 890.32625pt x 417.56pt>
 File: Slike/problemi.png Graphic file (type png)
 <use Slike/problemi.png>
-Package pdftex.def Info: Slike/problemi.png  used on input line 5122.
+Package pdftex.def Info: Slike/problemi.png  used on input line 5304.
 (pdftex.def)             Requested size: 284.52983pt x 170.71646pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5132--5133
+Underfull \hbox (badness 10000) in paragraph at lines 5314--5315
 
  []
 
-[148 <./Slike/trosak.png> <./Slike/problemi.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5187--5190
+[153 <./Slike/trosak.png> <./Slike/problemi.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5369--5372
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5191--5195
+Underfull \hbox (badness 10000) in paragraph at lines 5373--5377
 
  []
 
-<Slike/nestabilnost_primer.png, id=3609, 856.19875pt x 467.7475pt>
+<Slike/nestabilnost_primer.png, id=3694, 856.19875pt x 467.7475pt>
 File: Slike/nestabilnost_primer.png Graphic file (type png)
 <use Slike/nestabilnost_primer.png>
-Package pdftex.def Info: Slike/nestabilnost_primer.png  used on input line 5199
+Package pdftex.def Info: Slike/nestabilnost_primer.png  used on input line 5381
 .
 (pdftex.def)             Requested size: 284.5192pt x 170.7157pt.
-[149]
-Overfull \hbox (1.4069pt too wide) in paragraph at lines 5220--5220
+[154]
+Overfull \hbox (1.4069pt too wide) in paragraph at lines 5402--5402
 |[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti od-nos me-tri-ka sta-bil-no-sti i ap-
  []
 
-<Slike/apstraktnost_i_stabilnost.jpg, id=3616, 540.0175pt x 485.815pt>
+<Slike/apstraktnost_i_stabilnost.jpg, id=3701, 540.0175pt x 485.815pt>
 File: Slike/apstraktnost_i_stabilnost.jpg Graphic file (type jpg)
 <use Slike/apstraktnost_i_stabilnost.jpg>
 Package pdftex.def Info: Slike/apstraktnost_i_stabilnost.jpg  used on input lin
-e 5229.
+e 5411.
 (pdftex.def)             Requested size: 227.62155pt x 170.71237pt.
-[150 <./Slike/nestabilnost_primer.png>] [151 <./Slike/apstraktnost_i_stabilnost
+[155 <./Slike/nestabilnost_primer.png>] [156 <./Slike/apstraktnost_i_stabilnost
 .jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 5275--5278
+Underfull \hbox (badness 10000) in paragraph at lines 5457--5460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5279--5283
+Underfull \hbox (badness 10000) in paragraph at lines 5461--5465
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5284--5288
+Underfull \hbox (badness 10000) in paragraph at lines 5466--5470
 
- []
-
-[152]
-Overfull \hbox (8.60257pt too wide) in paragraph at lines 5307--5307
-|[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti po-jam ozna-ke u kon-tek-stu upo-
- []
-
-[153] [154] [155]
-Overfull \hbox (1.09015pt too wide) in paragraph at lines 5481--5481
-|[]  \T1/cmr/bx/n/14.4 Na-ve-sti i ukrat-ko ob-ja-sni-ti osnov-ne kon-
- []
-
-[156]
-Overfull \hbox (6.70258pt too wide) in paragraph at lines 5493--5493
-\T1/cmr/bx/n/14.4 nji-ho-vog me-nja-nja (na pri-me-ru si-ste-ma Red-
  []
 
 [157]
-Overfull \hbox (15.43561pt too wide) in paragraph at lines 5550--5550
+Overfull \hbox (8.60257pt too wide) in paragraph at lines 5489--5489
+|[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti po-jam ozna-ke u kon-tek-stu upo-
+ []
+
+[158] [159] [160]
+Overfull \hbox (1.09015pt too wide) in paragraph at lines 5663--5663
+|[]  \T1/cmr/bx/n/14.4 Na-ve-sti i ukrat-ko ob-ja-sni-ti osnov-ne kon-
+ []
+
+[161]
+Overfull \hbox (6.70258pt too wide) in paragraph at lines 5675--5675
+\T1/cmr/bx/n/14.4 nji-ho-vog me-nja-nja (na pri-me-ru si-ste-ma Red-
+ []
+
+[162]
+Overfull \hbox (15.43561pt too wide) in paragraph at lines 5732--5732
 |[]  \T1/cmr/bx/n/14.4 Na-ve-sti i ukrat-ko ob-ja-sni-ti osnov-ne oprav-
  []
 
 
-Overfull \hbox (5.53256pt too wide) in paragraph at lines 5565--5567
+Overfull \hbox (5.53256pt too wide) in paragraph at lines 5747--5749
 []$[]$ \T1/cmr/m/n/9 Va-ºno svim u£e-
  []
 
-[158] [159]
-Overfull \hbox (2.43518pt too wide) in paragraph at lines 5629--5629
+[163] [164]
+Overfull \hbox (2.43518pt too wide) in paragraph at lines 5811--5811
 |[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti ulo-gu do-ku-men-ta-ci-je kao sred-
  []
 
-[160]
-Underfull \hbox (badness 10000) in paragraph at lines 5703--5706
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5707--5715
-
- []
-
-[161]
-Underfull \hbox (badness 10000) in paragraph at lines 5716--5719
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5729--5731
-
- []
-
-[162]
-
-LaTeX Warning: Citation `doxygen_commentblocks' on page 163 undefined on input 
-line 5750.
-
-[163] [164]
-Overfull \hbox (0.42491pt too wide) in paragraph at lines 5874--5879
-[]\T1/cmr/bx/n/9 Prevremena op-ti-mi-za-ci-ja: \T1/cmr/m/n/9 Op-ti-mi-za-ci-ja 
-pre-du-ze-ta pre ne-go ²to zna-
- []
-
 [165]
-Overfull \hbox (4.33678pt too wide) in paragraph at lines 5907--5907
-\T1/cmr/bx/n/14.4 va-nje ne-po-treb-ne pre-ci-zno-sti`` i ,,ta-bli-ce una-
+Underfull \hbox (badness 10000) in paragraph at lines 5885--5888
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5889--5897
+
  []
 
 [166]
-Underfull \hbox (badness 10000) in paragraph at lines 5919--5922
+Underfull \hbox (badness 10000) in paragraph at lines 5898--5901
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5923--5926
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5932--5936
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5944--5946
+Underfull \hbox (badness 10000) in paragraph at lines 5911--5913
 
  []
 
 [167]
-Overfull \hbox (1.54515pt too wide) in paragraph at lines 5966--5966
+
+LaTeX Warning: Citation `doxygen_commentblocks' on page 168 undefined on input 
+line 5932.
+
+[168] [169]
+Overfull \hbox (0.42491pt too wide) in paragraph at lines 6056--6061
+[]\T1/cmr/bx/n/9 Prevremena op-ti-mi-za-ci-ja: \T1/cmr/m/n/9 Op-ti-mi-za-ci-ja 
+pre-du-ze-ta pre ne-go ²to zna-
+ []
+
+[170]
+Overfull \hbox (4.33678pt too wide) in paragraph at lines 6089--6089
+\T1/cmr/bx/n/14.4 va-nje ne-po-treb-ne pre-ci-zno-sti`` i ,,ta-bli-ce una-
+ []
+
+[171]
+Underfull \hbox (badness 10000) in paragraph at lines 6101--6104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6105--6108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6114--6118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6126--6128
+
+ []
+
+[172]
+Overfull \hbox (1.54515pt too wide) in paragraph at lines 6148--6148
 |[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti teh-ni-ke op-ti-mi-za-ci-je ,,za-me-nji-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5967--5970
+Underfull \hbox (badness 10000) in paragraph at lines 6149--6152
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5976--5979
+Underfull \hbox (badness 10000) in paragraph at lines 6158--6161
 
  []
 
-[168]
-Underfull \hbox (badness 10000) in paragraph at lines 5992--5994
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5995--5997
+[173]
+Underfull \hbox (badness 10000) in paragraph at lines 6174--6176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5998--6000
+Underfull \hbox (badness 10000) in paragraph at lines 6177--6179
 
  []
 
 
-Overfull \hbox (1.798pt too wide) in paragraph at lines 6009--6010
+Underfull \hbox (badness 10000) in paragraph at lines 6180--6182
+
+ []
+
+
+Overfull \hbox (1.798pt too wide) in paragraph at lines 6191--6192
 []\T1/cmr/m/n/9 Upotrebljavati re-fe-ren-ce ume-sto po-ka-zi-va-£a (jed-na-ko e
 fi-ka-sno, a mno-
  []
 
-[169] [170]
+[174] [175]
 
-LaTeX Warning: Citation `uw_ui' on page 171 undefined on input line 6077.
+LaTeX Warning: Citation `uw_ui' on page 176 undefined on input line 6259.
 
 
-Overfull \hbox (18.68428pt too wide) in paragraph at lines 6077--6078
+Overfull \hbox (18.68428pt too wide) in paragraph at lines 6259--6260
 []\T1/cmr/bx/n/9 Esteti£an: \T1/cmr/m/n/9 Vi-zu-el-no pri-vla-£an i ja-san na-£
 in pre-zen-to-va-nih informacija.[[]] 
  []
 
-[171]
-Overfull \hbox (1.85152pt too wide) in paragraph at lines 6096--6097
+[176]
+Overfull \hbox (1.85152pt too wide) in paragraph at lines 6278--6279
 []\T1/cmr/m/n/9 Objektno ori-jen-ti-sa-ne ra-zvoj-ne me-to-do-lo-gi-je. Poj-mo-
 vi, kon-cep-ti, kon-
  []
 
-[172]
+[177]
 No file PIO.bbl.
 (./PIO.aux)
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package rerunfilecheck Warning: File `PIO.out' has changed.
@@ -1627,14 +1681,14 @@ Package rerunfilecheck Warning: File `PIO.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `PIO.out':
-(rerunfilecheck)             Before: 68ABE1E62B9B0B8D6F8FACEF721C4099;152705
-(rerunfilecheck)             After:  066394883AA31C1CFE40E6F47FEC3D0C;152860.
+(rerunfilecheck)             Before: EDEB72AFE18E8330BE8217F3E2DBF05C;156320
+(rerunfilecheck)             After:  E6CE3C7DC6B959D107810CC43CC6A3D4;156642.
  ) 
 Here is how much of TeX's memory you used:
- 15044 strings out of 479127
- 224220 string characters out of 5870569
+ 15076 strings out of 479127
+ 224575 string characters out of 5870569
  1141798 words of memory out of 5000000
- 31500 multiletter control sequences out of 15000+600000
+ 31512 multiletter control sequences out of 15000+600000
  482564 words of font info for 58 fonts, out of 8000000 for 9000
  766 hyphenation exceptions out of 8191
  60i,7n,63p,918b,1875s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1656,10 +1710,10 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/wasy-type1/wasy9.pfb>
-Output written on PIO.pdf (172 pages, 2322953 bytes).
+Output written on PIO.pdf (177 pages, 2333257 bytes).
 PDF statistics:
- 4648 PDF objects out of 5155 (max. 8388607)
- 3890 compressed objects within 39 object streams
- 1325 named destinations out of 1440 (max. 500000)
- 3300 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4741 PDF objects out of 5155 (max. 8388607)
+ 3975 compressed objects within 40 object streams
+ 1345 named destinations out of 1440 (max. 500000)
+ 3396 words of extra memory for PDF output out of 10000 (max. 10000000)
 
