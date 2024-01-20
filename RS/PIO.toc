@@ -1,55 +1,55 @@
 \babel@toc {serbian}{}\relax 
 \contentsline {section}{\numberline {1}Koji od pokazivača p1, p2 i p3 nije ispravno definisan u primeru?}{20}{section.1}%
-\contentsline {section}{\numberline {2}U kakvom su odnosu dužine nizova s1 i s2 u primeru:}{20}{section.2}%
-\contentsline {section}{\numberline {3}Šta će ispisati ovaj program?}{20}{section.3}%
+\contentsline {section}{\numberline {2}U kakvom su odnosu dužine nizova s1 i s2 u primeru:}{21}{section.2}%
+\contentsline {section}{\numberline {3}Šta će ispisati ovaj program?}{21}{section.3}%
 \contentsline {section}{\numberline {4}Koji koncepti programskog jezika C++ se upotrebljavaju da bi se povećala (potencijalno ponovljena) upotrebljivost napisanog koda?}{21}{section.4}%
 \contentsline {section}{\numberline {5}Koji je redosled uništavanja objekata u primeru:}{21}{section.5}%
-\contentsline {section}{\numberline {6}Da li je neka (koja?) narednih linija neispravna?}{21}{section.6}%
-\contentsline {section}{\numberline {7}Koje operacije klase Lista se izvršavaju u sledećoj naredbi:}{21}{section.7}%
+\contentsline {section}{\numberline {6}Da li je neka (koja?) narednih linija neispravna?}{22}{section.6}%
+\contentsline {section}{\numberline {7}Koje operacije klase Lista se izvršavaju u sledećoj naredbi:}{22}{section.7}%
 \contentsline {section}{\numberline {8}Koliko puta se poziva destruktor klase A u sledećem programu?}{22}{section.8}%
 \contentsline {section}{\numberline {9}Šta su šabloni funkcija?}{22}{section.9}%
-\contentsline {section}{\numberline {10}Kako se pišu i koriste šabloni funkcija?}{22}{section.10}%
+\contentsline {section}{\numberline {10}Kako se pišu i koriste šabloni funkcija?}{23}{section.10}%
 \contentsline {section}{\numberline {11}Napisati šablon funkcije koja računa srednju vrednost dva broja za bilo koji numerički tip.}{23}{section.11}%
 \contentsline {section}{\numberline {12}Šta su šabloni klasa?}{23}{section.12}%
-\contentsline {section}{\numberline {13}Kako se prevode šabloni klasa?}{23}{section.13}%
-\contentsline {section}{\numberline {14}Šta je neophodan uslov da bi se pozivi nekog metoda dinamički vezivali? Šta je dovoljan uslov?}{23}{section.14}%
+\contentsline {section}{\numberline {13}Kako se prevode šabloni klasa?}{24}{section.13}%
+\contentsline {section}{\numberline {14}Šta je neophodan uslov da bi se pozivi nekog metoda dinamički vezivali? Šta je dovoljan uslov?}{24}{section.14}%
 \contentsline {section}{\numberline {15}Šta je virtualna funkcija?}{24}{section.15}%
 \contentsline {section}{\numberline {16}Šta je čisto virtuelna funkcija?}{24}{section.16}%
-\contentsline {section}{\numberline {17}Šta je apstraktna klasa?}{24}{section.17}%
-\contentsline {section}{\numberline {18}Šta su umetnute (inline) funkcije? Kako se pišu?}{24}{section.18}%
+\contentsline {section}{\numberline {17}Šta je apstraktna klasa?}{25}{section.17}%
+\contentsline {section}{\numberline {18}Šta su umetnute (inline) funkcije? Kako se pišu?}{25}{section.18}%
 \contentsline {section}{\numberline {19}Šta su umetnuti (inline) metodi? Kako se pišu?}{25}{section.19}%
 \contentsline {section}{\numberline {20}Koja su osnovna merila neuspeha pri razvoju softvera? Objasniti svaku ukratko.}{25}{section.20}%
 \contentsline {section}{\numberline {21}Koje su osnovne vrste neuspeha pri razvoju softvera? Objasniti svaku ukratko.}{25}{section.21}%
-\contentsline {section}{\numberline {22}Šta je neupotrebljiv rezultat? Koji su aspekti neupotrebljivosti? Objasniti.}{25}{section.22}%
+\contentsline {section}{\numberline {22}Šta je neupotrebljiv rezultat? Koji su aspekti neupotrebljivosti? Objasniti.}{26}{section.22}%
 \contentsline {section}{\numberline {23}Koji su najčesci uzroci neupotrebljivosti rezultata razvoja softvera? Objasniti ukratko.}{26}{section.23}%
-\contentsline {section}{\numberline {24}Na kojim stranama se nalaze problemi pri razvoju softvera? Objasniti ukratko i navesti po jedan primer.}{26}{section.24}%
-\contentsline {section}{\numberline {25}Koji su najčešci problemi na strani zainteresovanih lica (ulagača) pri razvoju softvera? Objasniti ukratko.}{26}{section.25}%
+\contentsline {section}{\numberline {24}Na kojim stranama se nalaze problemi pri razvoju softvera? Objasniti ukratko i navesti po jedan primer.}{27}{section.24}%
+\contentsline {section}{\numberline {25}Koji su najčešci problemi na strani zainteresovanih lica (ulagača) pri razvoju softvera? Objasniti ukratko.}{27}{section.25}%
 \contentsline {section}{\numberline {26}Koji su najčešci problemi na strani razvijaoca pri razvoju softvera? Objasniti ukratko.}{27}{section.26}%
 \contentsline {section}{\numberline {27}Koji su najčešci problemi koji se odnose na obe strane u razvoju softvera (ulagači i razvijaoci)? Objasniti ukratko.}{27}{section.27}%
-\contentsline {section}{\numberline {28}Objasniti kako pristupi planiranju mogu dovesti do problema.}{27}{section.28}%
+\contentsline {section}{\numberline {28}Objasniti kako pristupi planiranju mogu dovesti do problema.}{28}{section.28}%
 \contentsline {section}{\numberline {29}Šta je upravljanje rizicima?}{28}{section.29}%
 \contentsline {section}{\numberline {30}Koji su osnovni uzroci rizika u razvoju softvera? Navesti bar 7.}{28}{section.30}%
 \contentsline {section}{\numberline {31}Koji su najvažniji savremeni koncepti razvoja koji su nastali iz potrebe za smanjivanjem rizika u razvojnom procesu?}{28}{section.31}%
-\contentsline {section}{\numberline {32}Objasniti princip inkrementalnog razvoja.}{28}{section.32}%
+\contentsline {section}{\numberline {32}Objasniti princip inkrementalnog razvoja.}{29}{section.32}%
 \contentsline {section}{\numberline {33}Objasniti princip određivanja koraka prema rokovima.}{29}{section.33}%
-\contentsline {section}{\numberline {34}Objasniti princip pojačane komunikacije među subjektima.}{29}{section.34}%
+\contentsline {section}{\numberline {34}Objasniti princip pojačane komunikacije među subjektima.}{30}{section.34}%
 \contentsline {section}{\numberline {35}Objasniti princip davanja prednosti objektima u odnosu na procese.}{30}{section.35}%
 \contentsline {section}{\numberline {36}Objasniti princip pravljenja prototipova}{30}{section.36}%
 \contentsline {section}{\numberline {37}U kojim okolnostima su nastale objektno orijentisane razvojne metodologije?}{31}{section.37}%
 \contentsline {section}{\numberline {38}Objasniti osnovne koncepte pristupanja objektno orijentisanih razvojnih metodologija problemu razvoja.}{31}{section.38}%
-\contentsline {section}{\numberline {39}Šta je objekat? Objasniti svojim rečima i navesti jednu od poznatih definicija.}{31}{section.39}%
+\contentsline {section}{\numberline {39}Šta je objekat? Objasniti svojim rečima i navesti jednu od poznatih definicija.}{32}{section.39}%
 \contentsline {section}{\numberline {40}Šta je klasa? Atribut? Metod?}{32}{section.40}%
-\contentsline {section}{\numberline {41}Koji su osnovni koncepti na kojima počivaju tehnike objektno orijentisanih metodologija?}{32}{section.41}%
+\contentsline {section}{\numberline {41}Koji su osnovni koncepti na kojima počivaju tehnike objektno orijentisanih metodologija?}{33}{section.41}%
 \contentsline {section}{\numberline {42}Objasniti koncept enkapsulacije.}{33}{section.42}%
 \contentsline {section}{\numberline {43}Objasniti koncept interfejsa.}{33}{section.43}%
-\contentsline {section}{\numberline {44}Objasniti koncept polimorfizma.}{33}{section.44}%
+\contentsline {section}{\numberline {44}Objasniti koncept polimorfizma.}{34}{section.44}%
 \contentsline {section}{\numberline {45}Objasniti koncept nasleđivanja i odgovarajuće odnose.}{34}{section.45}%
 \contentsline {section}{\numberline {46}Kroz koje faze je prošao razvoj OO metodologija?}{34}{section.46}%
 \contentsline {section}{\numberline {47}Koje su karakteristike prve faze razvoja OO metodologija?}{34}{section.47}%
-\contentsline {section}{\numberline {48}Koje su karakteristike druge faze razvoja OO metodologija?}{34}{section.48}%
+\contentsline {section}{\numberline {48}Koje su karakteristike druge faze razvoja OO metodologija?}{35}{section.48}%
 \contentsline {section}{\numberline {49}Koje su karakteristike treće faze razvoja OO metodologija?}{35}{section.49}%
 \contentsline {section}{\numberline {50}Šta je UML?}{35}{section.50}%
-\contentsline {section}{\numberline {51}Koje vrste dijagrama postoje u UML-u? Objasniti.}{35}{section.51}%
+\contentsline {section}{\numberline {51}Koje vrste dijagrama postoje u UML-u? Objasniti.}{36}{section.51}%
 \contentsline {section}{\numberline {52}Navesti strukturne dijagrame UML-a.}{36}{section.52}%
 \contentsline {section}{\numberline {53}Koja je uloga i šta su osnovni elementi dijagrama klasa?}{36}{section.53}%
 \contentsline {section}{\numberline {54}Kako se predstavljaju odnosi između klasa na dijagramu klasa? Koji odnosi postoje?}{38}{section.54}%
@@ -213,183 +213,196 @@
 \contentsline {section}{\numberline {212}Šta su testovi prihvatljivosti?}{96}{section.212}%
 \contentsline {section}{\numberline {213}Po čemu se testovi prihvatljivosti razlikuju od testova jedinica koda?}{96}{section.213}%
 \contentsline {section}{\numberline {214}Ko od učesnika u razvoju softvera piše testove jedinica koda? A testove prihvatljivosti?}{96}{section.214}%
-\contentsline {section}{\numberline {215}Kakav je odnos refaktorisanja i pisanja programskog koda?}{96}{section.215}%
-\contentsline {section}{\numberline {216}Šta su osnovni motivi za refaktorisanje koda?}{97}{section.216}%
-\contentsline {section}{\numberline {217}Kada se pristupa refaktorisanju koda?}{97}{section.217}%
-\contentsline {section}{\numberline {218}Na osnovu čega se odlučuje da je potrebno refaktorisati neki kod?}{97}{section.218}%
-\contentsline {section}{\numberline {219}Nabrojati bar 10 slabosti koda (tzv. zaudaranja) koje ukazuju da bi trebalo razmotriti refaktorisanje?}{98}{section.219}%
-\contentsline {section}{\numberline {220}Zašto je dobro eliminisati ponavljanja iz koda? (refaktorisanje)}{98}{section.220}%
-\contentsline {section}{\numberline {221}Zašto dugački metodi mogu predstavljati problem? (refaktorisanje)}{99}{section.221}%
-\contentsline {section}{\numberline {222}Zašto velika klasa može da predstavlja problem? (refaktorisanje)}{99}{section.222}%
-\contentsline {section}{\numberline {223}Šta su divergentne promene? Zašto su problematične? (refaktorisanje)}{100}{section.223}%
-\contentsline {section}{\numberline {224}Šta je distribuirana apstrakcija? Zašto je problematična? (refaktorisanje)}{100}{section.224}%
-\contentsline {section}{\numberline {225}Zašto velika zavisnost neke klase ili metoda od drugih klasa može da predstavlja problem? (refaktorisanje)}{101}{section.225}%
-\contentsline {section}{\numberline {226}Zašto naredba switch može da predstavlja problem? (refaktorisanje)}{101}{section.226}%
-\contentsline {section}{\numberline {227}Šta je spekulativno uopštavanje? Zašto može da predstavlja problem?(refaktorisanje)}{102}{section.227}%
-\contentsline {section}{\numberline {228}Zašto privremene promenljive mogu da predstavljaju problem? (refaktorisanje)}{102}{section.228}%
-\contentsline {section}{\numberline {229}Zašto lanci poruka mogu da predstavljaju problem? (refaktorisanje)}{103}{section.229}%
-\contentsline {section}{\numberline {230}Zašto postojanje klase posrednika može da predstavlja problem? (refaktorisanje)}{103}{section.230}%
-\contentsline {section}{\numberline {231}Šta je nepoželjna bliskost? Zašto je problematična? (refaktorisanje)}{104}{section.231}%
-\contentsline {section}{\numberline {232}Kakav je odnos agilnog razvoja softvera i pisanja komentara? Zašto komentari mogu da budu motiv za refaktorisanje?}{104}{section.232}%
-\contentsline {section}{\numberline {233}Šta bi trebalno da sadrži opis svakog od refaktorisanja u katalogu?}{105}{section.233}%
-\contentsline {section}{\numberline {234}Navesti bar 5 grupa tehnika refaktorisanja.}{105}{section.234}%
-\contentsline {section}{\numberline {235}Navesti bar 5 tehnika refaktorisanja.}{105}{section.235}%
-\contentsline {section}{\numberline {236}U kojim slučajevima refaktorisanje može biti značajno otežano?}{106}{section.236}%
-\contentsline {section}{\numberline {237}Kako i zašto može biti otežano refaktorisanje u prisustvu baze podataka?}{106}{section.237}%
-\contentsline {section}{\numberline {238}Zašto može biti otežano refaktorisanje spoljnog interfejsa neke klase?}{106}{section.238}%
-\contentsline {section}{\numberline {239}U kojim slučajevima refaktorisanje može da ne predstavlja dobro rešenje?}{106}{section.239}%
-\contentsline {section}{\numberline {240}Kakav je odnos refaktorisanja i performansi softvera?}{107}{section.240}%
-\contentsline {section}{\numberline {241}Šta su bagovi}{107}{section.241}%
-\contentsline {section}{\numberline {242}Navesti jednu klasifikaciju bagova i objasniti je.}{107}{section.242}%
-\contentsline {section}{\numberline {243}Šta su nekonzistentnosti u korisničkom interfejsu i kakve uzroke i posledice imaju?}{108}{section.243}%
-\contentsline {section}{\numberline {244}Šta su neispunjena očekivanja i kakve uzroke i posledice imaju?}{108}{section.244}%
-\contentsline {section}{\numberline {245}Objasniti problem slabih performansi i moguće uzroke.}{108}{section.245}%
-\contentsline {section}{\numberline {246}Koje okolnosti posebno pogoduju nastanku bagova? Objasniti dve.}{109}{section.246}%
-\contentsline {section}{\numberline {247}Koje okolnosti smanjuju verovatnoću nastajanja bagova? Objasniti dve.}{109}{section.247}%
-\contentsline {section}{\numberline {248}Koje okolnosti olakšavaju pronalaženje uzroka bagova? Objasniti dve.}{109}{section.248}%
-\contentsline {section}{\numberline {249}Navesti bar 6 osnovnih pravila za debagovanje.}{110}{section.249}%
-\contentsline {section}{\numberline {250}Objasniti pravilo debagovanja ,,Razumeti sistem``.}{110}{section.250}%
-\contentsline {section}{\numberline {251}Objasniti pravilo debagovanja ,,Navesti sistem na grešku``.}{110}{section.251}%
-\contentsline {section}{\numberline {252}Objasniti pravilo debagovanja ,,Najpre posmatrati pa tek onda razmišljati``.}{111}{section.252}%
-\contentsline {section}{\numberline {253}Objasniti pravilo debagovanja ,,Podeli pa vladaj``.}{112}{section.253}%
-\contentsline {section}{\numberline {254}Objasniti pravilo debagovanja ,,Praviti samo jednu po jednu izmenu``.}{113}{section.254}%
-\contentsline {section}{\numberline {255}Objasniti pravilo debagovanja ,,Praviti i čuvati tragove izvršavanja``.}{114}{section.255}%
-\contentsline {section}{\numberline {256}Objasniti pravilo debagovanja ,,Proveravati i naizgled trivijalne stvari``.}{114}{section.256}%
-\contentsline {section}{\numberline {257}Objasniti pravilo debagovanja ,,Zatražiti tuđe mišljenje``.}{114}{section.257}%
-\contentsline {section}{\numberline {258}Objasniti pravilo debagovanja ,,Ako nismo popravili bag, onda on nije popravljen``.}{115}{section.258}%
-\contentsline {section}{\numberline {259}Navesti najvaznije tehnike za prevenciju nastajanja bagova.}{116}{section.259}%
-\contentsline {section}{\numberline {260}Objasniti pisanje pretpostavki kao tehniku za prevenciju nastajanja bagova.}{116}{section.260}%
-\contentsline {section}{\numberline {261}Objasniti tehniku ostavljanja tragova pri izvršavanju kao prevenciju nastajanja bagova.}{117}{section.261}%
-\contentsline {section}{\numberline {262}Objasniti komentarisanje koda kao tehniku za prevenciju nastanaka bagova.}{118}{section.262}%
-\contentsline {section}{\numberline {263}Objasniti testiranje jedinica koda kao tehniku za prevenciju nastanaka bagova.}{118}{section.263}%
-\contentsline {section}{\numberline {264}Navesti osnovne tehnike upotrebe debagera.}{118}{section.264}%
-\contentsline {section}{\numberline {265}Objasniti tehniku upotrebe debagera Izvršavanje korak po korak.}{118}{section.265}%
-\contentsline {section}{\numberline {266}Objasniti tehniku upotrebe debagera Postavljanje tačaka prekida.}{119}{section.266}%
-\contentsline {section}{\numberline {267}Objasniti tehniku upotrebe debagera Praćenje vrednosti promenljivih.}{119}{section.267}%
-\contentsline {section}{\numberline {268}Objasniti tehniku upotrebe debagera Praćenje lokalnih promenljivih.}{119}{section.268}%
-\contentsline {section}{\numberline {269}Objasniti tehniku upotrebe debagera Praćenje stanja steka.}{119}{section.269}%
-\contentsline {section}{\numberline {270}Objasniti tehniku upotrebe debagera Praćenje na nivou instrukcija i stanja procesora.}{119}{section.270}%
-\contentsline {section}{\numberline {271}Šta čini dizajn softvera? Navesti osnovne pojmove dizajna}{119}{section.271}%
-\contentsline {section}{\numberline {272}Navesti i ukratko objasniti 4 osnovna pojma dizajna softvera.}{120}{section.272}%
-\contentsline {section}{\numberline {273}Navesti i ukratko objasniti bar 6 ključnih principa dizajna softvera.}{120}{section.273}%
-\contentsline {section}{\numberline {274}Objasniti odnos pisanja koda i dizajniranja.}{121}{section.274}%
-\contentsline {section}{\numberline {275}Objasniti ulogu i mesto dizajniranja u razvoju softvera u savremenoj praksi.}{121}{section.275}%
-\contentsline {section}{\numberline {276}Navesti i ukratko objasniti obaveze softverskog arhitekte.}{122}{section.276}%
-\contentsline {section}{\numberline {277}Navesti i ukratko objasniti osnovne aspekte arhitekture i ključne uticaje na arhitekturu.}{122}{section.277}%
-\contentsline {section}{\numberline {278}Prazno (radi usaglašavanja odgovora sa ispitnim pitanjima).}{123}{section.278}%
-\contentsline {section}{\numberline {279}Šta su arhitekture zasnovane na događajima?}{123}{section.279}%
-\contentsline {section}{\numberline {280}Objasniti motivaciju za upotrebu arhitektura zasnovanih na događajima.}{123}{section.280}%
-\contentsline {section}{\numberline {281}Objasniti osnovne pojmove i koncepte arhitekture zasnovane na događajima.}{124}{section.281}%
-\contentsline {section}{\numberline {282}Navesti i objasniti slojeve toka događaja kod arhitektura zasnovanih na događajima.}{124}{section.282}%
-\contentsline {section}{\numberline {283}Objasniti osnovne koncepte primene arhitekture zasnovane na događajima u okviru biblioteke QT.}{124}{section.283}%
-\contentsline {section}{\numberline {284}Objasniti koncept signala u kontekstu primene arhitekture zasnovane na dogadajima u okviru biblioteke QT.}{125}{section.284}%
-\contentsline {section}{\numberline {285}Objasniti koncept slotova u kontekstu primene arhitekture zasnovane na događajima u okviru biblioteke QT.}{125}{section.285}%
-\contentsline {section}{\numberline {286}Objasniti povezivanje signala i slotova u slučaju primene arhitekture zasnovane na događajima u okviru biblioteke QT.}{125}{section.286}%
-\contentsline {section}{\numberline {287}Objasniti odnos arhitektura zasnovanih na događajima i problema kohezije i spregnutosti.}{126}{section.287}%
-\contentsline {section}{\numberline {288}Šta je konkurento izvršavanje?}{126}{section.288}%
-\contentsline {section}{\numberline {289}Objasniti pojam paralelno izvršavanje.}{127}{section.289}%
-\contentsline {section}{\numberline {290}Objasniti pojam distribuirano izvršavanje.}{128}{section.290}%
-\contentsline {section}{\numberline {291}Objasniti pojam proces.}{128}{section.291}%
-\contentsline {section}{\numberline {292}Objasniti pojam nit.}{129}{section.292}%
-\contentsline {section}{\numberline {293}Zašto se uvodi koncept niti, ako već postoji koncept procesa?}{130}{section.293}%
-\contentsline {section}{\numberline {294}Objasniti sličnosti i razlike niti i procesa.}{130}{section.294}%
-\contentsline {section}{\numberline {295}Objasniti kako se programiraju niti pomoću standardne biblioteke C++-a. Klase, metodi, \dots }{130}{section.295}%
-\contentsline {section}{\numberline {296}Objasniti kako se programiraju niti pomoću biblioteke QT. Klase, metodi, ...}{131}{section.296}%
-\contentsline {section}{\numberline {297}Navesti i ukratko objasniti osnovne operacije sa nitima.}{132}{section.297}%
-\contentsline {section}{\numberline {298}Objasniti detaljno operaciju pravljenja niti. Kako se implementira pomoću standardne biblioteke C++-a?}{133}{section.298}%
-\contentsline {section}{\numberline {299}Objasniti detaljno operaciju pravljenja niti. Kako se implementira pomoću biblioteke QT?}{133}{section.299}%
-\contentsline {section}{\numberline {300}Objasniti detaljno operaciju dovršavanja niti. Kako se implementira pomoću standardne biblioteke C++-a?}{133}{section.300}%
-\contentsline {section}{\numberline {301}Objasniti detaljno operaciju dovršavanja niti. Kako se implementira pomoću biblioteke QT?}{133}{section.301}%
-\contentsline {section}{\numberline {302}Objasniti detaljno operacije suspendovanja i nastavljanja niti. Kako se implementiraju standardne biblioteke C++-a?}{134}{section.302}%
-\contentsline {section}{\numberline {303}Objasniti detaljno operaciju suspendovanja i nastavljanja niti. Kako se implementira pomoću biblioteke QT?}{134}{section.303}%
-\contentsline {section}{\numberline {304}Objasniti detaljno operaciju prekidanja niti. Kako se implementira pomoću standardne biblioteke C++-a?}{134}{section.304}%
-\contentsline {section}{\numberline {305}Objasniti detaljno operaciju prekidanje niti. Kako se implementira pomoću biblioteke QT?}{134}{section.305}%
-\contentsline {section}{\numberline {306}Objasniti detaljno operaciju čekanja niti. Kako se implementira pomoću standardne biblioteke C++-a?}{134}{section.306}%
-\contentsline {section}{\numberline {307}Objasniti detaljno operaciju čekanja niti. Kako se implementira pomoću biblioteke QT?}{135}{section.307}%
-\contentsline {section}{\numberline {308}Koji su najvažniji problemi pri pisanju konkurentnih programa?}{135}{section.308}%
-\contentsline {section}{\numberline {309}Šta je muteks? Kako se upotrebljava?}{135}{section.309}%
-\contentsline {section}{\numberline {310}Objasniti podršku za mutekse u okviru standardne biblioteke C++-a.}{135}{section.310}%
-\contentsline {section}{\numberline {311}Objasniti podrsku za mutekse u okviru biblioteke QT.}{136}{section.311}%
-\contentsline {section}{\numberline {312}Šta je, čemu služi i kako se koristi lock\_guard iz standardne biblioteke C++-a? Objasniti detaljno.}{136}{section.312}%
-\contentsline {section}{\numberline {313}Čemu služi klasa QMutexLocker biblioteke QT? Objasniti detaljno.}{137}{section.313}%
-\contentsline {section}{\numberline {314}Šta su katanci? Kako se upotrebljavaju?}{137}{section.314}%
-\contentsline {section}{\numberline {315}Objasniti podršku za katance u okviru standardne biblioteke C++-a.}{138}{section.315}%
-\contentsline {section}{\numberline {316}Objasniti podršku za katance u okviru biblioteke QT.}{138}{section.316}%
-\contentsline {section}{\numberline {317}Čemu služi klasa QReadLocker biblioteke QT? Objasniti detaljno.}{138}{section.317}%
-\contentsline {section}{\numberline {318}Čemu služi klasa QWriterLocker biblioteke QT? Objasniti detaljno.}{138}{section.318}%
-\contentsline {section}{\numberline {319}Šta je sinhronizacija? Šta se sve može sinhronizovati u konkurentnim programima?}{139}{section.319}%
-\contentsline {section}{\numberline {320}Šta su semafori?}{139}{section.320}%
-\contentsline {section}{\numberline {321}Objasniti podršku za semafore u okviru standardne biblioteke C++-a}{139}{section.321}%
-\contentsline {section}{\numberline {322}Objasniti podršku za semafore u okviru biblioteke QT.}{139}{section.322}%
-\contentsline {section}{\numberline {323}Objasniti funkciju async i šablon future standardne biblioteke C++-a.}{140}{section.323}%
-\contentsline {section}{\numberline {324}Objasniti šablone future i promise standardne biblioteke C++-a}{141}{section.324}%
-\contentsline {section}{\numberline {325}Kakvi mogu biti potprogrami u kontekstu konkurentnog programiranja?}{141}{section.325}%
-\contentsline {section}{\numberline {326}Šta su potprogrami sa jedinstvenim povezivanjem?}{142}{section.326}%
-\contentsline {section}{\numberline {327}Šta su potprogrami sa ponovljenim povezivanjem?}{142}{section.327}%
-\contentsline {section}{\numberline {328}Šta su potprogrami bezbedni po nitima?}{142}{section.328}%
-\contentsline {section}{\numberline {329}Kakve mogu biti klase u kontekstu konkurentnog programiranja? Objasniti.}{142}{section.329}%
-\contentsline {section}{\numberline {330}Koje su najčešće greške pri pisanju konkurentnih programa? Objasniti.}{143}{section.330}%
-\contentsline {section}{\numberline {331}Navesti neke načine razvoja programa koji omogućavaju bezbedno pisanje konkurentnih programa? Objasniti.}{143}{section.331}%
-\contentsline {section}{\numberline {332}Kada dolazi na red staranje o ponašanju koda u konkurentom okruženju?}{143}{section.332}%
-\contentsline {section}{\numberline {333}Kako se bira gde se i kako postavljaju muteksi i katanci?}{144}{section.333}%
-\contentsline {section}{\numberline {334}Navesti osnovne vidove međuprocesne komunikacije.}{144}{section.334}%
-\contentsline {section}{\numberline {335}Objasniti razliku između komunikacije među procesima i komunikacije među nitima.}{145}{section.335}%
-\contentsline {section}{\numberline {336}Šta je softverska metrika?}{145}{section.336}%
-\contentsline {section}{\numberline {337}Navesti najvažnije tipove softverskih metrika.}{145}{section.337}%
-\contentsline {section}{\numberline {338}Objasniti vrste metrika u razvoju softvera.}{146}{section.338}%
-\contentsline {section}{\numberline {339}Navesti nekoliko metrika praćenja razvoja softvera. Šta One opisuju?}{146}{section.339}%
-\contentsline {section}{\numberline {340}Navesti nekoliko metrika dizajna razvoja softvera. Šta one opisuju?}{148}{section.340}%
-\contentsline {section}{\numberline {341}Objansiti metriku stabilnost paketa.}{149}{section.341}%
-\contentsline {section}{\numberline {342}Objansiti metriku apstraktnost paketa.}{150}{section.342}%
-\contentsline {section}{\numberline {343}Objasniti odnos metrika stabilnosti i apstraktnosti paketa.}{150}{section.343}%
-\contentsline {section}{\numberline {344}Objasniti metriku funkcionalna kohezija paketa.}{151}{section.344}%
-\contentsline {section}{\numberline {345}Šta su sistemi za kontrolu verzija? Objasniti.}{151}{section.345}%
-\contentsline {section}{\numberline {346}Objasniti arhitekturu i navesti osnovne operacije pri radu sa sistemima za kontrolu verzija.}{152}{section.346}%
-\contentsline {section}{\numberline {347}Šta je spremište? Šta sadrži? Kako je organizovano?}{152}{section.347}%
-\contentsline {section}{\numberline {348}Šta je radna kopija u kontekstu upotrebe sistema za kontrolu verzija?}{153}{section.348}%
-\contentsline {section}{\numberline {349}Objasniti pojam oznake u kontekstu upotrebe sistema za kontrolu verzija.}{153}{section.349}%
-\contentsline {section}{\numberline {350}Objasniti grananje u kontekstu upotrebe sistema za kontrolu verzija.}{153}{section.350}%
-\contentsline {section}{\numberline {351}Šta su konflikti i kako se rešavaju u kontekstu upotrebe sistema za kontrolu verzija?}{153}{section.351}%
-\contentsline {section}{\numberline {352}Šta je spajanje verzija u kontekstu upotrebe sistema za kontrolu verzija?}{154}{section.352}%
-\contentsline {section}{\numberline {353}Objasniti primer strategije označavanja verzija.}{154}{section.353}%
-\contentsline {section}{\numberline {354}Šta su sistemi za praćenje zadataka i bagova? Objasniti namenu i osnovne elemente.}{156}{section.354}%
-\contentsline {section}{\numberline {355}Navesti i ukratko objasniti osnovne koncepte sistema Red-mine.}{156}{section.355}%
-\contentsline {section}{\numberline {356}Objasniti ulogu stanja kartica i način njihovog menjanja (na primeru sistema Redmine).}{157}{section.356}%
-\contentsline {section}{\numberline {357}Šta čini dokumentaciju softvera?}{157}{section.357}%
-\contentsline {section}{\numberline {358}Kome je i zašto potrebna dokumentacija?}{157}{section.358}%
-\contentsline {section}{\numberline {359}Navesti i ukratko objasniti osnovne opravdane i neopravdane motive za pravljenje dokumentacije.}{158}{section.359}%
-\contentsline {section}{\numberline {360}Objasniti ulogu dokumentacije kao vida specifikacije zahteva projekta.}{160}{section.360}%
-\contentsline {section}{\numberline {361}Objasniti ulogu dokumentacije kao sredstva za komunikaciju.}{160}{section.361}%
-\contentsline {section}{\numberline {362}Objasniti ulogu dokumentacije u razmatranju nedoumica u projektu.}{160}{section.362}%
-\contentsline {section}{\numberline {363}Objasniti podelu dokumentacije po nameni.}{160}{section.363}%
-\contentsline {section}{\numberline {364}Šta obuhvata korisnička dokumentacija softvera?}{160}{section.364}%
-\contentsline {section}{\numberline {365}Šta obuhvata tehnička (sistemska) dokumentacija softvera?}{161}{section.365}%
-\contentsline {section}{\numberline {366}Kakav je odnos agilnog razvoja softvera prema pisanju dokumentacije? Koji vidovi dokumentacije se podstiču a koji ne?}{161}{section.366}%
-\contentsline {section}{\numberline {367}Šta su alati za unutrašnje dokumentovanje programskog koda? Zašto su potrebni i po čemu se suštinski razlikuju od održavanja spoljašnje dokumentacije?}{162}{section.367}%
-\contentsline {section}{\numberline {368}Šta je Doxygen? Šta omogućava? Navesti primere anotacije koda.}{162}{section.368}%
-\contentsline {section}{\numberline {369}Šta je optimizacija softvera?}{164}{section.369}%
-\contentsline {section}{\numberline {370}Koje su informacije neophodne za uspešnu optimizaciju?}{164}{section.370}%
-\contentsline {section}{\numberline {371}Objasniti ,,optimizaciju unapred``. Dobre i loše strane?}{165}{section.371}%
-\contentsline {section}{\numberline {372}Objasniti ,,optimizaciju unazad``. Dobre i loše strane?}{165}{section.372}%
-\contentsline {section}{\numberline {373}Kakva je suštinska razlika između optimizacija unapred i unazad? Kada je bolje primeniti koju od njih?}{165}{section.373}%
-\contentsline {section}{\numberline {374}Koji osnovni problem proizvodi primena optimizacije u agilnom razvoju softvera? Kako se prevazilazi?}{166}{section.374}%
-\contentsline {section}{\numberline {375}Kako se dele tehnike optimizacije? Navesti nekoliko primera.}{166}{section.375}%
-\contentsline {section}{\numberline {376}Navesti bar 7 opštih tehnika optimizacije koda.}{166}{section.376}%
-\contentsline {section}{\numberline {377}Objasniti tehnike optimizacije ,,odbacivanje nepotrebne preciznosti`` i ,,tablice unapred izračunatih vrednosti``.}{167}{section.377}%
-\contentsline {section}{\numberline {378}Objasniti tehnike optimizacije ,,integracija petlji``, ,,izmeštanje inavarijanti izvan petlje`` i ,,razmotavanje petlji``.}{167}{section.378}%
-\contentsline {section}{\numberline {379}Objasniti tehnike optimizacije ,,smanjiti broj argumenata funkcije`` i ,,izbegavati globalne promenljive``.}{167}{section.379}%
-\contentsline {section}{\numberline {380}Objasniti tehnike optimizacije ,,upotreba umetnutih funkcija`` i ,,eliminacija grananja i petlji``.}{168}{section.380}%
-\contentsline {section}{\numberline {381}Objasniti tehnike optimizacije ,,zamenjivanje dinamickog uslova statickim`` i ,,snižavanje složenosti operacije``.}{168}{section.381}%
-\contentsline {section}{\numberline {382}Objasniti tehnike optimizacije ,,redosled proveravanja uslova`` i ,,izbor rešenja prema najčešćem slučaju``.}{168}{section.382}%
-\contentsline {section}{\numberline {383}Koje su najčešće greške pri optimizaciji? Objasniti.}{169}{section.383}%
-\contentsline {section}{\numberline {384}Navesti i ukratko objasniti tri tehnike optimizacije specifične za programski jezik C++.}{169}{section.384}%
-\contentsline {section}{\numberline {385}Šta su ,,optimizacije u hodu``? Navesti primere.}{170}{section.385}%
-\contentsline {section}{\numberline {386}Šta su profajleri? Čemu služe? Šta pružaju programerima?}{170}{section.386}%
-\contentsline {section}{\numberline {387}Prazno (radi usaglašavanja odgovora sa ispitnim pitanjima).}{170}{section.387}%
-\contentsline {section}{\numberline {388}Šta je korisnički interfejs? Šta je grafički korisnički interfejs?}{170}{section.388}%
-\contentsline {section}{\numberline {389}Koji su osnovni kvaliteti i slabosti grafičkih korisničkih interfejsa?}{170}{section.389}%
-\contentsline {section}{\numberline {390}Od čega zavisi upotrebljivost korisničkog interfejsa?}{171}{section.390}%
-\contentsline {section}{\numberline {391}Koji su osnovni ciljevi pri oblikovanju korisničkog interfejsa?}{171}{section.391}%
-\contentsline {section}{\numberline {392}Kako se testira korisnički interfejs?}{171}{section.392}%
-\contentsline {section}{\numberline {393}Primeri ispitnih pitanja za usmeni}{171}{section.393}%
+\contentsline {section}{\numberline {215}Navesti osnovne vrste polimorfizma.}{96}{section.215}%
+\contentsline {section}{\numberline {216}Šta je hijerarhijski polimorfizam?}{96}{section.216}%
+\contentsline {section}{\numberline {217}Šta je parametarski polimorfizam?}{97}{section.217}%
+\contentsline {section}{\numberline {218}Šta je implicitni polimorfizam?}{97}{section.218}%
+\contentsline {section}{\numberline {219}Šta je ad-hok polimorfizam?}{97}{section.219}%
+\contentsline {section}{\numberline {220}Šta su šabloni funkcija?}{97}{section.220}%
+\contentsline {section}{\numberline {221}Šta su šabloni klasa?}{98}{section.221}%
+\contentsline {section}{\numberline {222}Šta su funkcionalni objekti – funkcionali?}{98}{section.222}%
+\contentsline {section}{\numberline {223}Kakav je odnos refaktorisanja i pisanja programskog koda?}{98}{section.223}%
+\contentsline {section}{\numberline {224}Šta su osnovni motivi za refaktorisanje koda?}{99}{section.224}%
+\contentsline {section}{\numberline {225}Kada se pristupa refaktorisanju koda?}{99}{section.225}%
+\contentsline {section}{\numberline {226}Na osnovu čega se odlučuje da je potrebno refaktorisati neki kod?}{99}{section.226}%
+\contentsline {section}{\numberline {227}Nabrojati bar 10 slabosti koda (tzv. zaudaranja) koje ukazuju da bi trebalo razmotriti refaktorisanje?}{100}{section.227}%
+\contentsline {section}{\numberline {228}Zašto je dobro eliminisati ponavljanja iz koda? (refaktorisanje)}{100}{section.228}%
+\contentsline {section}{\numberline {229}Zašto dugački metodi mogu predstavljati problem? (refaktorisanje)}{101}{section.229}%
+\contentsline {section}{\numberline {230}Zašto velika klasa može da predstavlja problem? (refaktorisanje)}{101}{section.230}%
+\contentsline {section}{\numberline {231}Šta su divergentne promene? Zašto su problematične? (refaktorisanje)}{102}{section.231}%
+\contentsline {section}{\numberline {232}Šta je distribuirana apstrakcija? Zašto je problematična? (refaktorisanje)}{102}{section.232}%
+\contentsline {section}{\numberline {233}Zašto velika zavisnost neke klase ili metoda od drugih klasa može da predstavlja problem? (refaktorisanje)}{103}{section.233}%
+\contentsline {section}{\numberline {234}Zašto naredba switch može da predstavlja problem? (refaktorisanje)}{103}{section.234}%
+\contentsline {section}{\numberline {235}Šta je spekulativno uopštavanje? Zašto može da predstavlja problem?(refaktorisanje)}{104}{section.235}%
+\contentsline {section}{\numberline {236}Zašto privremene promenljive mogu da predstavljaju problem? (refaktorisanje)}{104}{section.236}%
+\contentsline {section}{\numberline {237}Zašto lanci poruka mogu da predstavljaju problem? (refaktorisanje)}{105}{section.237}%
+\contentsline {section}{\numberline {238}Zašto postojanje klase posrednika može da predstavlja problem? (refaktorisanje)}{105}{section.238}%
+\contentsline {section}{\numberline {239}Šta je nepoželjna bliskost? Zašto je problematična? (refaktorisanje)}{106}{section.239}%
+\contentsline {section}{\numberline {240}Kakav je odnos agilnog razvoja softvera i pisanja komentara? Zašto komentari mogu da budu motiv za refaktorisanje?}{106}{section.240}%
+\contentsline {section}{\numberline {241}Šta bi trebalno da sadrži opis svakog od refaktorisanja u katalogu?}{107}{section.241}%
+\contentsline {section}{\numberline {242}Navesti bar 5 grupa tehnika refaktorisanja.}{107}{section.242}%
+\contentsline {section}{\numberline {243}Navesti bar 5 tehnika refaktorisanja.}{107}{section.243}%
+\contentsline {section}{\numberline {244}U kojim slučajevima refaktorisanje može biti značajno otežano?}{108}{section.244}%
+\contentsline {section}{\numberline {245}Kako i zašto može biti otežano refaktorisanje u prisustvu baze podataka?}{108}{section.245}%
+\contentsline {section}{\numberline {246}Zašto može biti otežano refaktorisanje spoljnog interfejsa neke klase?}{108}{section.246}%
+\contentsline {section}{\numberline {247}U kojim slučajevima refaktorisanje može da ne predstavlja dobro rešenje?}{108}{section.247}%
+\contentsline {section}{\numberline {248}Kakav je odnos refaktorisanja i performansi softvera?}{109}{section.248}%
+\contentsline {section}{\numberline {249}Šta su bagovi}{109}{section.249}%
+\contentsline {section}{\numberline {250}Navesti jednu klasifikaciju bagova i objasniti je.}{109}{section.250}%
+\contentsline {section}{\numberline {251}Šta su nekonzistentnosti u korisničkom interfejsu i kakve uzroke i posledice imaju?}{110}{section.251}%
+\contentsline {section}{\numberline {252}Šta su neispunjena očekivanja i kakve uzroke i posledice imaju?}{110}{section.252}%
+\contentsline {section}{\numberline {253}Objasniti problem slabih performansi i moguće uzroke.}{110}{section.253}%
+\contentsline {section}{\numberline {254}Koje okolnosti posebno pogoduju nastanku bagova? Objasniti dve.}{111}{section.254}%
+\contentsline {section}{\numberline {255}Koje okolnosti smanjuju verovatnoću nastajanja bagova? Objasniti dve.}{111}{section.255}%
+\contentsline {section}{\numberline {256}Koje okolnosti olakšavaju pronalaženje uzroka bagova? Objasniti dve.}{111}{section.256}%
+\contentsline {section}{\numberline {257}Koji su osnovni pristupi problemu debagovanja? Objasniti ukratko njihov odnos.}{112}{section.257}%
+\contentsline {section}{\numberline {258}Opisati empirijski (naučni) metod debagovanja.}{112}{section.258}%
+\contentsline {section}{\numberline {259}Objasniti heurističko debagovanje.}{113}{section.259}%
+\contentsline {subsection}{\numberline {259.1}Sistem pravila Davida Agansa:}{113}{subsection.259.1}%
+\contentsline {subsubsection}{\numberline {259.1.1}Primedbe pri primeni pravila:}{113}{subsubsection.259.1.1}%
+\contentsline {section}{\numberline {260}Navesti bar 6 osnovnih pravila za debagovanje.}{114}{section.260}%
+\contentsline {section}{\numberline {261}Objasniti pravilo debagovanja ,,Razumeti sistem``.}{114}{section.261}%
+\contentsline {section}{\numberline {262}Objasniti pravilo debagovanja ,,Navesti sistem na grešku``.}{114}{section.262}%
+\contentsline {section}{\numberline {263}Objasniti pravilo debagovanja ,,Najpre posmatrati pa tek onda razmišljati``.}{115}{section.263}%
+\contentsline {section}{\numberline {264}Objasniti pravilo debagovanja ,,Podeli pa vladaj``.}{116}{section.264}%
+\contentsline {section}{\numberline {265}Objasniti pravilo debagovanja ,,Praviti samo jednu po jednu izmenu``.}{117}{section.265}%
+\contentsline {section}{\numberline {266}Objasniti pravilo debagovanja ,,Praviti i čuvati tragove izvršavanja``.}{118}{section.266}%
+\contentsline {section}{\numberline {267}Objasniti pravilo debagovanja ,,Proveravati i naizgled trivijalne stvari``.}{118}{section.267}%
+\contentsline {section}{\numberline {268}Objasniti pravilo debagovanja ,,Zatražiti tuđe mišljenje``.}{118}{section.268}%
+\contentsline {section}{\numberline {269}Objasniti pravilo debagovanja ,,Ako nismo popravili bag, onda on nije popravljen``.}{119}{section.269}%
+\contentsline {section}{\numberline {270}Navesti najvaznije tehnike za prevenciju nastajanja bagova.}{120}{section.270}%
+\contentsline {section}{\numberline {271}Objasniti pisanje pretpostavki kao tehniku za prevenciju nastajanja bagova.}{120}{section.271}%
+\contentsline {section}{\numberline {272}Objasniti tehniku ostavljanja tragova pri izvršavanju kao prevenciju nastajanja bagova.}{121}{section.272}%
+\contentsline {section}{\numberline {273}Objasniti komentarisanje koda kao tehniku za prevenciju nastanaka bagova.}{122}{section.273}%
+\contentsline {section}{\numberline {274}Objasniti testiranje jedinica koda kao tehniku za prevenciju nastanaka bagova.}{122}{section.274}%
+\contentsline {section}{\numberline {275}Navesti osnovne tehnike upotrebe debagera.}{122}{section.275}%
+\contentsline {section}{\numberline {276}Objasniti tehniku upotrebe debagera Izvršavanje korak po korak.}{122}{section.276}%
+\contentsline {section}{\numberline {277}Objasniti tehniku upotrebe debagera Postavljanje tačaka prekida.}{123}{section.277}%
+\contentsline {section}{\numberline {278}Objasniti tehniku upotrebe debagera Praćenje vrednosti promenljivih.}{123}{section.278}%
+\contentsline {section}{\numberline {279}Objasniti tehniku upotrebe debagera Praćenje lokalnih promenljivih.}{123}{section.279}%
+\contentsline {section}{\numberline {280}Objasniti tehniku upotrebe debagera Praćenje stanja steka.}{123}{section.280}%
+\contentsline {section}{\numberline {281}Objasniti tehniku upotrebe debagera Praćenje na nivou instrukcija i stanja procesora.}{123}{section.281}%
+\contentsline {section}{\numberline {282}Šta čini dizajn softvera? Navesti osnovne pojmove dizajna}{123}{section.282}%
+\contentsline {section}{\numberline {283}Navesti i ukratko objasniti 4 osnovna pojma dizajna softvera.}{124}{section.283}%
+\contentsline {section}{\numberline {284}Navesti i ukratko objasniti bar 6 ključnih principa dizajna softvera.}{124}{section.284}%
+\contentsline {section}{\numberline {285}Objasniti odnos pisanja koda i dizajniranja.}{125}{section.285}%
+\contentsline {section}{\numberline {286}Objasniti ulogu i mesto dizajniranja u razvoju softvera u savremenoj praksi.}{125}{section.286}%
+\contentsline {section}{\numberline {287}Navesti i ukratko objasniti obaveze softverskog arhitekte.}{126}{section.287}%
+\contentsline {section}{\numberline {288}Navesti i ukratko objasniti osnovne aspekte arhitekture i ključne uticaje na arhitekturu.}{126}{section.288}%
+\contentsline {section}{\numberline {289}Prazno (radi usaglašavanja odgovora sa ispitnim pitanjima).}{127}{section.289}%
+\contentsline {section}{\numberline {290}Šta su arhitekture zasnovane na događajima?}{127}{section.290}%
+\contentsline {section}{\numberline {291}Objasniti motivaciju za upotrebu arhitektura zasnovanih na događajima.}{127}{section.291}%
+\contentsline {section}{\numberline {292}Objasniti osnovne pojmove i koncepte arhitekture zasnovane na događajima.}{128}{section.292}%
+\contentsline {section}{\numberline {293}Navesti i objasniti slojeve toka događaja kod arhitektura zasnovanih na događajima.}{128}{section.293}%
+\contentsline {section}{\numberline {294}Objasniti osnovne koncepte primene arhitekture zasnovane na događajima u okviru biblioteke QT.}{128}{section.294}%
+\contentsline {section}{\numberline {295}Objasniti koncept signala u kontekstu primene arhitekture zasnovane na dogadajima u okviru biblioteke QT.}{129}{section.295}%
+\contentsline {section}{\numberline {296}Objasniti koncept slotova u kontekstu primene arhitekture zasnovane na događajima u okviru biblioteke QT.}{129}{section.296}%
+\contentsline {section}{\numberline {297}Objasniti povezivanje signala i slotova u slučaju primene arhitekture zasnovane na događajima u okviru biblioteke QT.}{129}{section.297}%
+\contentsline {section}{\numberline {298}Objasniti odnos arhitektura zasnovanih na događajima i problema kohezije i spregnutosti.}{130}{section.298}%
+\contentsline {section}{\numberline {299}Šta je konkurento izvršavanje?}{130}{section.299}%
+\contentsline {section}{\numberline {300}Objasniti pojam paralelno izvršavanje.}{131}{section.300}%
+\contentsline {section}{\numberline {301}Objasniti pojam distribuirano izvršavanje.}{132}{section.301}%
+\contentsline {section}{\numberline {302}Objasniti pojam proces.}{132}{section.302}%
+\contentsline {section}{\numberline {303}Objasniti pojam nit.}{133}{section.303}%
+\contentsline {section}{\numberline {304}Zašto se uvodi koncept niti, ako već postoji koncept procesa?}{134}{section.304}%
+\contentsline {section}{\numberline {305}Objasniti sličnosti i razlike niti i procesa.}{134}{section.305}%
+\contentsline {section}{\numberline {306}Objasniti kako se programiraju niti pomoću standardne biblioteke C++-a. Klase, metodi, \dots }{134}{section.306}%
+\contentsline {section}{\numberline {307}Objasniti kako se programiraju niti pomoću biblioteke QT. Klase, metodi, ...}{135}{section.307}%
+\contentsline {section}{\numberline {308}Navesti i ukratko objasniti osnovne operacije sa nitima.}{136}{section.308}%
+\contentsline {section}{\numberline {309}Objasniti detaljno operaciju pravljenja niti. Kako se implementira pomoću standardne biblioteke C++-a?}{137}{section.309}%
+\contentsline {section}{\numberline {310}Objasniti detaljno operaciju pravljenja niti. Kako se implementira pomoću biblioteke QT?}{137}{section.310}%
+\contentsline {section}{\numberline {311}Objasniti detaljno operaciju dovršavanja niti. Kako se implementira pomoću standardne biblioteke C++-a?}{137}{section.311}%
+\contentsline {section}{\numberline {312}Objasniti detaljno operaciju dovršavanja niti. Kako se implementira pomoću biblioteke QT?}{137}{section.312}%
+\contentsline {section}{\numberline {313}Objasniti detaljno operacije suspendovanja i nastavljanja niti. Kako se implementiraju standardne biblioteke C++-a?}{138}{section.313}%
+\contentsline {section}{\numberline {314}Objasniti detaljno operaciju suspendovanja i nastavljanja niti. Kako se implementira pomoću biblioteke QT?}{138}{section.314}%
+\contentsline {section}{\numberline {315}Objasniti detaljno operaciju prekidanja niti. Kako se implementira pomoću standardne biblioteke C++-a?}{138}{section.315}%
+\contentsline {section}{\numberline {316}Objasniti detaljno operaciju prekidanje niti. Kako se implementira pomoću biblioteke QT?}{138}{section.316}%
+\contentsline {section}{\numberline {317}Objasniti detaljno operaciju čekanja niti. Kako se implementira pomoću standardne biblioteke C++-a?}{138}{section.317}%
+\contentsline {section}{\numberline {318}Objasniti detaljno operaciju čekanja niti. Kako se implementira pomoću biblioteke QT?}{139}{section.318}%
+\contentsline {section}{\numberline {319}Koji su najvažniji problemi pri pisanju konkurentnih programa?}{139}{section.319}%
+\contentsline {section}{\numberline {320}Šta je muteks? Kako se upotrebljava?}{139}{section.320}%
+\contentsline {section}{\numberline {321}Objasniti podršku za mutekse u okviru standardne biblioteke C++-a.}{139}{section.321}%
+\contentsline {section}{\numberline {322}Objasniti podrsku za mutekse u okviru biblioteke QT.}{140}{section.322}%
+\contentsline {section}{\numberline {323}Šta je, čemu služi i kako se koristi lock\_guard iz standardne biblioteke C++-a? Objasniti detaljno.}{140}{section.323}%
+\contentsline {section}{\numberline {324}Čemu služi klasa QMutexLocker biblioteke QT? Objasniti detaljno.}{141}{section.324}%
+\contentsline {section}{\numberline {325}Šta su katanci? Kako se upotrebljavaju?}{141}{section.325}%
+\contentsline {section}{\numberline {326}Objasniti podršku za katance u okviru standardne biblioteke C++-a.}{142}{section.326}%
+\contentsline {section}{\numberline {327}Objasniti podršku za katance u okviru biblioteke QT.}{142}{section.327}%
+\contentsline {section}{\numberline {328}Čemu služi klasa QReadLocker biblioteke QT? Objasniti detaljno.}{142}{section.328}%
+\contentsline {section}{\numberline {329}Čemu služi klasa QWriterLocker biblioteke QT? Objasniti detaljno.}{142}{section.329}%
+\contentsline {section}{\numberline {330}Šta je sinhronizacija? Šta se sve može sinhronizovati u konkurentnim programima?}{143}{section.330}%
+\contentsline {section}{\numberline {331}Šta su semafori?}{143}{section.331}%
+\contentsline {section}{\numberline {332}Objasniti podršku za semafore u okviru standardne biblioteke C++-a}{143}{section.332}%
+\contentsline {section}{\numberline {333}Objasniti podršku za semafore u okviru biblioteke QT.}{143}{section.333}%
+\contentsline {section}{\numberline {334}Objasniti funkciju async i šablon future standardne biblioteke C++-a.}{144}{section.334}%
+\contentsline {section}{\numberline {335}Objasniti šablone future i promise standardne biblioteke C++-a}{145}{section.335}%
+\contentsline {section}{\numberline {336}Kakvi mogu biti potprogrami u kontekstu konkurentnog programiranja?}{145}{section.336}%
+\contentsline {section}{\numberline {337}Šta su potprogrami sa jedinstvenim povezivanjem?}{146}{section.337}%
+\contentsline {section}{\numberline {338}Šta su potprogrami sa ponovljenim povezivanjem?}{146}{section.338}%
+\contentsline {section}{\numberline {339}Šta su potprogrami bezbedni po nitima?}{146}{section.339}%
+\contentsline {section}{\numberline {340}Kakve mogu biti klase u kontekstu konkurentnog programiranja? Objasniti.}{146}{section.340}%
+\contentsline {section}{\numberline {341}Koje su najčešće greške pri pisanju konkurentnih programa? Objasniti.}{147}{section.341}%
+\contentsline {section}{\numberline {342}Navesti neke načine razvoja programa koji omogućavaju bezbedno pisanje konkurentnih programa? Objasniti.}{147}{section.342}%
+\contentsline {section}{\numberline {343}Kada dolazi na red staranje o ponašanju koda u konkurentom okruženju?}{147}{section.343}%
+\contentsline {section}{\numberline {344}Kako se bira gde se i kako postavljaju muteksi i katanci?}{148}{section.344}%
+\contentsline {section}{\numberline {345}Navesti osnovne vidove međuprocesne komunikacije.}{148}{section.345}%
+\contentsline {section}{\numberline {346}Objasniti razliku između komunikacije među procesima i komunikacije među nitima.}{149}{section.346}%
+\contentsline {section}{\numberline {347}Šta je softverska metrika?}{149}{section.347}%
+\contentsline {section}{\numberline {348}Navesti najvažnije tipove softverskih metrika.}{149}{section.348}%
+\contentsline {section}{\numberline {349}Objasniti vrste metrika u razvoju softvera.}{150}{section.349}%
+\contentsline {section}{\numberline {350}Navesti nekoliko metrika praćenja razvoja softvera. Šta One opisuju?}{150}{section.350}%
+\contentsline {section}{\numberline {351}Navesti nekoliko metrika dizajna razvoja softvera. Šta one opisuju?}{152}{section.351}%
+\contentsline {section}{\numberline {352}Objansiti metriku stabilnost paketa.}{153}{section.352}%
+\contentsline {section}{\numberline {353}Objansiti metriku apstraktnost paketa.}{154}{section.353}%
+\contentsline {section}{\numberline {354}Objasniti odnos metrika stabilnosti i apstraktnosti paketa.}{154}{section.354}%
+\contentsline {section}{\numberline {355}Objasniti metriku funkcionalna kohezija paketa.}{155}{section.355}%
+\contentsline {section}{\numberline {356}Šta su sistemi za kontrolu verzija? Objasniti.}{155}{section.356}%
+\contentsline {section}{\numberline {357}Objasniti arhitekturu i navesti osnovne operacije pri radu sa sistemima za kontrolu verzija.}{156}{section.357}%
+\contentsline {section}{\numberline {358}Šta je spremište? Šta sadrži? Kako je organizovano?}{156}{section.358}%
+\contentsline {section}{\numberline {359}Šta je radna kopija u kontekstu upotrebe sistema za kontrolu verzija?}{157}{section.359}%
+\contentsline {section}{\numberline {360}Objasniti pojam oznake u kontekstu upotrebe sistema za kontrolu verzija.}{157}{section.360}%
+\contentsline {section}{\numberline {361}Objasniti grananje u kontekstu upotrebe sistema za kontrolu verzija.}{157}{section.361}%
+\contentsline {section}{\numberline {362}Šta su konflikti i kako se rešavaju u kontekstu upotrebe sistema za kontrolu verzija?}{157}{section.362}%
+\contentsline {section}{\numberline {363}Šta je spajanje verzija u kontekstu upotrebe sistema za kontrolu verzija?}{158}{section.363}%
+\contentsline {section}{\numberline {364}Objasniti primer strategije označavanja verzija.}{158}{section.364}%
+\contentsline {section}{\numberline {365}Šta su sistemi za praćenje zadataka i bagova? Objasniti namenu i osnovne elemente.}{160}{section.365}%
+\contentsline {section}{\numberline {366}Navesti i ukratko objasniti osnovne koncepte sistema Red-mine.}{160}{section.366}%
+\contentsline {section}{\numberline {367}Objasniti ulogu stanja kartica i način njihovog menjanja (na primeru sistema Redmine).}{161}{section.367}%
+\contentsline {section}{\numberline {368}Šta čini dokumentaciju softvera?}{161}{section.368}%
+\contentsline {section}{\numberline {369}Kome je i zašto potrebna dokumentacija?}{161}{section.369}%
+\contentsline {section}{\numberline {370}Navesti i ukratko objasniti osnovne opravdane i neopravdane motive za pravljenje dokumentacije.}{162}{section.370}%
+\contentsline {section}{\numberline {371}Objasniti ulogu dokumentacije kao vida specifikacije zahteva projekta.}{164}{section.371}%
+\contentsline {section}{\numberline {372}Objasniti ulogu dokumentacije kao sredstva za komunikaciju.}{164}{section.372}%
+\contentsline {section}{\numberline {373}Objasniti ulogu dokumentacije u razmatranju nedoumica u projektu.}{164}{section.373}%
+\contentsline {section}{\numberline {374}Objasniti podelu dokumentacije po nameni.}{164}{section.374}%
+\contentsline {section}{\numberline {375}Šta obuhvata korisnička dokumentacija softvera?}{164}{section.375}%
+\contentsline {section}{\numberline {376}Šta obuhvata tehnička (sistemska) dokumentacija softvera?}{165}{section.376}%
+\contentsline {section}{\numberline {377}Kakav je odnos agilnog razvoja softvera prema pisanju dokumentacije? Koji vidovi dokumentacije se podstiču a koji ne?}{165}{section.377}%
+\contentsline {section}{\numberline {378}Šta su alati za unutrašnje dokumentovanje programskog koda? Zašto su potrebni i po čemu se suštinski razlikuju od održavanja spoljašnje dokumentacije?}{166}{section.378}%
+\contentsline {section}{\numberline {379}Šta je Doxygen? Šta omogućava? Navesti primere anotacije koda.}{166}{section.379}%
+\contentsline {section}{\numberline {380}Šta je optimizacija softvera?}{168}{section.380}%
+\contentsline {section}{\numberline {381}Koje su informacije neophodne za uspešnu optimizaciju?}{168}{section.381}%
+\contentsline {section}{\numberline {382}Objasniti ,,optimizaciju unapred``. Dobre i loše strane?}{169}{section.382}%
+\contentsline {section}{\numberline {383}Objasniti ,,optimizaciju unazad``. Dobre i loše strane?}{169}{section.383}%
+\contentsline {section}{\numberline {384}Kakva je suštinska razlika između optimizacija unapred i unazad? Kada je bolje primeniti koju od njih?}{169}{section.384}%
+\contentsline {section}{\numberline {385}Koji osnovni problem proizvodi primena optimizacije u agilnom razvoju softvera? Kako se prevazilazi?}{170}{section.385}%
+\contentsline {section}{\numberline {386}Kako se dele tehnike optimizacije? Navesti nekoliko primera.}{170}{section.386}%
+\contentsline {section}{\numberline {387}Navesti bar 7 opštih tehnika optimizacije koda.}{170}{section.387}%
+\contentsline {section}{\numberline {388}Objasniti tehnike optimizacije ,,odbacivanje nepotrebne preciznosti`` i ,,tablice unapred izračunatih vrednosti``.}{171}{section.388}%
+\contentsline {section}{\numberline {389}Objasniti tehnike optimizacije ,,integracija petlji``, ,,izmeštanje inavarijanti izvan petlje`` i ,,razmotavanje petlji``.}{171}{section.389}%
+\contentsline {section}{\numberline {390}Objasniti tehnike optimizacije ,,smanjiti broj argumenata funkcije`` i ,,izbegavati globalne promenljive``.}{171}{section.390}%
+\contentsline {section}{\numberline {391}Objasniti tehnike optimizacije ,,upotreba umetnutih funkcija`` i ,,eliminacija grananja i petlji``.}{172}{section.391}%
+\contentsline {section}{\numberline {392}Objasniti tehnike optimizacije ,,zamenjivanje dinamickog uslova statickim`` i ,,snižavanje složenosti operacije``.}{172}{section.392}%
+\contentsline {section}{\numberline {393}Objasniti tehnike optimizacije ,,redosled proveravanja uslova`` i ,,izbor rešenja prema najčešćem slučaju``.}{172}{section.393}%
+\contentsline {section}{\numberline {394}Koje su najčešće greške pri optimizaciji? Objasniti.}{173}{section.394}%
+\contentsline {section}{\numberline {395}Navesti i ukratko objasniti tri tehnike optimizacije specifične za programski jezik C++.}{173}{section.395}%
+\contentsline {section}{\numberline {396}Šta su ,,optimizacije u hodu``? Navesti primere.}{174}{section.396}%
+\contentsline {section}{\numberline {397}Šta su profajleri? Čemu služe? Šta pružaju programerima?}{174}{section.397}%
+\contentsline {section}{\numberline {398}Prazno (radi usaglašavanja odgovora sa ispitnim pitanjima).}{174}{section.398}%
+\contentsline {section}{\numberline {399}Šta je korisnički interfejs? Šta je grafički korisnički interfejs?}{174}{section.399}%
+\contentsline {section}{\numberline {400}Koji su osnovni kvaliteti i slabosti grafičkih korisničkih interfejsa?}{174}{section.400}%
+\contentsline {section}{\numberline {401}Od čega zavisi upotrebljivost korisničkog interfejsa?}{175}{section.401}%
+\contentsline {section}{\numberline {402}Koji su osnovni ciljevi pri oblikovanju korisničkog interfejsa?}{175}{section.402}%
+\contentsline {section}{\numberline {403}Kako se testira korisnički interfejs?}{175}{section.403}%
+\contentsline {section}{\numberline {404}Primeri ispitnih pitanja za usmeni}{175}{section.404}%
 \contentsfinish 

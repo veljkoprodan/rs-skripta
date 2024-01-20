@@ -2874,6 +2874,88 @@ Dodeljivati odgovornosti tako da kohezija ostane visoka.
   Testove jedinica koda pišu programeri, a testove prihvatljivosti članovi razvojnog tima,
   ali ne nužno programeri (obično ljudi koji nisu direktno uključeni u samo pisanje programa).
 
+\section{Navesti osnovne vrste polimorfizma.}
+  \begin{itemize}
+    \item hijerarhijski (dinamički): dobijen kombinacijom dinamičkog povezivanja i nasleđivanja;
+    \item parametarski (statički): šabloni;
+    \item implicitni: retko koji jezici ovo podržavaju;
+    \item Ad-hoc polimorfizam: definiše se više funkcija sa istim imenom ali različitim tipovima argumenata.
+  \end{itemize}
+
+\section{Šta je hijerarhijski polimorfizam?}
+  \begin{itemize}
+    \item Objektno orijentisano programiranje počiva na konceptima klase i nasleđivanja klasa;
+    \item Univerzalan deo je interfejs bazne klase a promenljiv deo je implementacija (virtuelnih) metoda;
+    \item Vezivanje metoda se vrši dinamički. 
+  \end{itemize}
+
+\section{Šta je parametarski polimorfizam?}
+  \begin{itemize}
+    \item Suštinski se razlikuje od hijerarhijskog;
+    \item Počiva na primeni tipskih promenljivih;
+    \item Isti su principi, ali ne i konkretni tipovi;
+    \item Univerzalan deo je algoritam, tj. upotreba simboličkih tipova i vrednosti;
+    \item Promenljivi delovi su konkretni tipovi ili vrednosti;
+    \item Promenljivi delovi su i potencijalno različite definicije za različite tipove;
+    \item Naziva se i generičko programiranje;
+    \item Nema posebnih preduslova u odnosu na način proveravanja tipova i vezivanja;
+    \item Kod strogo tipiziranih jezika uobičajeno je da se prevodi statički;
+    \item Koncept šablona funkcija i klasa.
+  \end{itemize}
+
+\section{Šta je implicitni polimorfizam?}
+  \begin{itemize}
+    \item Implicitni polimorfizam podrazumeva da se pri pisanju koda uopšte ne navode tipovi vrednosti i izraza, već će prevodilac zaključiti koji za koje tipove može da se prevede;
+    \item Uopštenje parametarskog polimorfizma, osim u delu gde se zahtevaju različite definicije za različite tipove, npr. makroi: \\
+	\texttt{\#define max(x,y) ((x)>(y) ? (x) : (y))}.
+  \end{itemize}
+
+\section{Šta je ad-hok polimorfizam?}
+  \begin{itemize}
+    \item Definiše se više funkcija (metoda, operatora) sa istim imenom ali različitim tipovima argumenata (overloading);
+    \item Prevodilac prema kontekstu bira definiciju;
+    \item Može da se nadopunjuje sa parametarskim i implicitnim polimorfizmom
+	\begin{itemize} 
+		\item vid predstavljanja promenljivog dela ponašanja;
+	\end{itemize}
+    \item Neki kažu da je poseban slučaj parametarskog polimorfizma, ali ad-hoc funkcije sa istim imenom ali različitim argumentima mogu raditi konceptualno drugačije stvari, što nije nikada slučaj sa parametarskim polimorfizmom.
+  \end{itemize}
+
+\section{Šta su šabloni funkcija?}
+  \begin{itemize}
+    \item Sredstvo za pisanje polimorfnih funkcija (parametarski polimorfizam);
+    \item Ključna reč \texttt{template}, iza koje se u uglastim zagradama navode parametri šablona;
+    \item Svaki parametar se opisuje vrstom i imenom;
+    \item Parametar šablona može da predstavlja tip (tzv. tipski parametar - ključna reč \texttt{typename}) ili konstantu (tzv. konstantni parametar - tip konstante, npr. \texttt{int});
+    \item Nakon deklaracije šablona se navodi deklaracija i definicija funkcije;
+    \item Zamenjivanje parametara šablona konkretnim tipovima i konstantama naziva se instanciranje šablona;
+    \item Eksplicitno vezivanje parametara ili implicitno prepoznavanje parametara;
+    \item Proces prevodjenja: 
+	\begin{itemize}
+	\item u "prvom prolazu" proverava da li definicija zadovoljava osnovne normative C++ jezika, 
+	\item pri instanciranju šablona funkcije, prevodilac „ponavlja“ prevođenje šablona za konkretne vrednosti parametara.
+	\end{itemize}
+  \end{itemize}
+
+\section{Šta su šabloni klasa?}
+  \begin{itemize}
+    \item Apstrahovanje nekih tipova i/ili konstanti u deklaraciji i definiciji klase;
+    \item Pri opisivanju šablona klase se pre deklaracije i definicije klase navodi deklaracija parametara šablona;
+    \item Dopušteno je samo eksplicitno instanciranje;
+    \item Proces prevođenja šablona klasa je sličan prevođenju šablona funkcija 
+	\begin{itemize}
+		\item prevođenje instanci metoda se odlaže i dalje, sve dok se ne naiđe na njihovu konkretnu upotrebu.
+	\end{itemize}
+  \end{itemize}
+
+\section{Šta su funkcionalni objekti – funkcionali?}
+  \begin{itemize}
+    \item Klase čije instance mogu da se primene kao funkcije, ali se u uobičajenoj komunikaciji funkcionalima često nazivaju i konkretne instance tih klasa, pa čak i obične funkcije;
+    \item Algoritmima se nazivaju uopštene implementacije šablona funkcija koje se upotrebljavaju za različite tipove podataka i kolekcija
+    \item Koriste se pri implementaciji uopštenih algoritama.
+  \end{itemize}
+
+
 \section{Kakav je odnos refaktorisanja i pisanja programskog koda?}
   Refaktorisanje je tehnika kojom se kod popravlja u smislu dizajna kako bi kod bio razumljiviji, 
   lakši za održavanje i kako bi se povećala efikasnost pisanja koda. 
@@ -3530,6 +3612,107 @@ uzroke i posledice imaju?}
     \item Posvećivanje pažnje upozorenjima koja se dobijaju od prevodilaca;
     \item Uvođenje i poštovanje pravila kodiranja i komentarisanja.
   \end{itemize}
+
+\section{Koji su osnovni pristupi problemu debagovanja? Objasniti ukratko njihov odnos.}
+  \begin{itemize}
+    \item ``Neformalni`` metod
+    \item Empirijski ``naučni`` metod
+    \item Heuristički metod \\
+  \end{itemize}
+
+\item "Neformalni" metod:
+  \begin{itemize}
+    \item Najjednostavniji i najpovršniji metod
+    \item Osnovno sredstvo za rad su znanje o rešavanom problemu i napisanom programskom kodu i intuicija
+    \item Postupak čine dva koraka:
+      \begin{itemize}
+        \item Pokušati sa sasvim jednostavnom popravkom
+        \item Sve dok program ne proradi, ponavljati korak 1.
+      \end{itemize}
+  \item Motivacija:
+	\begin{itemize}
+      \item Neke greške uočene tokom pisanja koda, često mogu lako da se otklone
+      \item Sintaksne greške
+      \item Propuštanje da se izmene vrednosti nekih promenljivih
+      \item Pogrešne granice blokova koda
+      \item Neispravni indeksi
+      \item I slično...
+	\end{itemize}
+  \item Niska efikasnost:
+    \begin{itemize}
+      \item Ovaj pristup ``radi`` samo u jednostavnim slučajevima
+      \item U složenijim slučajevima često proizvodi nove probleme
+    \end{itemize}
+ \end{itemize}
+
+
+\section{Opisati empirijski (naučni) metod debagovanja.}
+  \begin{itemize}
+    \item Postupak lociranja problema sličan uobičajenom istraživačkom metodu u prirodnim naukama:
+      \begin{itemize}
+        \item Posmatramo uočen problem
+        \item Postavljamo hipotezu o uzroku problema
+        \item Na osnovu hipoteze napravimo predviđanje ponašanja
+        \item Eksperimentalno proveravamo ispravnost predviđanja
+        \item Ponavljamo prethodne korake, uz popravljanje ili zamenjivanje hipoteze, sve dok se ne potvrdi ispravnost hipoteze ili ne ponestanu mogućnosti za njeno dalje unapređivanje
+      \end{itemize}
+    \item Uopšteno posmatrano, ovo je najbolji pristup debagovanju
+    \item Ali nije uvek jasno šta je sledeće potrebno da se uradi?
+      \begin{itemize}
+        \item Problem može da se posmatra na mnogo različitih načina
+        \item Mogu da se posmatraju različiti aspekti problema
+        \item Na koje aspekte problema bi trebalo da se odnosi hipoteza?
+        \item Kako postavljati hipoteze?
+      \end{itemize}
+    \item Mora dobro da se pazi da se neodgovarajućim ili preteranim izmenama ne dovede do efekta posmatrača (posledice posmatranja koje dovode do netrivijalnih promena u ponašanju posmatranog sistema)
+    \item Postavljanje hipoteza je prepušteno intuiciji i iskustvu
+    \item Pomoć mogu da predstavljaju nekakve heuristike
+  \end{itemize}
+
+\section{Objasniti heurističko debagovanje.}
+  \begin{itemize}
+    \item "Heuristike" ili "heurističke tehnike" su strategije (ili pravila) za rešavanje nekog problema
+      \begin{itemize}
+        \item Počivaju na prethodnom iskustvu
+        \item Ne predstavljaju optimalno rešenje
+        \item Često predstavljaju "dovoljno dobro rešenje"
+      \end{itemize}
+    \item Počiva na primeni neke izabrane strategije ili nekog skupa pravila
+    \item Predstavlja nadgradnju empirijskog metoda
+    \item Glavni ciljevi primene pravila su
+      \begin{itemize}
+        \item Usmeravanje posmatranja prema uzroku problema
+        \item Izbegavanje pravljenja previda pri posmatranju
+        \item Sužavanje skupa kandidata za iskazivanje hipoteza
+      \end{itemize}
+    \item Kao dobar primer heurističkog debagovanja razmotrićemo sistem pravila koji je formulisao David Agans
+      \begin{itemize}
+        \item 9 jednostavnih pravila
+        \item Ne odnose se striktno na debagovanje programa, već na bilo koju vrstu tehničkog stvaralaštva (inženjerstva)
+      \end{itemize}
+  \end{itemize}
+
+  \subsection{Sistem pravila Davida Agansa:}
+    \begin{itemize}
+      \item Razumeti sistem
+      \item Navesti sistem na grešku
+      \item Najpre posmatrati pa tek onda razmišljati
+      \item Podeli pa vladaj
+      \item Praviti samo jednu po jednu izmenu
+      \item Praviti i čuvati tragove izvršavanja
+      \item Proveravati i naizgled trivijalne stvari
+      \item Zatražiti tuđe mišljenje
+      \item Ako nismo popravili bag, onda on nije popravljen
+    \end{itemize}
+
+    \subsubsection{Primedbe pri primeni pravila:}
+      \begin{itemize}
+        \item Pri razmatranju i upotrebi pravila valja postupati promišljeno
+        \item Navedena pravila su uglavnom jednostavna i zato mogu da izgledaju trivijalno i beskorisno
+        \item Nasuprot tome, jednostavnost pravila je uglavnom posledica vrlo precizne i korisne osnovne ideje kojom se rukovodi
+        \item Svako od pravila može da bude veoma korisno u velikom broju slučaja
+        \item Svako od pravila može da bude i potpuno beskorisno u nekim drugim slučajevima
+      \end{itemize}
 
 \section{Navesti bar 6 osnovnih pravila za debagovanje.}
   Otklanjanje grešaka se uobičajno naziva \textbf{debagovanje}.\\
