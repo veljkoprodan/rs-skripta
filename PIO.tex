@@ -2261,7 +2261,7 @@ Ukazuje na značaj jasnog razloga za dekompoziciju:
    \item jedna komponenta – jedna tačka promenljivosti\\
 \end{itemize}
 
-Ako se naruši povećava se nestabilnost dela zato što ima više razloga da se menja\\
+Ako se naruši povećava se nestabilnost dela zato što ima više razloga da se menja.\\
 
 Primer primene je obrazac Posetilac:
 \begin{itemize}
@@ -2348,7 +2348,7 @@ Veliki broj obrazaca počiva na primeni ovog principa: sastav, posmatrač, poset
   \item Izolovane promenljivosti – (Protected Variations)
 \end{itemize}
 
-\section{Obasniti princip dizajna softvera Informacioni ekspert.}
+\section{Objasniti princip dizajna softvera Informacioni ekspert.}
 Odgovornost za obavljanje posla dodeljivati klasi koja ima informacije neophodne za obavljanje tog posla.\\
 
 Osnovna ideja:
@@ -2366,7 +2366,7 @@ Posledice odstupanja:
    
 Neke arhitekture počivaju na upravo suprotnom konceptu, kada se iste informacije koriste u različitim poslovima. Npr. arhitektura Model-pogled-kontroler razdvaja model od kontrolera i pogleda zato što model moraju da koriste i kontroler i pogled.
 
-\section{Obasniti princip dizajna softvera Stvaralac.}
+\section{Objasniti princip dizajna softvera Stvaralac.}
 Odgovornost za pravljenje objekta klase A dodeliti klasi B ako važi bar jedan od uslova:
 \begin{itemize}
    \item instanca klase B predstavlja kompoziciju instanci klase A;
@@ -2396,7 +2396,7 @@ Odgovornosti za primanje ili obrađivanje poruka o sistemskim događajima dodelj
    \item ili predstavlja scenario slučaja upotrebe u kome se pojavljuju sistemski događaji\\
  \end{itemize}
  
-Osnovna ideja: grupisati reagovanje na događaje na jednom mestu, i sa tog mesta upravljati aktivnostima na osnovu događaja\\
+Osnovna ideja: grupisati reagovanje na događaje na jednom mestu, i sa tog mesta upravljati aktivnostima na osnovu događaja.\\
 
 Primeri:
  \begin{itemize}
@@ -2409,15 +2409,15 @@ Primeri:
  \end{itemize}
 
 \section{Objasniti princip dizajna softvera Polimorfizam.}
-Kada se neka vrsta ponašanja menja prema tipovima, onda je potrebno odgovornosti za odgovarajuće ponašanje rasporediti po tim tipovima, primenom polimorfizma
+Kada se neka vrsta ponašanja menja prema tipovima, onda je potrebno odgovornosti za odgovarajuće ponašanje rasporediti po tim tipovima, primenom polimorfizma.\\
 
 Osnovna ideja: eliminisanje eksplicitnih provera tipova iz programskog koda. Umesto toga se koriste polimorfni metodi
-Motivacija: eksplicitne provere tipova imaju tendenciju da se ponavljaju
+Motivacija: eksplicitne provere tipova imaju tendenciju da se ponavljaju.\\
 
-Veći broj obrazaca i refaktorisanja se oslanja na ovaj princip
+Veći broj obrazaca i refaktorisanja se oslanja na ovaj princip.
 
 \section{Objasniti princip dizajna softvera Izmišljotina.}
-Tesno povezan i zaokružen skup odgovornosti dodeliti veštački uvedenoj klasi, koja ne predstavlja koncept iz domena problema – koja je izmišljena da bi omogućila visoku koheziju, nisku spregnutost i višestruku upotrebu\\
+Tesno povezan i zaokružen skup odgovornosti dodeliti veštački uvedenoj klasi, koja ne predstavlja koncept iz domena problema – koja je izmišljena da bi omogućila visoku koheziju, nisku spregnutost i višestruku upotrebu.\\
 
 Osnovna ideja: dosledno modeliranje strukture domena vrlo često nosi sa sobom veliki
 broj složenih zavisnosti, tako da ne postoji prirodna dekompozicija koja ih razrešava. Tada moramo da izmišljamo potpuno nove funkconalno ekvivalentne koncepte.\\
@@ -2434,9 +2434,9 @@ Primeri:
 \end{itemize}
 
 \section{Objasniti princip dizajna softvera Indirekcija.}
-Dodeliti odgovornosti objektu koji je posrednik između drugih komponenti ili servisa, tako da oni ne moraju da budu neposredno spregnuti\\
+Dodeliti odgovornosti objektu koji je posrednik između drugih komponenti ili servisa, tako da oni ne moraju da budu neposredno spregnuti.\\
 
-Osnovna ideja: zamenjivanje neposredne zavisnosti posrednom uz dodavanje stabilnog koncepta kao posrednika\\
+Osnovna ideja: zamenjivanje neposredne zavisnosti posrednom uz dodavanje stabilnog koncepta kao posrednika.\\
 
 Obično se teži da se zavisnosti posrednika urede tako da:
 \begin{itemize}
@@ -2452,7 +2452,7 @@ Primeri:
 
 \section{Objasniti princip dizajna softvera Izolovane promenljivosti.}
 
-Dodeliti odgovornosti tako da se oblikuje stabilan interfejs oko prepoznatih tačaka predvidive promenljivosti ili nestabilnosti\\
+Dodeliti odgovornosti tako da se oblikuje stabilan interfejs oko prepoznatih tačaka predvidive promenljivosti ili nestabilnosti.\\
 
 Osnovna ideja:
 \begin{itemize}
@@ -2461,11 +2461,9 @@ Osnovna ideja:
    \item postavljanje stabilnog interfejsa između tačaka promenljivosti i elemenata koji zavise od njih
 \end{itemize}
    
-Spada u osnovne i najopštije principe projektovanja kao i principi Visoka kohezija i Niska spregnutost
+Spada u osnovne i najopštije principe projektovanja kao i principi Visoka kohezija i Niska spregnutost. Povezan je sa mnogim drugim principima: Indirekcija, Inverzna zavisnost, Zamenljivost itd.\\
 
-Povezan je sa mnogim drugim principima: Indirekcija, Inverzna zavisnost, Zamenljivost itd.
-
-Može se povezati sa praktično svakim primerom dobrog dizajna, npr. obrazac Adapter
+Može se povezati sa praktično svakim primerom dobrog dizajna, npr. obrazac Adapter.
 
 \section{Navesti principe oblikovanja celina (dizajn softvera).}
  \textbf{Principi grupisanja}:
@@ -2483,7 +2481,7 @@ Može se povezati sa praktično svakim primerom dobrog dizajna, npr. obrazac Ada
 \end{itemize}
 
 \section{Objasniti princip ekvivalentnosti izdanja i upotrebe.}
-Granula ponovljive upotrebe je granula objavljivanja\\
+Granula ponovljive upotrebe je granula objavljivanja.\\
 
 Osnovna ideja: tesna veza između ponovljive upotrebe i objavljivanja, u oba smera:
 \begin{enumerate}
@@ -2509,7 +2507,7 @@ Osnovna ideja:
 \end{itemize}
 
 Primer:
-   Ako imamo skup funkcija za formatiranje delova izveštaja, one mogu da budu relativno međusobno nezavisne, ali ako se promeni format izveštaja, menjaće se i većina tih funkcija. Tada je dobro da ih grupišemo u jednu klasu. Iako to nije funkcionalna kohezija, biće komunikaciona ili proceduralna. Takva klasa obično ima ulogu u indirekciji ili izmišljenom konceptu
+   Ako imamo skup funkcija za formatiranje delova izveštaja, one mogu da budu relativno međusobno nezavisne, ali ako se promeni format izveštaja, menjaće se i većina tih funkcija. Tada je dobro da ih grupišemo u jednu klasu. Iako to nije funkcionalna kohezija, biće komunikaciona ili proceduralna. Takva klasa obično ima ulogu u indirekciji ili izmišljenom konceptu.
 
 \section{Objasniti princip zajedničke upotrebe.}
 Klase u paketu se koriste zajedno. Ako se koristi jedna od klasa u paketu, onda se koriste sve.\\
@@ -2522,10 +2520,12 @@ Osnovna ideja:
     
 Primer su klase apstraktnog drveta sintakse: imaju različite funkcije – svaka modelira drugu vrstu čvora, ali se obično koriste zajedno.
 
-Ovaj princip nam pomaže i da odlučimo da neke klase ne stavljamo u isti paket ako nisu funkcionalno zavisne, pa se još i ne koriste zajedno
+Ovaj princip nam pomaže i da odlučimo da neke klase ne stavljamo u isti paket ako nisu funkcionalno zavisne, pa se još i ne koriste zajedno.
+
+\newpage
 
 \section{Objasniti princip stabilne zavisnosti.}
-Smer zavisnosti bi trebalo da se poklapa sa smerom porasta stabilnosti\\
+Smer zavisnosti bi trebalo da se poklapa sa smerom porasta stabilnosti.\\
 
 Osnovna ideja:
 \begin{itemize}
@@ -2538,7 +2538,7 @@ Potencijalno narušavanje nastaje kada god imamo element koji na neki način pov
 
 \section{Objasniti princip stabilne apstrakcije.}
 
-Celina bi trebalo da bude apstraktna onoliko koliko je stabilna\\
+Celina bi trebalo da bude apstraktna onoliko koliko je stabilna.\\
 
 Osnovna ideja:
 \begin{itemize}
@@ -2547,7 +2547,7 @@ Osnovna ideja:
    \item Apstraktni elementi softvera bi trebalo da zavise od što manje drugih elemenata, a ako već moraju, onda bi trebalo da to budu još apstraktniji elementi\\
 \end{itemize}
 
-Povezan je sa principima Stabilne zavisnosti, Izolovane promenljivosti, Inverzne zavisnosti i drugima
+Povezan je sa principima Stabilne zavisnosti, Izolovane promenljivosti, Inverzne zavisnosti i drugima.\\
 
 Primeri: fasada, apstraktna bazna klasa hijerarhije
 
@@ -3207,7 +3207,7 @@ Primer:
 	\texttt{\#define max(x,y) ((x)>(y) ? (x) : (y))}.
   \end{itemize}
 
-\section{Šta je ad-hok polimorfizam?}
+\section{Šta je ad-hoc polimorfizam?}
   \begin{itemize}
     \item Definiše se više funkcija (metoda, operatora) sa istim imenom ali različitim tipovima argumenata (overloading);
     \item Prevodilac prema kontekstu bira definiciju;
@@ -4013,6 +4013,8 @@ uzroke i posledice imaju?}
         \item Svako od pravila može da bude veoma korisno u velikom broju slučaja
         \item Svako od pravila može da bude i potpuno beskorisno u nekim drugim slučajevima
    \end{itemize}
+
+\newpage
 
 \section{Navesti bar 6 osnovnih pravila za debagovanje.}
   Otklanjanje grešaka se uobičajno naziva \textbf{debagovanje}.\\
