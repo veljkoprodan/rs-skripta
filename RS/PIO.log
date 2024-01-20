@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.20)  20 JAN 2024 06:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.20)  20 JAN 2024 06:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -826,107 +826,180 @@ Underfull \hbox (badness 10000) in paragraph at lines 1528--1530
  []
 
 [59]
-Overfull \hbox (18.88724pt too wide) in paragraph at lines 1584--1584
+Overfull \hbox (18.88724pt too wide) in paragraph at lines 1583--1583
 |[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti od-nos sta-ti£-ke i di-na-mi£-ke spreg-
  []
 
 [60]
-Overfull \hbox (17.6027pt too wide) in paragraph at lines 1624--1624
+Overfull \hbox (17.6027pt too wide) in paragraph at lines 1623--1623
 |[]  \T1/cmr/bx/n/14.4 Na-ve-sti ne-ko-li-ko uo-bi-£a-je-nih na-£i-na spreg-
  []
 
 [61] [62] [63]
-Overfull \hbox (70.2937pt too wide) in paragraph at lines 1736--1740
+Overfull \hbox (70.2937pt too wide) in paragraph at lines 1735--1739
 \T1/cmr/m/n/9 £in.`` [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1736--1740
+Underfull \hbox (badness 10000) in paragraph at lines 1735--1739
 
  []
 
 
-Overfull \hbox (0.61238pt too wide) in paragraph at lines 1741--1751
+Overfull \hbox (0.61238pt too wide) in paragraph at lines 1740--1750
 \T1/cmr/m/n/9 Vlis-si-des su ob-ja-vi-li knji-gu ,,De-sign Pat-terns: Ele-ments
  of Re-u-sa-ble Object-
  []
 
-
-Overfull \hbox (1.88756pt too wide) in paragraph at lines 1752--1752
-|[]  \T1/cmr/bx/n/14.4 Ko-ji su osnov-ni ele-men-ti uzo-ra-ka za pro-
+[64] [65] [66]
+Overfull \hbox (3.17143pt too wide) in paragraph at lines 1853--1853
+|[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti na-me-nu gra-div-nih obra-za-ca za
  []
 
-[64] [65] [66]
-Underfull \hbox (badness 10000) in paragraph at lines 1872--1873
+
+Underfull \hbox (badness 10000) in paragraph at lines 1871--1872
 
  []
 
 [67] [68] [69]
-Overfull \hbox (16.81413pt too wide) in paragraph at lines 2010--2016
-[]\T1/cmr/m/n/9 U Java-i se ovaj uzo-rak za pro-jek-to-va-nje do-sta ko-ri-sti.
- Pri-mer: $\OML/cmm/m/it/9 InetAddress$
+Overfull \hbox (6.22316pt too wide) in paragraph at lines 1999--1999
+|[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti ka-da se i ka-ko pri-me-nju-je obra-
  []
 
 
-Overfull \hbox (0.19188pt too wide) in paragraph at lines 2020--2020
+Overfull \hbox (20.66734pt too wide) in paragraph at lines 2009--2015
+[]\T1/cmr/m/n/9 U Java-i se ovaj obra-zac za pro-jek-to-va-nje do-sta ko-ri-sti
+. Pri-mer: $\OML/cmm/m/it/9 InetAddress$
+ []
+
+
+Overfull \hbox (4.85208pt too wide) in paragraph at lines 2019--2019
+|[]  \T1/cmr/bx/n/14.4 Ski-ci-ra-ti di-ja-gram kla-sa obra-za-ca za pro-
+ []
+
+
+Overfull \hbox (0.19188pt too wide) in paragraph at lines 2019--2019
 \T1/cmr/bx/n/14.4 jek-to-va-nje Pro-i-zvod-ni me-tod (Fac-to-ry Met-
  []
 
 <Slike/dp_factory_method.png, id=2852, 358.33875pt x 206.7725pt>
 File: Slike/dp_factory_method.png Graphic file (type png)
 <use Slike/dp_factory_method.png>
-Package pdftex.def Info: Slike/dp_factory_method.png  used on input line 2023.
+Package pdftex.def Info: Slike/dp_factory_method.png  used on input line 2022.
 (pdftex.def)             Requested size: 284.54442pt x 170.71877pt.
 [70]
+Overfull \hbox (6.22316pt too wide) in paragraph at lines 2026--2026
+|[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti ka-da se i ka-ko pri-me-nju-je obra-
+ []
+
+
+Overfull \hbox (4.85208pt too wide) in paragraph at lines 2043--2043
+|[]  \T1/cmr/bx/n/14.4 Ski-ci-ra-ti di-ja-gram kla-sa obra-za-ca za pro-
+ []
+
 <Slike/dp_strategy.png, id=2860, 378.41376pt x 204.765pt>
 File: Slike/dp_strategy.png Graphic file (type png)
 <use Slike/dp_strategy.png>
-Package pdftex.def Info: Slike/dp_strategy.png  used on input line 2047.
+Package pdftex.def Info: Slike/dp_strategy.png  used on input line 2046.
 (pdftex.def)             Requested size: 284.53137pt x 170.72662pt.
- [71 <./Slike/dp_factory_method.png>]
+[71 <./Slike/dp_factory_method.png>]
+Overfull \hbox (6.22316pt too wide) in paragraph at lines 2050--2050
+|[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti ka-da se i ka-ko pri-me-nju-je obra-
+ []
+
+
+Overfull \hbox (4.85208pt too wide) in paragraph at lines 2063--2063
+|[]  \T1/cmr/bx/n/14.4 Ski-ci-ra-ti di-ja-gram kla-sa obra-za-ca za pro-
+ []
+
 <Slike/dp_decorator.png, id=2866, 356.33125pt x 212.795pt>
 File: Slike/dp_decorator.png Graphic file (type png)
 <use Slike/dp_decorator.png>
-Package pdftex.def Info: Slike/dp_decorator.png  used on input line 2067.
+Package pdftex.def Info: Slike/dp_decorator.png  used on input line 2066.
 (pdftex.def)             Requested size: 284.53796pt x 170.7265pt.
- [72 <./Slike/dp_strategy.png>]
+[72 <./Slike/dp_strategy.png>]
+Overfull \hbox (6.22316pt too wide) in paragraph at lines 2070--2070
+|[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti ka-da se i ka-ko pri-me-nju-je obra-
+ []
+
+
+Overfull \hbox (4.85208pt too wide) in paragraph at lines 2084--2084
+|[]  \T1/cmr/bx/n/14.4 Ski-ci-ra-ti di-ja-gram kla-sa obra-za-ca za pro-
+ []
+
 <Slike/dp_composite.png, id=2872, 414.54875pt x 213.79875pt>
 File: Slike/dp_composite.png Graphic file (type png)
 <use Slike/dp_composite.png>
-Package pdftex.def Info: Slike/dp_composite.png  used on input line 2088.
+Package pdftex.def Info: Slike/dp_composite.png  used on input line 2087.
 (pdftex.def)             Requested size: 284.53346pt x 170.71625pt.
+[73 <./Slike/dp_decorator.png>]
+Overfull \hbox (6.22316pt too wide) in paragraph at lines 2091--2091
+|[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti ka-da se i ka-ko pri-me-nju-je obra-
+ []
 
-[73 <./Slike/dp_decorator.png>] [74 <./Slike/dp_composite.png>]
+[74 <./Slike/dp_composite.png>]
+Overfull \hbox (4.85208pt too wide) in paragraph at lines 2128--2128
+|[]  \T1/cmr/bx/n/14.4 Ski-ci-ra-ti di-ja-gram kla-sa obra-za-ca za pro-
+ []
+
 <Slike/dp_singleton.png, id=2917, 131.49126pt x 103.38625pt>
 File: Slike/dp_singleton.png Graphic file (type png)
 <use Slike/dp_singleton.png>
-Package pdftex.def Info: Slike/dp_singleton.png  used on input line 2132.
+Package pdftex.def Info: Slike/dp_singleton.png  used on input line 2131.
 (pdftex.def)             Requested size: 113.8166pt x 85.35938pt.
+
+Overfull \hbox (6.22316pt too wide) in paragraph at lines 2135--2135
+|[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti ka-da se i ka-ko pri-me-nju-je obra-
+ []
+
+
+Overfull \hbox (4.85208pt too wide) in paragraph at lines 2151--2151
+|[]  \T1/cmr/bx/n/14.4 Ski-ci-ra-ti di-ja-gram kla-sa obra-za-ca za pro-
+ []
+
 <Slike/dp_visitor.png, id=2918, 422.57875pt x 217.81375pt>
 File: Slike/dp_visitor.png Graphic file (type png)
 <use Slike/dp_visitor.png>
-Package pdftex.def Info: Slike/dp_visitor.png  used on input line 2155.
+Package pdftex.def Info: Slike/dp_visitor.png  used on input line 2154.
 (pdftex.def)             Requested size: 284.53195pt x 142.2619pt.
- [75 <./Slike/dp_singleton.png>]
+[75 <./Slike/dp_singleton.png>]
+Overfull \hbox (6.22316pt too wide) in paragraph at lines 2158--2158
+|[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti ka-da se i ka-ko pri-me-nju-je obra-
+ []
+
+
+Overfull \hbox (4.85208pt too wide) in paragraph at lines 2170--2170
+|[]  \T1/cmr/bx/n/14.4 Ski-ci-ra-ti di-ja-gram kla-sa obra-za-ca za pro-
+ []
+
 <Slike/dp_observer.png, id=2924, 329.23pt x 214.8025pt>
 File: Slike/dp_observer.png Graphic file (type png)
 <use Slike/dp_observer.png>
-Package pdftex.def Info: Slike/dp_observer.png  used on input line 2174.
+Package pdftex.def Info: Slike/dp_observer.png  used on input line 2173.
 (pdftex.def)             Requested size: 284.53386pt x 128.04015pt.
- [76 <./Slike/dp_visitor.png>]
+[76 <./Slike/dp_visitor.png>]
+Overfull \hbox (6.22316pt too wide) in paragraph at lines 2177--2177
+|[]  \T1/cmr/bx/n/14.4 Ob-ja-sni-ti ka-da se i ka-ko pri-me-nju-je obra-
+ []
+
 
 LaTeX Warning: Citation `medium_abstractfactory' on page 77 undefined on input 
-line 2193.
+line 2192.
 
 
-Overfull \hbox (11.58301pt too wide) in paragraph at lines 2195--2195
+Overfull \hbox (4.85208pt too wide) in paragraph at lines 2194--2194
+|[]  \T1/cmr/bx/n/14.4 Ski-ci-ra-ti di-ja-gram kla-sa obra-za-ca za pro-
+ []
+
+
+Overfull \hbox (11.58301pt too wide) in paragraph at lines 2194--2194
 \T1/cmr/bx/n/14.4 jek-to-va-nje Ap-strakt-na fa-bri-ka (Ab-stract Fac-
  []
 
 <Slike/dp_abstract_factory.png, id=2930, 357.335pt x 216.81pt>
 File: Slike/dp_abstract_factory.png Graphic file (type png)
 <use Slike/dp_abstract_factory.png>
-Package pdftex.def Info: Slike/dp_abstract_factory.png  used on input line 2198
+Package pdftex.def Info: Slike/dp_abstract_factory.png  used on input line 2197
 .
 (pdftex.def)             Requested size: 284.54343pt x 128.0425pt.
 [77 <./Slike/dp_observer.png>] [78 <./Slike/dp_abstract_factory.png>] [79]
@@ -1548,14 +1621,19 @@ No file PIO.bbl.
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `PIO.out' has not changed.
-(rerunfilecheck)             Checksum: 68ABE1E62B9B0B8D6F8FACEF721C4099;152705.
 
+Package rerunfilecheck Warning: File `PIO.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `PIO.out':
+(rerunfilecheck)             Before: 68ABE1E62B9B0B8D6F8FACEF721C4099;152705
+(rerunfilecheck)             After:  066394883AA31C1CFE40E6F47FEC3D0C;152860.
  ) 
 Here is how much of TeX's memory you used:
  15044 strings out of 479127
  224220 string characters out of 5870569
- 1140798 words of memory out of 5000000
+ 1141798 words of memory out of 5000000
  31500 multiletter control sequences out of 15000+600000
  482564 words of font info for 58 fonts, out of 8000000 for 9000
  766 hyphenation exceptions out of 8191
@@ -1578,7 +1656,7 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/wasy-type1/wasy9.pfb>
-Output written on PIO.pdf (172 pages, 2323014 bytes).
+Output written on PIO.pdf (172 pages, 2322953 bytes).
 PDF statistics:
  4648 PDF objects out of 5155 (max. 8388607)
  3890 compressed objects within 39 object streams
