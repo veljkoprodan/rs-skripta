@@ -4303,11 +4303,11 @@ uzroke i posledice imaju?}
         \item Heuristike su već obuhvatile ovu tehniku
         \item U zavisnosti od načina implementacije dnevnika, pravi se makro ili šablon (ili više makroa/šablona) koji ispisuju tekuće stanje u dnevnik
         \item Primer:
-          \begin{verbatim}
-          void TRACE(const char* s){
-            cerr << gettime() << s << ... << endl;
-          }
-          \end{verbatim}
+        \begin{lstlisting}
+	void TRACE(const char* s){
+		cerr << gettime() << s << ... << endl;
+	}
+          \end{lstlisting}
       \end{itemize}
     \item Interni opisi stanja
       \begin{itemize}
