@@ -1561,8 +1561,7 @@ class Kontrolisana {
     \item Usložnjava se podela odgovornosti među komponentama;
     \item Dovodi se u pitanje enkapsulacija.
   \end{itemize}
-  Ipak, nekada dvosmera ili cirkularna spregnutost može da značajno pojednostavi dizajn. Primer:
-  Inverzija odgovornosti kod obrasca ,,Posetilac``.
+  Ipak, nekada dvosmerna ili cirkularna spregnutost može da značajno pojednostavi dizajn. Primer: Inverzija odgovornosti kod obrasca ,,Posetilac``.
   
 \section{Objasniti pojam statička spregnutost u kontekstu razvoja softvera.}
   \textbf{Statička spregnutost} se ostvaruje pre izvršavanja programa i eksplicitno je iskazana
@@ -1623,7 +1622,7 @@ class Kontrolisana {
   
 \section{Navesti nekoliko uobičajenih načina spregnutosti komponenti.}
   Neki oblici spregnutosti su relativno česti. 
-  Mogu se prepoznati u uzorcima za projektovanje. Primeri:
+  Mogu se prepoznati u obrascima za projektovanje. Primeri:
   \begin{itemize}
     \item arhitektura klijent-server
     \item hijerarhija pripadnosti
@@ -1661,7 +1660,7 @@ Primer: prozor - dekorateri.\\
     \item Relativno uska;
     \item Nivo sprege je obično relativno nizak - preko poruka ili preko parametara;
     \item Sprega tipova ili specifikacija;
-    \item Nivo se često može dalje spustiti, npr. primenom uzorka graditelj.
+    \item Nivo se često može dalje spustiti, npr. primenom obrasca graditelj.
   \end{itemize}
 
 \section{Objasniti karakteristike spregnutosti u slučaju cirkularne spregnutosti.}
@@ -1678,7 +1677,7 @@ Primer: prozor - dekorateri.\\
     \item Nivo sprega je obično relativno nizak - preko poruka ili preko parametara;
     \item Sprege tipova ili specifikacija;
     \item Nivo se često može dalje spustiti, npr. primenom zajedničkih nadtipova 
-          i/ili uzorka graditelj.
+          i/ili obrasca graditelj.
   \end{itemize}
 
 \section{Objasniti karakteristike spregnutosti u slučaju sprege putem interfejsa.}
@@ -1732,133 +1731,133 @@ Primer: prozor - dekorateri.\\
   \end{itemize}
 
 
-\section{Šta je uzorak za projektovanje? Čemu služi?}
-  ,,Svaki uzorak za projektovanje opisuje problem koji se stalno ponavlja u našem okruženju i zatim
+\section{Šta je obrazac za projektovanje? Čemu služi?}
+  ,,Svaki obrazac za projektovanje opisuje problem koji se stalno ponavlja u našem okruženju i zatim
   opisuje suštinu rešenja problema tako da se to rešenje može upotrebiti milion puta, a da se
   dva puta ne ponovi na isti način.`` 
   \rightline{{\rm --- Cristopher Alexander}}\\
 
-  Kristofer je ovde govorio za uzorke za zidanje zgrada, ali to što je rekao isto važi i za
-  uzorke objektno orijentisanog projektovanja. Softverska rešenja su izražena pomoću objekta i 
-  interfejsa umesto preko zidova i vrata, ali suština obe vrste uzoraka je rešavanje problema
+  Kristofer je ovde govorio za obrasce za zidanje zgrada, ali to što je rekao isto važi i za
+  obrasce objektno orijentisanog projektovanja. Softverska rešenja su izražena pomoću objekta i 
+  interfejsa umesto preko zidova i vrata, ali suština obe vrste obrazaca je rešavanje problema
   u svom kontektsu.\\
-  \indent Uzorci za projektovanje su rešenja za opšte probleme sa kojim se razvijaoci često susreću.
+  \indent Obrasci za projektovanje su rešenja za opšte probleme sa kojim se razvijaoci često susreću.
   Ova rešenja su sakupljenja preko iskustava dobijenim na prethodnim lošim rešenjima koja su
   se javljala proteklih godina.\\
   \indent \textbf{Gang of four}: Erich Gamma, Richard Helm, Ralph Johnson i John Vlissides su objavili
   knjigu ,,Design Patterns: Elements of Reusable Object-Oriented Software``, što je započelo 
   koncepte o uzrocima projektovanja.
 
-\section{Koji su osnovni elementi uzoraka za projektovanje? Objasniti ih.}
-  \noindent Svaki uzorak ima četiri bitna elementa:
+\section{Koji su osnovni elementi obrazaca za projektovanje? Objasniti ih.}
+  \noindent Svaki obrazac ima četiri bitna elementa:
   \begin{itemize}
-    \item Ime uzorka
+    \item Ime obrasca
     \item Problem
     \item Rešenje
     \item Posledice
   \end{itemize}
 
-\section{Objasniti ime, kao element uzoraka za projektovanje.}
+\section{Objasniti ime, kao element obrazaca za projektovanje.}
   U nekoliko reči opisuje, njegova rešenja i njegove posledice.
-  Davanjem imena uzorku uvećava se rečnik projektovanja.
+  Davanjem imena obrascu uvećava se rečnik projektovanja.
   Tako se projektovanje podiže na viši nivo apstrakcije.
-  Rečnik uzoraka omogućava razmenu mišljenja o uzorcima, diskutovanje, pisanje i čitanje.
+  Rečnik obrazaca omogućava razmenu mišljenja o obrascima, diskutovanje, pisanje i čitanje.
   Lakše je razmišljati o projektovanju i prenositi drugima taj model i njegove ocene.
   Pronalaženje dobrih imena je jedan od najtežih poslova pri izradi kataloga.
 
-\section{Objasniti problem, kao element uzoraka za projektovanje.}
-  Opisuje slučaj u kome se uzorak koristi.
+\section{Objasniti problem, kao element obrazaca za projektovanje.}
+  Opisuje slučaj u kome se obrazac koristi.
   Opisuju se i problem i njegov kontekst.
   Moguć je opis specifičnih problema (primera).
   Problem može opisivati strukture klasa ili objekata čije osobine nagoveštavaju kruto 
-  projektovanje. Ponekad problem sadrži spisak uslova potrebnih da bi se uzorak primenio.
+  projektovanje. Ponekad problem sadrži spisak uslova potrebnih da bi se obrazac primenio.
 
-\section{Objasniti rešenje, kao element uzoraka za projektovanje.}
+\section{Objasniti rešenje, kao element obrazaca za projektovanje.}
   Opisuje elemente koji čine dizajn, njihove odnose, odgovornosti i saradnju.
   Ne opisuje određen konkretan projekat ili implementaciju, 
-  pošto je uzorak kao šablon koji se može primeniti u mnogim različitim situacijama.
+  pošto je obrazac kao šablon koji se može primeniti u mnogim različitim situacijama.
   Daje apstraktan opis problema projektovanja i uputstvo kako se on rešava opštim uređenjem 
   elemenata (klasa i objekata).
 
-\section{Objasniti posledice, kao element uzoraka za projektovanje.}
-  Obuhvataju rezultate i ocene primene uzorka.
+\section{Objasniti posledice, kao element obrazaca za projektovanje.}
+  Obuhvataju rezultate i ocene primene obrasca.
   Često se ne pominju u opisima odluka o projektovanju, 
   ali su veoma bitne za procenu alternativa i za razumevanje prednosti 
-  i nedostataka primene uzorka.
+  i nedostataka primene obrasca.
 
-\section{Navesti šta sve obuhvata opis jednog uzorka za projektovanje.}
+\section{Navesti šta sve obuhvata opis jednog obrasca za projektovanje.}
   \begin{itemize}
-    \item \textbf{Ime uzorka i klasifikacija:}
+    \item \textbf{Ime obrasca i klasifikacija:}
           \begin{itemize}
-            \item Ime uzorka sažeto izlaže suštinu uzorka.
+            \item Ime obrasca sažeto izlaže suštinu obrasca.
             \item Dobro ime je od suštinskog značaja pošto ono ulazi u rečnik projektovanja.
-            \item Klasifikacija uzorka izvedena je po šemi koja će biti kasnije navedena.
+            \item Klasifikacija obrasca izvedena je po šemi koja će biti kasnije navedena.
           \end{itemize}
     \item \textbf{Namena:} Kratak iskaz koji odgovara na sledeča pitanja:
           \begin{itemize}
             \item Šta je uzrok a projektovanje radi?
             \item Kakvo mu je obrazloženje i namena?
-            \item Na koje konkretno pitanje ili problem projektovanja se uzorak odnosi?
+            \item Na koje konkretno pitanje ili problem projektovanja se obrazac odnosi?
           \end{itemize}
-    \item \textbf{Poznat takođe kao:} Ostala poznata imena uzorka (ako postoje).
+    \item \textbf{Poznat takođe kao:} Ostala poznata imena obrasca (ako postoje).
     \item \textbf{Motivacija:}
           \begin{itemize}
             \item Scenario koji ilustruje problem projektovanja i način na koji strukture klasa 
-                  i objekata u uzorku rešavaju taj problem.
-            \item Scenario pomaže da se shvati apstraktniji opis uzorka.
+                  i objekata u obrascu rešavaju taj problem.
+            \item Scenario pomaže da se shvati apstraktniji opis obrasca.
           \end{itemize}
     \item \textbf{Primenljivost:}
           \begin{itemize}
-            \item Na koje situacije se uzorak može primeniti?
-            \item Koji su primeri lošeg projektovanja koje uzorak može da ispravi?
+            \item Na koje situacije se obrazac može primeniti?
+            \item Koji su primeri lošeg projektovanja koje obrazac može da ispravi?
             \item Kako prepoznati te situacije?
           \end{itemize}
-    \item \textbf{Struktura:} Grafički prikaz klasa u uzorku u notaciji UML 
+    \item \textbf{Struktura:} Grafički prikaz klasa u obrascu u notaciji UML 
           \begin{itemize}
             \item dijagrami klasa
             \item dijagrami interakcije
           \end{itemize}
-    \item \textbf{Učesnici:} Klase i/ili objekti koji učestvuju u uzorku za projektovanje kao i njihove odgovornosti.
+    \item \textbf{Učesnici:} Klase i/ili objekti koji učestvuju u obrascu za projektovanje kao i njihove odgovornosti.
     \item \textbf{Saradnja:} Kako učesnici sarađuju da bi izvršavali svoje odgovornosti.
     \item \textbf{Posledice:}
           \begin{itemize}
-            \item Kako uzorak zadovoljava svoju namenu?
-            \item Koji su nedostaci i koristi od korisćenja uzoraka?
+            \item Kako obrazac zadovoljava svoju namenu?
+            \item Koji su nedostaci i koristi od korisćenja obrazaca?
             \item Koji aspekt strukture sistema može nezavisno da se menja?
           \end{itemize}
     \item \textbf{Implementacija:}
           \begin{itemize}
             \item Kojih zamki, saveta ili tehnika bi trebalo da budete svesni prilikom 
-                  implementiranja uzorka?
+                  implementiranja obrasca?
             \item Ima li nekoh pitanja zavisnih od programskog jezika?
           \end{itemize}
-    \item \textbf{Primer koda:} Fragmenti koda koji ilustruju kako bi se uzorak mogao implementirati.
-    \item \textbf{Poznata korišćenja:} Primeri uzorka koji se nalaze u stvarnim sistemima.
-    \item \textbf{Povezani uzorci:} 
+    \item \textbf{Primer koda:} Fragmenti koda koji ilustruju kako bi se obrazac mogao implementirati.
+    \item \textbf{Poznata korišćenja:} Primeri obrasca koji se nalaze u stvarnim sistemima.
+    \item \textbf{Povezani obrasci:} 
           \begin{itemize}
-            \item Koji uzorci za projektovanje su u tesnoj vezi sa ovim uzorkom?
+            \item Koji obrasci za projektovanje su u tesnoj vezi sa ovim obrascem?
             \item Koje su značajne razlike?
-            \item Uz koje druge uzorke bi trebalo koristiti ovaj uzorak?
+            \item Uz koje druge obrasce bi trebalo koristiti ovaj obrazac?
           \end{itemize}
   \end{itemize}
 
-\section{Šta su klasifikovani uzorci za projektovanje? Navesti po jedan primer od svake vrste uzorka.}
-  Klasifikacija uzoraka je važna. Daje nam standardna imena i definicije za tehnike koje koristimo. 
-  Ako ne naučimo uzorke u softveru, nećemo biti u stanju da ih poboljšamo, i biće teže smisliti nove.
+\section{Šta su klasifikovani obrasci za projektovanje? Navesti po jedan primer od svake vrste obrasca.}
+  Klasifikacija obrazaca je važna. Daje nam standardna imena i definicije za tehnike koje koristimo. 
+  Ako ne naučimo obrasce u softveru, nećemo biti u stanju da ih poboljšamo, i biće teže smisliti nove.
   \begin{itemize}
     \item \textbf{Gradivni} (primer. Fabrika)
     \item \textbf{Strukturni} (primer. Dekorator)
-    \item \textbf{Uzorci ponašanja} (primer. Posetilac)
+    \item \textbf{obrasci ponašanja} (primer. Posetilac)
   \end{itemize}
 
-\section{Objasniti namenu gradivnih uzoraka za projektovanje.}
+\section{Objasniti namenu gradivnih obrazaca za projektovanje.}
   Apstrahuju proces pravljenja objekata. Pomoću njih sistem postaje nezavisan od načina pravljenja 
-  objekata. Postoje dva domena: \textbf{Uzorak za pravljenje sa domenom klase}, koji koristi nasleđivanje 
-  za menjanje klase koja se instancira, i \textbf{Uzorak za pravljenje sa domenom objekta}, 
-  koji delegira pravljenje nekom drugom objektu. U ovim uzorcima postoje dve teme koje se stalno 
+  objekata. Postoje dva domena: \textbf{obrazac za pravljenje sa domenom klase}, koji koristi nasleđivanje 
+  za menjanje klase koja se instancira, i \textbf{obrazac za pravljenje sa domenom objekta}, 
+  koji delegira pravljenje nekom drugom objektu. U ovim obrascima postoje dve teme koje se stalno 
   ponavljaju:
   \begin{enumerate}
-    \item Svi uzorci enkapsuliraju znanje o tome koje konkretne klase sistem koristi;
+    \item Svi obrasci enkapsuliraju znanje o tome koje konkretne klase sistem koristi;
     \item Kriju kako se prave primerci ove klase i kako se sastavljaju.
   \end{enumerate}
   U celom sistemu o objektima se samo zna interfejs, na osnovu toga kako su definisani u apstraktnim
@@ -1875,7 +1874,7 @@ Primer: prozor - dekorateri.\\
   omogućava veću fleksibilnost prilikom određivanja koji objekat treba da se kreira
   (program odlučuje o tome).
 
-\section{Navesti bar četiri gradivna uzorka za projektovanje.}
+\section{Navesti bar četiri gradivna obrasca za projektovanje.}
   \begin{enumerate}
     \item Apstraktna fabrika (Abstract Factory)
     \item Graditelj(Builder)
@@ -1884,7 +1883,7 @@ Primer: prozor - dekorateri.\\
     \item Unikat (Singleton)
   \end{enumerate}
 
-  \textbf{Uzorci za projektovanje koji nisu objašnjeni u okviru narednih pitanja, a opet mogu potencijalno da
+  \textbf{obrasci za projektovanje koji nisu objašnjeni u okviru narednih pitanja, a opet mogu potencijalno da
           dođu na ispit:}
   \begin{itemize}
     \item \textbf{Builder:} Ukoliko je potrebno da se pravi više kompleksnih objekata sa sličnom strukturom, onda je
@@ -1892,21 +1891,21 @@ Primer: prozor - dekorateri.\\
           kao što su garaža, bazen, kamin, \dots Jedno rešenje je da se koristi komplikovani konstruktor sa parametrima
           koji govori koje elemente treba kuća da sadrži. Alternativa je da se konstrukcija apstrahuje u zasebnu klasu
           koja ima metode tipa \textit{buildWalls(), buildDoors(), buildWindows, buildPool(), \dots}.
-    \item \textbf{Prototype:} Ovaj uzorak za projektovanje odgovara interfejsu \textbf{Cloneable} u Java-i. Svaka
+    \item \textbf{Prototype:} Ovaj obrazac za projektovanje odgovara interfejsu \textbf{Cloneable} u Java-i. Svaka
           klasa može da nasledi klasu (C++) ili implementira interfejs (Java) preko jednostavne metode \textit{clone()}
           koja kopira objekat. Motivacija: Samo sam objekat zna kojeg je tipa (primer: polimofrizam) i vrednosti
           svojih privatnih polja.
   \end{itemize}
 
-\section{Objasniti namenu strukturnih uzoraka za projektovanje.}
+\section{Objasniti namenu strukturnih obrazaca za projektovanje.}
   Bave se načinom na koji se klase i objekti sastavljaju u veće strukture. Dele se na 
-  \textbf{strukturne uzorke klasa} i \textbf{strukturne uzorke sa domenom objekata}.
-  Strukturni uzorci klasa koriste nasleđivanje za sastavljenje interfejsa ili
-  implementacija. Strukturni uzorci sa domenom objekata opisuje načine za postizanje nove
+  \textbf{strukturne obrasce klasa} i \textbf{strukturne obrasce sa domenom objekata}.
+  Strukturni obrasci klasa koriste nasleđivanje za sastavljenje interfejsa ili
+  implementacija. Strukturni obrasci sa domenom objekata opisuje načine za postizanje nove
   funkcionalnosti kombinovanjem objekata. Fleksibilnost sastavljenje potiče od mogućnosti 
   da se sastav menja u vreme izvršavanja, što je nemoguće kod statičkog sastavljanja klasa.
 
-\section{Navesti bar pet strukturnih uzorka za projektovanje.}
+\section{Navesti bar pet strukturnih obrasca za projektovanje.}
   \begin{enumerate}
     \item Adapter (Adapter)
     \item Most (Bridge)
@@ -1917,7 +1916,7 @@ Primer: prozor - dekorateri.\\
     \item Proksi (Proxy)
   \end{enumerate}
 
-  \textbf{Uzorci za projektovanje koji nisu objašnjeni u okviru narednih pitanja, a opet mogu potencijalno da
+  \textbf{obrasci za projektovanje koji nisu objašnjeni u okviru narednih pitanja, a opet mogu potencijalno da
           dođu na ispit:}
   \begin{itemize}
     \item \textbf{Adapter:} Predstavlja specijalan objekat koji se koristi kao posrednik 
@@ -1927,32 +1926,32 @@ Primer: prozor - dekorateri.\\
           postoji odlična biblioteka za vizuelizaciju statistika nad podacima, ali problem je što ona radi sa 
           \textit{JSON} podacima. Rešenje je da se koristi Adapter objekat koji prevodi \textit{XML} u \textit{JSON}
           podatke.
-    \item \textbf{Bridge:} Predstavlja uzorak za projektovanje koji nam omogućava da razdvojimo veliku klasu
+    \item \textbf{Bridge:} Predstavlja obrazac za projektovanje koji nam omogućava da razdvojimo veliku klasu
           ili grupu bliskih klasa na dve odvojene hijearhije koje mogu odvojeno da se razvijaju. Primer:
           Apstraktnu klasu Predmet nasleđuju klase CrvenaLopta, PlavaLopta, CrvenaKutija, PlavaKutija. Ovde ima 
           smisla napraviti zasebnu klasu Boja koju nasleđuju klase Plava i Crvena, a da u hijearhiji klase Predmet
           ostanu samo klase Lopta i Kutija. Klasa Predmet sada ima posebno polje tipa Boja. Sada hijearhije 
           Predmet i Boja mogu nezavisno da se razvijaju.
-    \item \textbf{Facade:} Predstavlja uzorak za projektovanje koji olakšava održavanje interfejsa kompleksnog sistema.
-    \item \textbf{Flyweight:} Predstavlja uzorak za projektovanje koji omogućava da se više objekata smesti u radnu 
+    \item \textbf{Facade:} Predstavlja obrazac za projektovanje koji olakšava održavanje interfejsa kompleksnog sistema.
+    \item \textbf{Flyweight:} Predstavlja obrazac za projektovanje koji omogućava da se više objekata smesti u radnu 
           memoriju tako što deli zajedničke delove objekata. Primer: Ukoliko se prezentuje više identičnih slika
           na različitim pozicijama, dovoljno je da se pamti slika samo na jednom mestu.
-    \item \textbf{Proxy:} Ovaj uzorak za projektovanje se koristi kada se radi sa skupom objekata koji su skupi,
+    \item \textbf{Proxy:} Ovaj obrazac za projektovanje se koristi kada se radi sa skupom objekata koji su skupi,
           a potencijalno se koriste. To znači da ima smisla da se implementira lenja inicijalizacija tj. 
           da se objekat zapravo kreira tek kad se on zahteva. Ovo može da izazove dupliranje koda. Rešenje je 
-          koristiti \textbf{Proksi} uzorak za projektovanje koji nudi ,,prazan`` objekat sa istim interfejsom.
+          koristiti \textbf{Proksi} obrazac za projektovanje koji nudi ,,prazan`` objekat sa istim interfejsom.
           Kada je potrebno da se zapravo koristi pravi projekat, proksi kreira taj objekat.
   \end{itemize}
 
-\section{Objasniti namenu uzoraka ponašanja.}
-  Bave se algoritmima i raspodelama odgovornosti. Ne opisuju samo uzorke objekata ili klasa
-  već i uzorke njihove međusobne komunikacije (observer). Opisuju prirodu složenog toka kontrole
+\section{Objasniti namenu obrazaca ponašanja.}
+  Bave se algoritmima i raspodelama odgovornosti. Ne opisuju samo obrasce objekata ili klasa
+  već i obrasce njihove međusobne komunikacije (observer). Opisuju prirodu složenog toka kontrole
   koji se teško prati u vreme izvršavanja. Pažnja i sa samog toka kontrole na način međusobnog
-  povezivanja objekata. Dele se na \textbf{klasne uzorke ponašanja}, koji koriste nasleđivanje
-  za distribuiranje ponašanja (šablonski metod, interpretator) i \textbf{objektne uzorke ponašanja},
+  povezivanja objekata. Dele se na \textbf{klasne obrasce ponašanja}, koji koriste nasleđivanje
+  za distribuiranje ponašanja (šablonski metod, interpretator) i \textbf{objektne obrasce ponašanja},
   koji koriste sastavljanje objekata (umesto nasleđivanja).
 
-\section{Navesti bar sedam uzoraka ponašanja.}
+\section{Navesti bar sedam obrazaca ponašanja.}
   \begin{enumerate}
     \item Lanac odgovornosti (Chain of Responsibility)
     \item Komanda (Command)
@@ -1967,12 +1966,12 @@ Primer: prozor - dekorateri.\\
     \item Posetilac (Visitor)
   \end{enumerate}
 
-  \textbf{Uzorci za projektovanje koji nisu objašnjeni u okviru narednih pitanja, a opet mogu potencijalno da
+  \textbf{obrasci za projektovanje koji nisu objašnjeni u okviru narednih pitanja, a opet mogu potencijalno da
           dođu na ispit:}
   \begin{itemize}
     \item \textbf{Chain of Responsibility:} Koristi niz \textit{Handler}-a, gde svaki od njih
           ima opciju da obradi zahtev koji stiže od klijenta ili prosledi zahtev sledećem u nizu.
-    \item \textbf{Command:} Predstavlja uzorak za projektovanje koji preslikava zahtev u zaseban 
+    \item \textbf{Command:} Predstavlja obrazac za projektovanje koji preslikava zahtev u zaseban 
           objekat. Ovo nam omogućava parametrizaciju metoda za različite zahteve i postavljanje
           zahteva na čekanje. Primer: Imamo aplikaciju nalik na \textit{Notepad} i sa različim
           načinima za čuvanje teksta na \textit{clipboard}: \textit{shortcut}, padajući meni
@@ -1985,19 +1984,19 @@ Primer: prozor - dekorateri.\\
           dalje kod (primer: lista u niz). Iterator se definiše kao interfejs. U slučaju Java-e,
           klasa mora da implementira \textit{iterator} interfejs.
     \item \textbf{Mediator:} Posrednik se koristi da se reše odgovarajući problemi koji su nastali
-          kao posledica velike spregnutostni kompenenti. Primenom ovog uzorka dobijamo ograničenu
+          kao posledica velike spregnutostni kompenenti. Primenom ovog obrasca dobijamo ograničenu
           komunikaciju između objekata tj. komunikacija se vrši preko posrednika.
-    \item \textbf{Memento:} Predstavlja uzorak za projektovanje koji omogućava da se objekat vraća
+    \item \textbf{Memento:} Predstavlja obrazac za projektovanje koji omogućava da se objekat vraća
           u prethodno stanje bez otkrivanja njegove implementacije.
-    \item \textbf{State:} Predstavlja uzorak projektovanja koji koristi slične koncepte kao konačni automat. Klasa
+    \item \textbf{State:} Predstavlja obrazac projektovanja koji koristi slične koncepte kao konačni automat. Klasa
           izvršava operacije i zavisnosti od stanja (kao da se sama klasa menja). 
-    \item \textbf{Template Method:} Predstavlja uzorak za projektovanje gde se u baznoj klasi
+    \item \textbf{Template Method:} Predstavlja obrazac za projektovanje gde se u baznoj klasi
           definiše skelet za algoritam, a u klasama koje nasleđuju baznu klasu se redefinišu
           odgovarajući koraci bez menjanja strukture algoritma. Primer: klasa \textit{Reader}
           u Java-i.
   \end{itemize}
 
-\section{Objasniti kada se i kako primenjuje uzorak Proizvodni metod (Factory Method).}
+\section{Objasniti kada se i kako primenjuje obrazac Proizvodni metod (Factory Method).}
   Kreiranje objekta se vrši bez otkrivanja implementacije korisniku. Za korisnika je dovoljno
   da zna interfejs za kreiranje, a klasa prepušta instanciranje potklasi. \\
   \textbf{Koristi se kada:}
@@ -2007,7 +2006,7 @@ Primer: prozor - dekorateri.\\
     \item Klasa prenosi odgovornost na jednu od nekoliko pomoćnih potklasa.
   \end{itemize}
 
-  \indent U Java-i se ovaj uzorak za projektovanje dosta koristi. Primer: $InetAddress$ je klasa koja
+  \indent U Java-i se ovaj obrazac za projektovanje dosta koristi. Primer: $InetAddress$ je klasa koja
   reprezentuje IP protokol. Postoje dve verzije IP adresa: $ipv4$ i $ipv6$. Zbog toga postoje
   dve potklase klase $InetAddress$: $InetAddress4$ (za $ipv4$) i $InetAddress6$ (za $ipv6$). Umesto
   da korisnik za ove klase piše svoju funkciju za dedukciju tipa adrese, koristi se 
@@ -2017,14 +2016,14 @@ Primer: prozor - dekorateri.\\
     InetAddress address4 = InetAddress.getByName("www.google.rs");
     InetAddress address6 = InetAddress.getByName("ipv6.google.com");\end{lstlisting}
 
-\section{Skicirati dijagram klasa uzoraka za projektovanje Proizvodni metod (Factory Method).}
+\section{Skicirati dijagram klasa obrazaca za projektovanje Proizvodni metod (Factory Method).}
   \begin{figure}[H]
     \begin{center}
         \includegraphics[width=100mm,height=60mm]{Slike/dp_factory_method.png}
     \end{center}
   \end{figure} 
 
-\section{Objasniti kada se i kako primenjuje uzorak Strategija.}
+\section{Objasniti kada se i kako primenjuje obrazac Strategija.}
   Definisati familiju algoritama, enkapsuliraj svaki. Ovaj obrazac reprezentuje skup različitih
   strategija, gde se primenjuje jedna, odgovarajuća strategija u zavisnosti od konteksta. \\
   \textbf{Koristi se kada:}
@@ -2041,14 +2040,14 @@ Primer: prozor - dekorateri.\\
           pomeriti srodne uslovne grane u zasebnu klasu Strategije.
   \end{itemize}
 
-\section{Skicirati dijagram klasa uzoraka za projektovanje Strategija.}
+\section{Skicirati dijagram klasa obrazaca za projektovanje Strategija.}
   \begin{figure}[H]
     \begin{center}
         \includegraphics[width=100mm,height=60mm]{Slike/dp_strategy.png}
     \end{center}
   \end{figure} 
 
-\section{Objasniti kada se i kako primenjuje uzorak Dekorater.}
+\section{Objasniti kada se i kako primenjuje obrazac Dekorater.}
   Dekorater omogućava da se funkcionalnosti objekta povećaju bez menjanja njene strukture. Pravi se
   dekorater klase koji predstavlja okvir za originalnu klasu, koji proširuje njenu funkcionalnost,
   ne menjajući njenu suštinu. \\
@@ -2061,16 +2060,16 @@ Primer: prozor - dekorateri.\\
           ekstenzija, što bi proizvelo eksploziju uz svaku kombinaciju.
   \end{itemize}
   
-\section{Skicirati dijagram klasa uzoraka za projektovanje Dekorater.}
+\section{Skicirati dijagram klasa obrazaca za projektovanje Dekorater.}
   \begin{figure}[H]
     \begin{center}
         \includegraphics[width=100mm,height=60mm]{Slike/dp_decorator.png}
     \end{center}
   \end{figure} 
 
-\section{Objasniti kada se i kako primenjuje uzorak Složeni objekat (Sastav, Composite).}
+\section{Objasniti kada se i kako primenjuje obrazac Složeni objekat (Sastav, Composite).}
   Ponekad je potrebno da grupu objekata tretiramo isto kao i jedan objekat. Tada koristimo sastav
-  kao uzorak za projektovanje. \\
+  kao obrazac za projektovanje. \\
   \textbf{Koristi se kada:}
   \begin{itemize}
     \item je potrebno predstaviti celu hijearhiju objekata;
@@ -2082,14 +2081,14 @@ Primer: prozor - dekorateri.\\
   može da bude tipa naredba ispiši ili naredba dodele, a može da bude blok koji 
   se sastoji od niza naredbi. U ovom slučaju je poželjno koristiti sastav. 
 
-\section{Skicirati dijagram klasa uzoraka za projektovanje Slozeni objekat (Sastav, Composite).}
+\section{Skicirati dijagram klasa obrazaca za projektovanje Slozeni objekat (Sastav, Composite).}
   \begin{figure}[H]
     \begin{center}
         \includegraphics[width=100mm,height=60mm]{Slike/dp_composite.png}
     \end{center}
   \end{figure}   
 
-\section{Objasniti kada se i kako primenjuje uzorak Unikat (Singleton).}
+\section{Objasniti kada se i kako primenjuje obrazac Unikat (Singleton).}
   Koristi se kad je potrebno osigurati da klasa ima samo jednu instancu i obezbediti globalnu 
   tačku pristupa za nju.
 
@@ -2126,15 +2125,15 @@ Primer: prozor - dekorateri.\\
       return 0;
   }\end{lstlisting}
 
-\section{Skicirati dijagram klasa uzoraka za projektovanje Unikat (Singleton).}
+\section{Skicirati dijagram klasa obrazaca za projektovanje Unikat (Singleton).}
   \begin{figure}[H]
     \begin{center}
         \includegraphics[width=40mm,height=30mm]{Slike/dp_singleton.png}
     \end{center}
   \end{figure}  
 
-\section{Objasniti kada se i kako primenjuje uzorak Posetilac (Visitor).}
-  Poenta uzorka posetilac je mogućnost da se definiše nova operacije bez vršenja promena na
+\section{Objasniti kada se i kako primenjuje obrazac Posetilac (Visitor).}
+  Poenta obrasca posetilac je mogućnost da se definiše nova operacije bez vršenja promena na
   već postojećoj strukturi objekta. Posetilac ne zna nužno kojeg je tipa objekat (ako se 
   pristupa objektu preko pokazivača ili reference), ali objekat sigurno zna kojeg je on tipa. Zbog toga je potrebno
   da objekat prihvati posetu od posetioca kako bi posetilac mogao da izvrši odgovarajuću operaciju.\\
@@ -2149,14 +2148,14 @@ Primer: prozor - dekorateri.\\
           definisati novu operaciju nad tom strukturom.
   \end{itemize}
 
-\section{Skicirati dijagram klasa uzoraka za projektovanje Posetilac (Visitor).}
+\section{Skicirati dijagram klasa obrazaca za projektovanje Posetilac (Visitor).}
   \begin{figure}[H]
     \begin{center}
         \includegraphics[width=100mm,height=50mm]{Slike/dp_visitor.png}
     \end{center}
   \end{figure} 
 
-\section{Objasniti kada se i kako primenjuje uzorak Posmatrač (Observer).}
+\section{Objasniti kada se i kako primenjuje obrazac Posmatrač (Observer).}
   Posmatrač se koristi kada postoji jedan-ka-više veza između objekata tako da ako se desi promena 
   na određenom objektu potrebno je automatski obavestiti sve druge objekte koje zavise od njega.\\
   \textbf{Koristi se kada:}
@@ -2168,14 +2167,14 @@ Primer: prozor - dekorateri.\\
     \item kada objekat treba da obavesti druge objekte bez pretpostavke o tome kojeg su tipa ti objekti.
   \end{itemize}
 
-\section{Skicirati dijagram klasa uzoraka za projektovanje Posmatrač (Observer).}
+\section{Skicirati dijagram klasa obrazaca za projektovanje Posmatrač (Observer).}
   \begin{figure}[H]
     \begin{center}
         \includegraphics[width=100mm,height=45mm]{Slike/dp_observer.png}
     \end{center}
   \end{figure} 
 
-\section{Objasniti kada se i kako primenjuje uzorak Apstraktna fabrika (Abstract Factory).}
+\section{Objasniti kada se i kako primenjuje obrazac Apstraktna fabrika (Abstract Factory).}
   Apstraktna fabrika se koristi kada je potrebno kreiranje porodice srodnih ili zavisnih objekata
   bez navođenja njihove konkretne klase. \\
   \textbf{Koristi se kada:}
@@ -2192,12 +2191,13 @@ Primer: prozor - dekorateri.\\
 
   Primer: Implementacija više tema (\textit{light/dark}) za interfejs. \cite{medium_abstractfactory}
 
-\section{Skicirati dijagram klasa uzoraka za projektovanje Apstraktna fabrika (Abstract Factory).}
+\section{Skicirati dijagram klasa obrazaca za projektovanje Apstraktna fabrika (Abstract Factory).}
   \begin{figure}[H]
     \begin{center}
         \includegraphics[width=100mm,height=45mm]{Slike/dp_abstract_factory.png}
     \end{center}
   \end{figure} 
+
 
 \section{Navesti skupove principa dizajniranja softvera koje smo obradili?}
   Ključni principi OO dizajna su:
@@ -6095,10 +6095,10 @@ void TRACE(const char* s){
 	\item Savremeni koncepti razvoja softvera.
 	\item Objektno orijentisane razvojne metodologije. Pojmovi, koncepti, kontekst.
 	\item UML. Najvažnije vrste dijagrama.
-	\item Uzorci za projektovanje. Pojam, namena, elementi, klasifikacija, primeri,...
-	\item Uzorak za projektovanje Posetilac.
-	\item Uzorak za projektovanje Posmatrač.
-	\item Uzorak za projektovanje Dekorater.
+	\item Obrasci za projektovanje. Pojam, namena, elementi, klasifikacija, primeri,...
+	\item Obrazac za projektovanje Posetilac.
+	\item Obrazac za projektovanje Posmatrač.
+	\item Obrazac za projektovanje Dekorater.
 	\item Bagovi. Okolnosti koje podstiču ili ometaju nastajanje bagova. Tehnike prevencije.
 	\item Pravila debagovanja.
 	\item Tehnike upotrebe debagera.
