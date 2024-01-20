@@ -3872,9 +3872,8 @@ uzroke i posledice imaju?}
         \item 9 jednostavnih pravila
         \item Ne odnose se striktno na debagovanje programa, već na bilo koju vrstu tehničkog stvaralaštva (inženjerstva)
       \end{itemize}
-  \end{itemize}
 
-  \subsection{Sistem pravila Davida Agansa:}
+ \item Sistem pravila Davida Agansa:
     \begin{itemize}
       \item Razumeti sistem
       \item Navesti sistem na grešku
@@ -3887,14 +3886,12 @@ uzroke i posledice imaju?}
       \item Ako nismo popravili bag, onda on nije popravljen
     \end{itemize}
 
-    \subsubsection{Primedbe pri primeni pravila:}
-      \begin{itemize}
         \item Pri razmatranju i upotrebi pravila valja postupati promišljeno
         \item Navedena pravila su uglavnom jednostavna i zato mogu da izgledaju trivijalno i beskorisno
         \item Nasuprot tome, jednostavnost pravila je uglavnom posledica vrlo precizne i korisne osnovne ideje kojom se rukovodi
         \item Svako od pravila može da bude veoma korisno u velikom broju slučaja
         \item Svako od pravila može da bude i potpuno beskorisno u nekim drugim slučajevima
-      \end{itemize}
+ 	\end{itemize}
 
 \section{Navesti bar 6 osnovnih pravila za debagovanje.}
   Otklanjanje grešaka se uobičajno naziva \textbf{debagovanje}.\\
@@ -4169,6 +4166,50 @@ uzroke i posledice imaju?}
     \item ...
   \end{itemize}
 
+\section{Navesti osnovne unutrašnje tehnike i alate za debagovanje.}
+  \begin{itemize}
+    \item Sve ono što se ugrađuje u programski kod samo radi pomoći u prevenciji i otklanjanju grešaka (i testiranju)
+    \item Pravljenje pretpostavki (\texttt{assert}) - da li su na datom mestu i u datom trenutku ispunjene neke pretpostavke koje moraju važiti
+      \begin{itemize}
+        \item Obično prekidaju ili privremeno obustavljaju izvršavanje koda sa odgovarajućim obaveštenjem
+      \end{itemize}
+    \item Ostavljanje tragova pri izvršavanju (\texttt{trace})
+      \begin{itemize}
+        \item Heuristike su već obuhvatile ovu tehniku
+        \item U zavisnosti od načina implementacije dnevnika, pravi se makro ili šablon (ili više makroa/šablona) koji ispisuju tekuće stanje u dnevnik
+        \item Primer:
+          \begin{verbatim}
+          void TRACE(const char* s){
+            cerr << gettime() << s << ... << endl;
+          }
+          \end{verbatim}
+      \end{itemize}
+    \item Interni opisi stanja
+      \begin{itemize}
+        \item Dodavanje u programski kod delova koji prave opise stanja, ali ih ne ispisuju:
+          \begin{verbatim}
+          string state1 = ...;
+          \end{verbatim}
+      \end{itemize}
+    \item Komentarisanje značajnih odluka i mesta u kodu
+      \begin{itemize}
+        \item Komentari moraju da opisuju:
+          \begin{itemize}
+            \item Namenu nekog dela koda
+            \item Motivaciju da rešenje bude takvo kakvo je
+            \item Posebno važno u slučaju naknadnog menjanja
+            \item Načine povezivanja sa drugim delovima koda
+	    \item Posebno način upotrebe potprograma
+          \end{itemize}
+        \item Komentari ne smeju da opisuju:
+          \begin{itemize}
+            \item Ono što je očigledno
+            \item Ono što ne pripada konkretnom nivou apstrakcije
+          \end{itemize}
+      \end{itemize}
+    \item Testiranje jedinica koda
+  \end{itemize}
+
 \section{Objasniti pisanje pretpostavki kao tehniku za prevenciju nastajanja bagova.}
   Pretpostavke \textit{(assert)} su delovi koda koji tokom izvršavanja programa proveravaju da li su
   na datom mestu i u datom trenutku ispunjene neke pretpostavke koje obično važe. Pretpostavke 
@@ -4250,6 +4291,27 @@ void TRACE(const char* s){
     \item Šta može biti predmet testiranja jedinice koda? 
           \ref{q_sta_moze_biti_predmet_testiranja_jedinice_koda}.
   \end{itemize}
+
+\section{Navesti najvažnije spoljašnje tehnike i alate za debagovanje.}
+  \begin{itemize}
+    \item Debager
+      \begin{itemize}
+        \item Izvršavanje korak po korak
+        \item Postavljanje tačaka prekida
+          \begin{itemize}
+            \item U kodu
+            \item Na podacima
+          \end{itemize}
+        \item Praćenje vrednosti promenljivih
+        \item Praćenje lokalnih promenljivih
+        \item Praćenje stanja steka
+        \item Praćenje na nivou instrukcija i stanja procesora
+      \end{itemize}
+    \item Alati za praćenje verzija programskog koda
+    \item Alati za podršku i praćenje komunikacije
+    \item Alati za automatizovanje pravljenja dokumentacije
+  \end{itemize}
+
 
 \section{Navesti osnovne tehnike upotrebe debagera.}
   \begin{enumerate}
@@ -5604,6 +5666,64 @@ void TRACE(const char* s){
     \item \textbf{$H = $Relaciona kohezija}, $H = \frac{R+1}{N}$
   \end{itemize}
   Alternativa je da se svaka zavisnost dveju klasa predstavi brojem metoda koji je ostvaruju.
+
+\section{Šta je ciklomatička složenost?}
+\begin{itemize}
+  \item Tomas Mek-Kejb, IEEE, SE, 1976.
+    \begin{itemize}
+      \item naziva se i Mek-Kejbova složenost
+    \end{itemize}
+  \item Algoritam se posmatra kao graf \(G\)
+    \begin{itemize}
+      \item Čvorovi su polazne i završne tačke, tačke grananja i tačke spajanja
+      \item Grane su putanje između čvorova
+    \end{itemize}
+  \item Složenost \(V(G)\) je broj svih međusobno nezavisnih linearnih puteva kroz graf
+      \item V(G) = E – N + 2P
+    \begin{itemize}
+      \item \(E\) = broj grana
+      \item \(N\) = broj čvorova
+      \item \(P\) = broj povezanih komponenti (podskupova čvorova koji su međusobno povezani i odvojeni od ostalih delova grafa, obično = broj potprograma) 
+      \item ako su odvojeni polazni i izlazni čvorovi
+     \end{itemize}
+      \item V(G) = E – N + P\
+	\begin{itemize}
+      \item ako je svaka izlazna tačka povezana sa ulaznom
+	\end{itemize}
+  \item Mek-Kejb preporučuje da bude \(V(G) \leq 10\)
+\end{itemize}
+
+\section{Šta je Holstedova složenost?}
+\begin{itemize}
+  \item Moris Holsted, 1977.
+    \item Prebroje se svi operatori (i tipovi, zagrade,...):
+      \begin{itemize}
+        \item \(N1\) = ukupan broj operatora
+        \item \(n1\) = ukupan broj različitih operatora
+      \end{itemize}
+    \item Prebroje se svi operandi:
+      \begin{itemize}
+        \item \(N2\) = ukupan broj operanada
+        \item \(n2\) = ukupan broj različitih operanada
+      \end{itemize}
+    \item Računaju se:
+      \begin{itemize}
+        \item \(n = n1 + n2\) – rečnik programa
+        \item \(N = N1 + N2\) – dužina programa
+        \item \(L = n1 \cdot \log_2 n1 + n2 \cdot \log_2 n2\) – procenjena dužina programa
+        \item \(V = L \cdot \log_2 n\) – obim (volumen)
+        \item \(D = \frac{n1 \cdot N2}{2 \cdot n2}\) – težina programa, za pisanje i razumevanje
+	\begin{itemize}
+        		\item alternativno: \(D = \frac{n1 + N2 \cdot V}{2 \cdot n2}\)
+	\end{itemize}
+        \item \(E = D \cdot V\) – napor, očekivano vreme pisanja, otprilike \(T = \frac{E}{18}\) sekundi
+        \item \(B = \frac{E^{2/3}}{3000}\) – očekivani broj isporučenih bagova
+	\begin{itemize}
+        		\item koristi se i kao \(V / 3000\), što je često veoma blisko
+	\end{itemize}
+      \end{itemize}
+\end{itemize}
+
   
 \section{Šta su sistemi za kontrolu verzija? Objasniti.}
   Sistem za kontrolu verzija je softver za upravljanje izmenama u programskom kodu, 
