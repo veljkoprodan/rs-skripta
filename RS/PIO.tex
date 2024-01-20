@@ -3682,7 +3682,7 @@ Primer:
           \end{itemize}
   \end{itemize}
 
-\section{Šta su bagovi}
+\section{Šta su bagov?i}
   Propusti u razvoju softvera se često nazivaju greškama ili bagovima. Generalno greška ima malo šire
   značenje tj. greška obuhvata sve propuste koji mogu da se dese u bilo kojoj fazi razvoja softvera.
   Bag je pojam koji se odnosi na grešku u okviru softvera, u smislu da stvara probleme u
@@ -3802,7 +3802,7 @@ uzroke i posledice imaju?}
     \item Heuristički metod \\
   \end{itemize}
 
-\item "Neformalni" metod:
+\item \textbf{``Neformalni`` metod:}
   \begin{itemize}
     \item Najjednostavniji i najpovršniji metod
     \item Osnovno sredstvo za rad su znanje o rešavanom problemu i napisanom programskom kodu i intuicija
@@ -3870,11 +3870,11 @@ uzroke i posledice imaju?}
     \item Kao dobar primer heurističkog debagovanja razmotrićemo sistem pravila koji je formulisao David Agans
       \begin{itemize}
         \item 9 jednostavnih pravila
-        \item Ne odnose se striktno na debagovanje programa, već na bilo koju vrstu tehničkog stvaralaštva (inženjerstva)
+        \item Ne odnose se striktno na debagovanje programa, već na bilo koju vrstu tehničkog stvaralaštva (inženjerstva)\\
       \end{itemize}
   \end{itemize}
 
-  \subsection{Sistem pravila Davida Agansa:}
+   \textbf{Sistem pravila Davida Agansa:}
     \begin{itemize}
       \item Razumeti sistem
       \item Navesti sistem na grešku
@@ -3884,10 +3884,10 @@ uzroke i posledice imaju?}
       \item Praviti i čuvati tragove izvršavanja
       \item Proveravati i naizgled trivijalne stvari
       \item Zatražiti tuđe mišljenje
-      \item Ako nismo popravili bag, onda on nije popravljen
+      \item Ako nismo popravili bag, onda on nije popravljen\\
     \end{itemize}
 
-    \subsubsection{Primedbe pri primeni pravila:}
+    \textbf{Primedbe pri primeni pravila:}
       \begin{itemize}
         \item Pri razmatranju i upotrebi pravila valja postupati promišljeno
         \item Navedena pravila su uglavnom jednostavna i zato mogu da izgledaju trivijalno i beskorisno
@@ -3898,6 +3898,7 @@ uzroke i posledice imaju?}
 
 \section{Navesti bar 6 osnovnih pravila za debagovanje.}
   Otklanjanje grešaka se uobičajno naziva \textbf{debagovanje}.\\
+
   \textbf{Pravila:}
   \begin{enumerate}
     \item Razumeti sistem;
@@ -3912,12 +3913,13 @@ uzroke i posledice imaju?}
   \end{enumerate}
 
 \section{Objasniti pravilo debagovanja ,,Razumeti sistem``.}
-  ,,Da bi se razumeo sistem, potrebno je dobro razumeti sistem``\\
+  ``Da bi se razumeo sistem, potrebno je dobro razumeti sistem``\\
 
   Razumevanje sistema nije isto što i razumevanje problema, već je potrebno razumevanje
   prostora u kome postoji problem. Primer: programski modul, aplikacija, ceo sistem.\\
   \indent Ovo pravilo predstavlja preduslov za razumevanje problema (baga). Da bi se u nekom
   sistemu pronašla greška i uzroci te greške, potrebno je da se taj sistem poznaje.\\
+
   \textbf{Osnovni aspekti razumevanja sistema:}
   \begin{itemize}
     \item Čitanje upustava za sistem i komponente koje ga čine (napomena: upustva mogu
@@ -3933,8 +3935,9 @@ uzroke i posledice imaju?}
   \begin{itemize}
     \item Da bi mogla da se posmatra greška.
     \item Da bi mogla da se posveti pažnja uzrocima.
-    \item Da bi moglo da se proveri da li je greška otklonjena.
+    \item Da bi moglo da se proveri da li je greška otklonjena.\\
   \end{itemize}
+
   \textbf{Načini navođenja softvera na grešku:}
   \begin{itemize}
     \item \textbf{Ponoviti postupak:} Pouzdan način da se greška ponovi je da se postupak ponovi pred
@@ -3946,8 +3949,9 @@ uzroke i posledice imaju?}
     \item \textbf{Ne simulirati grešku, nego uslove u kojima se ispoljava:} Simuliranje mehanizma 
           suviše bliskih uzorku može da zaobiđe neispravan deo koda.
     \item \textbf{Ne odbacivati problem kao ,,nemoguć``.}
-    \item \textbf{Čuvati napravljene alata (možda opet zatrebaju).}
+    \item \textbf{Čuvati napravljene alata (možda opet zatrebaju).}\\
   \end{itemize}
+
   \textbf{Šta ako se problem ispoljava samo povremeno (primer: svaki 5, 10 ili 100 put)?} To znači
   da nisu dovoljno dobro poznate okolnosti ispoljavanja. Potrebno je razmotriti razne 
   nekontrolisane uslove:
