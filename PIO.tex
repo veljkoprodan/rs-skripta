@@ -977,7 +977,7 @@ Uobičajeni odnosi su:
   Opis slučaja upotrebe može da sadrži različite vrste informacija, ali po pravilu mora da sadrži bar sledeće elemente:
 \begin{itemize}
     \item \textbf{Naziv:} Mora da dobro ilustruje slučaj upotrebe, ali je dobro da bude što kraći.
-    \item \textbf{Akcija:} Učesnici u slučaju upotrebe. Ako različiti subjekti imaju različite uloge, to je potrebno da se objasni.
+    \item \textbf{Akteri:} Učesnici u slučaju upotrebe. Ako različiti subjekti imaju različite uloge, to je potrebno da se objasni.
     \item \textbf{Kratak opis:} Ukratko, u svega nekoliko rečenica, često i samo jednom rečenicom.
     \item \textbf{Preduslovi:} Koji preduslovi moraju da budu ispunjeni da bi akteri mogli da započnu slučaj upotrebe.
     \item \textbf{Postuslovi:} Koji uslovi moraju da budu ispunjeni nakon odvijanja slučaja upotrebe.
@@ -1143,7 +1143,7 @@ Dodatni neobavezni elementi:
   \textbf{Dekompovanje} je postepeno preciziranje sistema kroz prepoznavanje manjih celina 
   (komponenti) koje ga čine. Rekurzivnom primenom dekompozicije se dolazi do fizičkog dizajna.
   Predstavlja vezu između različitih nivoa apstrakcije, gde se dekompozicijom apstraktnog
-  sistema dolazi do njegove konkretne strukture. Ima sličnosti sa mehanizmom indukcije:
+  sistema dolazi do njegove konkretne strukture. Ima sličnosti sa mehanizmom dedukcije:
   Posmatranjem i razlaganjem opšteg slučaja se teži ka pravljenju konkretnijeg (preciznijeg)
   modela. Za dekompoziciju se može reći da je \textbf{razloženo rešenje}.\\
   \indent Primer: Jelovnik u restoranu se dekomponuje:
@@ -1171,7 +1171,7 @@ Dodatni neobavezni elementi:
 
 \section{Šta je logička dekompozicija?}
 Logička dekompozicija predstavlja podelu celine na pakete (ili druge strukturne celine) koji grupišu delove implementacije koji se zajedno razvijaju ili imaju izražene unutrašnje međuzavisnosti strukture ili ponašanja. 
-Delovi implementacije koji čine jedan paket ne moraju da budu funkcionalno povezani, mada je to čest slučaj. Takođe, ne moraju da predstavljaju ni potpuno zaokruženu funkcionalnu celinu. Uobičajena praksa je da se elementi paketa povezani logički a ne funkcionalno.\\
+Delovi implementacije koji čine jedan paket ne moraju da budu funkcionalno povezani, mada je to čest slučaj. Takođe, ne moraju da predstavljaju ni potpuno zaokruženu funkcionalnu celinu. Uobičajena praksa je da su elementi paketa povezani logički a ne funkcionalno.\\
 
 \section{Objasniti odnos apstrahovanja i dekomponovanja?}
  Dobar dizajn nastaje usklađenom primenom apstrahovanja i dekomponovanja. Apstrahovanjem se dobija opštost rešenja, a dekompozicijom se dobijaju elementi strukture rešenja i odnosi među njima.
@@ -2237,7 +2237,7 @@ Primer: prozor - dekorateri.\\
   \end{itemize}
 
 \section{Navesti ključne principe OO dizajna.}
-  \item Označavaju se skraćenisom SOLID:
+  \item Označavaju se skraćenicom SOLID:
   \begin{itemize}
     \item \textbf{Princip jedinstvene odgovornosti} (SRP – Single Responsibility Principle)
     \item \textbf{Princip otvorenosti i zatvorenosti} (OCP – Open-Closed Principle)
@@ -3970,14 +3970,14 @@ uzroke i posledice imaju?}
 
 \section{Objasniti heurističko debagovanje.}
   \begin{itemize}
-    \item "Heuristike" ili "heurističke tehnike" su strategije (ili pravila) za rešavanje nekog problema
+    \item ``Heuristike`` ili ``heurističke tehnike`` su strategije (ili pravila) za rešavanje nekog problema
       \begin{itemize}
         \item Počivaju na prethodnom iskustvu
         \item Ne predstavljaju optimalno rešenje
-        \item Često predstavljaju "dovoljno dobro rešenje"
+        \item Često predstavljaju ``dovoljno dobro rešenje``
       \end{itemize}
     \item Počiva na primeni neke izabrane strategije ili nekog skupa pravila
-    \item Predstavlja nadgradnju empirijskog metoda
+    \item Predstavlja nadogradnju empirijskog metoda
     \item Glavni ciljevi primene pravila su
       \begin{itemize}
         \item Usmeravanje posmatranja prema uzroku problema
